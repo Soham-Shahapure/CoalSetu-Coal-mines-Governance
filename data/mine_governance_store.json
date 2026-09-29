@@ -1,0 +1,4036 @@
+{
+  "users": [
+    {
+      "id": "usr_sirdar_01",
+      "name": "Rajesh Kumar",
+      "employee_id": "S001",
+      "role": "SIRDAR",
+      "email": "rajesh.kumar@ecl.coal.gov.in",
+      "phone": "+91 98310 12345",
+      "status": "ACTIVE",
+      "created_at": "2026-01-10T00:00:00Z"
+    },
+    {
+      "id": "usr_sirdar_02",
+      "name": "Amit Sharma",
+      "employee_id": "S002",
+      "role": "SIRDAR",
+      "email": "amit.sharma@ecl.coal.gov.in",
+      "phone": "+91 98310 54321",
+      "status": "INACTIVE",
+      "created_at": "2026-01-10T00:00:00Z"
+    },
+    {
+      "id": "usr_overman_01",
+      "name": "Arjun Singh",
+      "employee_id": "O001",
+      "role": "OVERMAN",
+      "email": "arjun.singh@ecl.coal.gov.in",
+      "phone": "+91 98310 98765",
+      "status": "ACTIVE",
+      "created_at": "2026-01-15T00:00:00Z"
+    },
+    {
+      "id": "usr_manager_01",
+      "name": "R. Mehta",
+      "employee_id": "M001",
+      "role": "MANAGER",
+      "email": "r.mehta@ecl.coal.gov.in",
+      "phone": "+91 98310 99999",
+      "status": "ACTIVE",
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "mines": [
+    {
+      "id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "subsidiary": "Eastern Coalfields Limited (ECL)",
+      "mine_type": "UNDERGROUND",
+      "location": "Paschim Bardhaman, West Bengal",
+      "status": "ACTIVE",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "subsidiary": "Representative Demo Dataset",
+      "mine_type": "UNDERGROUND",
+      "location": "Representative Underground Area B",
+      "status": "ACTIVE",
+      "created_at": "2026-09-01T00:00:00Z"
+    },
+    {
+      "id": "mine_representative_c",
+      "mine_name": "Representative Mine C",
+      "subsidiary": "Representative Demo Dataset",
+      "mine_type": "UNDERGROUND",
+      "location": "Representative Underground Area C",
+      "status": "ACTIVE",
+      "created_at": "2026-09-01T00:00:00Z"
+    }
+  ],
+  "districts": [
+    {
+      "id": "dist_jhanjhra_d2",
+      "mine_id": "mine_jhanjhra_01",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "description": "Underground Continuous Miner Panel & Depillaring District",
+      "status": "ACTIVE",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": "dist_jhanjhra_d1",
+      "mine_id": "mine_jhanjhra_01",
+      "district_name": "Panel 2",
+      "seam_name": "Seam II",
+      "description": "Underground Development District",
+      "status": "ACTIVE",
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "shift_morn_01",
+      "mine_id": "mine_jhanjhra_01",
+      "shift_name": "Morning Shift",
+      "start_time": "06:00",
+      "end_time": "14:00",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "shift_aft_02",
+      "mine_id": "mine_jhanjhra_01",
+      "shift_name": "Afternoon Shift",
+      "start_time": "14:00",
+      "end_time": "22:00",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "shift_ngt_03",
+      "mine_id": "mine_jhanjhra_01",
+      "shift_name": "Night Shift",
+      "start_time": "22:00",
+      "end_time": "06:00",
+      "status": "ACTIVE"
+    }
+  ],
+  "inspections": [
+    {
+      "id": "insp_hist_001",
+      "inspection_number": "INS-2026-000101",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_morn_01",
+      "inspection_date": "2026-09-25",
+      "persons_under_charge": 24,
+      "other_remarks": "District condition normal. Strata support reinforced at Gallery 7.",
+      "status": "SUBMITTED",
+      "created_at": "2026-09-25T08:15:00Z",
+      "submitted_at": "2026-09-25T15:50:00Z",
+      "device_info": "Rugged Underground Intrinsically Safe Sirdar Terminal v1.2",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790430490081_1wv17",
+      "inspection_number": "DRAFT-735315",
+      "sirdar_id": "usr_sirdar_02",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d1",
+      "shift_id": "shift_ngt_03",
+      "inspection_date": "2026-09-26",
+      "persons_under_charge": 24,
+      "other_remarks": "",
+      "status": "DRAFT",
+      "created_at": "2026-09-27T06:32:15.315Z",
+      "submitted_at": null,
+      "device_info": "Sirdar Web Terminal",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_hist_002",
+      "inspection_number": "INS-2026-000102",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_aft_02",
+      "inspection_date": "2026-09-26",
+      "persons_under_charge": 28,
+      "other_remarks": "Inflammable gas detected and cleared by auxiliary ventilation. Conveyor roller replaced following workman report.",
+      "status": "SUBMITTED",
+      "created_at": "2026-09-26T14:15:00Z",
+      "submitted_at": "2026-09-26T21:45:00Z",
+      "device_info": "Rugged Underground Intrinsically Safe Sirdar Terminal v1.2",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790538007660_5kz7s",
+      "inspection_number": "DRAFT-007660",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_aft_02",
+      "inspection_date": "2026-09-27",
+      "persons_under_charge": 24,
+      "other_remarks": "",
+      "status": "DRAFT",
+      "created_at": "2026-09-27T19:40:07.660Z",
+      "submitted_at": null,
+      "device_info": "Sirdar Web Terminal",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790538015420_f0i1q",
+      "inspection_number": "DRAFT-015420",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_aft_02",
+      "inspection_date": "2026-09-27",
+      "persons_under_charge": 24,
+      "other_remarks": "",
+      "status": "DRAFT",
+      "created_at": "2026-09-27T19:40:15.420Z",
+      "submitted_at": null,
+      "device_info": "Sirdar Web Terminal",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790539808845_yr3a7",
+      "inspection_number": "INS-2026-000126",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_aft_02",
+      "inspection_date": "2026-09-27",
+      "persons_under_charge": 13,
+      "other_remarks": "",
+      "status": "SUBMITTED",
+      "created_at": "2026-09-27T20:10:08.845Z",
+      "submitted_at": "2026-09-27T20:11:24.844Z",
+      "device_info": "Sirdar Mobile Field Applet v1.0",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790540432419_5ty7c",
+      "inspection_number": "INS-2026-000127",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_ngt_03",
+      "inspection_date": "2026-09-27",
+      "persons_under_charge": 31,
+      "other_remarks": "",
+      "status": "SUBMITTED",
+      "created_at": "2026-09-27T20:20:32.419Z",
+      "submitted_at": "2026-09-27T20:21:31.894Z",
+      "device_info": "Sirdar Mobile Field Applet v1.0",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790700940809_s7az9",
+      "inspection_number": "INS-2026-000128",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_aft_02",
+      "inspection_date": "2026-09-29",
+      "persons_under_charge": 28,
+      "other_remarks": "",
+      "status": "SUBMITTED",
+      "created_at": "2026-09-29T16:55:40.809Z",
+      "submitted_at": "2026-09-29T16:57:29.065Z",
+      "device_info": "Sirdar Mobile Field Applet v1.0",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790701289047_4bhiw",
+      "inspection_number": "INS-2026-000129",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_morn_01",
+      "inspection_date": "2026-09-29",
+      "persons_under_charge": 24,
+      "other_remarks": "",
+      "status": "SUBMITTED",
+      "created_at": "2026-09-29T17:01:29.047Z",
+      "submitted_at": "2026-09-29T17:02:30.258Z",
+      "device_info": "Sirdar Mobile Field Applet v1.0",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    },
+    {
+      "id": "insp_1790701576107_lv9yh",
+      "inspection_number": "INS-2026-000130",
+      "sirdar_id": "usr_sirdar_01",
+      "mine_id": "mine_jhanjhra_01",
+      "district_id": "dist_jhanjhra_d2",
+      "shift_id": "shift_morn_01",
+      "inspection_date": "2026-09-29",
+      "persons_under_charge": 24,
+      "other_remarks": "",
+      "status": "SUBMITTED",
+      "created_at": "2026-09-29T17:06:16.107Z",
+      "submitted_at": "2026-09-29T17:07:04.722Z",
+      "device_info": "Sirdar Mobile Field Applet v1.0",
+      "latitude": null,
+      "longitude": null,
+      "location_accuracy": null
+    }
+  ],
+  "inspection_periods": [
+    {
+      "id": "ip_01",
+      "inspection_id": "insp_hist_001",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_02",
+      "inspection_id": "insp_hist_001",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_03",
+      "inspection_id": "insp_hist_001",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_1790490736922_7jugh",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790490736922_xqre8",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790490736922_qfbf1",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_04",
+      "inspection_id": "insp_hist_002",
+      "period_number": 1,
+      "start_time": "14:30",
+      "end_time": "16:30"
+    },
+    {
+      "id": "ip_05",
+      "inspection_id": "insp_hist_002",
+      "period_number": 2,
+      "start_time": "17:00",
+      "end_time": "19:00"
+    },
+    {
+      "id": "ip_06",
+      "inspection_id": "insp_hist_002",
+      "period_number": 3,
+      "start_time": "20:00",
+      "end_time": "21:30"
+    },
+    {
+      "id": "ip_1790538007660_jb8k2",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790538007660_5owxu",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790538007660_uyiqf",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_1790538015420_5ihpj",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790538015420_r0j1h",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790538015420_tkfsr",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_1790539884844_327uk",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790539884844_kl9xa",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790539884844_x36xh",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_1790540491894_mkv22",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790540491894_z14h9",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790540491894_fk29i",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_1790701049065_py3tx",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790701049065_5tkgz",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790701049065_kod7n",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_1790701350258_gqodf",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790701350258_20bsm",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790701350258_74386",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": "ip_1790701624723_15e7v",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "period_number": 1,
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": "ip_1790701624723_5zjw9",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "period_number": 2,
+      "start_time": "11:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": "ip_1790701624723_82vwf",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "period_number": 3,
+      "start_time": "14:00",
+      "end_time": "15:30"
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs_01",
+      "inspection_id": "insp_hist_001",
+      "category": "VENTILATION",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_02",
+      "inspection_id": "insp_hist_001",
+      "category": "STRATA",
+      "has_deficiency": true,
+      "location_text": "Panel 4 / Gallery 7 Junction",
+      "description": "Spalling of roof coal and minor side slip detected along crosscut.",
+      "remedial_action": "Erected 2 additional hydraulic props and timber cogs. Area secured and tested.",
+      "remarks": "Overman informed for secondary roof bolting in next shift."
+    },
+    {
+      "id": "obs_03",
+      "inspection_id": "insp_hist_001",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_04",
+      "inspection_id": "insp_hist_001",
+      "category": "FENCING",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_05",
+      "inspection_id": "insp_hist_001",
+      "category": "SANITATION",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_1790490736922_ntv1c",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "category": "VENTILATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790490736922_s9xvi",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790490736922_dugp0",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790490736922_2hyxn",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "category": "FENCING",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790490736922_zkbh6",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_06",
+      "inspection_id": "insp_hist_002",
+      "category": "VENTILATION",
+      "has_deficiency": true,
+      "location_text": "Panel 4 Tail Gate Face Return",
+      "description": "Air velocity reduced due to damaged brattice cloth near face crosscut.",
+      "remedial_action": "Brattice screen repaired and air flow restored to statutory requirement.",
+      "remarks": "Overman advised for secondary brattice check."
+    },
+    {
+      "id": "obs_07",
+      "inspection_id": "insp_hist_002",
+      "category": "STRATA",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_08",
+      "inspection_id": "insp_hist_002",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_09",
+      "inspection_id": "insp_hist_002",
+      "category": "FENCING",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_10",
+      "inspection_id": "insp_hist_002",
+      "category": "SANITATION",
+      "has_deficiency": false
+    },
+    {
+      "id": "obs_1790538007660_0mijp",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "category": "VENTILATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538007660_fgikt",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538007660_0v7tx",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538007660_9qs4l",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "category": "FENCING",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538007660_lkufp",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538015420_w596d",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "category": "VENTILATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538015420_db6lb",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538015420_q7eoe",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538015420_us7f5",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "category": "FENCING",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790538015420_3rl83",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790539884844_xxvor",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "category": "VENTILATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790539884844_ha0yi",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790539884844_1igni",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790539884844_00d7f",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "category": "FENCING",
+      "has_deficiency": true,
+      "location_text": "east area",
+      "description": "fencing broken",
+      "remedial_action": "fencing replaced",
+      "remarks": "request to dispatch more fencing"
+    },
+    {
+      "id": "obs_1790539884844_sk0zg",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790540491894_2bsc6",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "category": "VENTILATION",
+      "has_deficiency": true,
+      "location_text": "gallery 2",
+      "description": "sluggish air",
+      "remedial_action": "replace cloth",
+      "remarks": "overman briefed"
+    },
+    {
+      "id": "obs_1790540491894_aak5a",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790540491894_i3j6j",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790540491894_iz2jq",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "category": "FENCING",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790540491894_tjzg8",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701049065_vo447",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "category": "VENTILATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701049065_7u4bf",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701049065_lz3h0",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701049065_5wyx6",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "category": "FENCING",
+      "has_deficiency": true,
+      "location_text": "gallery 3",
+      "description": "fencing is poor",
+      "remedial_action": "replaced that section with new fencing",
+      "remarks": "request to dispatch new fencing"
+    },
+    {
+      "id": "obs_1790701049065_iqvu4",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701350258_0se8y",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "category": "VENTILATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701350258_e8evo",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701350258_dml53",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701350258_m7xtm",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "category": "FENCING",
+      "has_deficiency": true,
+      "location_text": "Gallery 5",
+      "description": "Poor fencing",
+      "remedial_action": "Replaced that section with new fencing",
+      "remarks": "request to dispatch new fencing"
+    },
+    {
+      "id": "obs_1790701350258_cw35h",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701624723_4wvb6",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "category": "VENTILATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701624723_i5uxv",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "category": "STRATA",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701624723_vhlub",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "category": "GOAF_EDGE",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "obs_1790701624723_nijp0",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "category": "FENCING",
+      "has_deficiency": true,
+      "location_text": "Gallery 5",
+      "description": "Poor fencing",
+      "remedial_action": "Replaced that section",
+      "remarks": "Request to dispatch new fencing"
+    },
+    {
+      "id": "obs_1790701624723_xoomb",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "category": "SANITATION",
+      "has_deficiency": false,
+      "location_text": "",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    }
+  ],
+  "safety_instructions": [
+    {
+      "id": "si_01",
+      "inspection_id": "insp_hist_001",
+      "instruction": "Use designated travelling roadway only; avoid walking beneath unsupported roof in Panel 4.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_1790490736922_rpg0t",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_02",
+      "inspection_id": "insp_hist_002",
+      "instruction": "Continuous methane monitoring required; no person permitted within 10m of return airway crosscut 12.",
+      "persons_instructed": 18
+    },
+    {
+      "id": "si_1790538007660_3iw68",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_1790538015420_3tqyi",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_1790539884844_de2qd",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_1790540491894_dfuhv",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_1790701049065_z1vtl",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_1790701350258_qpiys",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    },
+    {
+      "id": "si_1790701624723_h72p5",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "instruction": "Use designated travelling roadway; keep clear of conveyor haulage.",
+      "persons_instructed": 12
+    }
+  ],
+  "persons_ordered_out": [
+    {
+      "id": "po_01",
+      "inspection_id": "insp_hist_001",
+      "occurred": false
+    },
+    {
+      "id": "po_1790490736922_rx6pp",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    },
+    {
+      "id": "po_02",
+      "inspection_id": "insp_hist_002",
+      "occurred": true,
+      "person_name": "Sanjoy Roy (Driller)",
+      "assigned_place": "Face 1",
+      "actual_place": "Fenced-off inactive goaf edge",
+      "reason": "Found beyond statutory danger fence without safety lamp check.",
+      "action_taken": "Sent out of district immediately; disciplinary safety report submitted to Overman."
+    },
+    {
+      "id": "po_1790538007660_5at1f",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    },
+    {
+      "id": "po_1790538015420_velm7",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    },
+    {
+      "id": "po_1790539884844_mtadj",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    },
+    {
+      "id": "po_1790540491894_v5yng",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    },
+    {
+      "id": "po_1790701049065_luh6l",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    },
+    {
+      "id": "po_1790701350258_p9gtg",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    },
+    {
+      "id": "po_1790701624723_p8iif",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "occurred": false,
+      "person_name": "",
+      "assigned_place": "",
+      "actual_place": "",
+      "reason": "",
+      "action_taken": ""
+    }
+  ],
+  "inexperienced_persons": [
+    {
+      "id": "ip_seed_01",
+      "inspection_id": "insp_hist_001",
+      "present": false
+    },
+    {
+      "id": "iperson_1790490736922_jrrsj",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    },
+    {
+      "id": "iperson_1790538007660_zdiw3",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    },
+    {
+      "id": "iperson_1790538015421_ndifq",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    },
+    {
+      "id": "iperson_1790539884844_3tc0i",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    },
+    {
+      "id": "iperson_1790540491894_a5wc0",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    },
+    {
+      "id": "iperson_1790701049065_1e45j",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    },
+    {
+      "id": "iperson_1790701350258_al18t",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    },
+    {
+      "id": "iperson_1790701624723_tb10l",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "present": false,
+      "person_name": "",
+      "supervisor_name": ""
+    }
+  ],
+  "safety_materials": [
+    {
+      "id": "sm_01",
+      "inspection_id": "insp_hist_001",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE"
+    },
+    {
+      "id": "sm_02",
+      "inspection_id": "insp_hist_001",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE"
+    },
+    {
+      "id": "sm_03",
+      "inspection_id": "insp_hist_001",
+      "material_type": "LADDER",
+      "status": "DEFICIENT",
+      "remarks": "One inspection ladder rung cracked at Level 3 roadway.",
+      "remedial_action": "Withdrawn from service and replacement requisitioned from Pit Head Store."
+    },
+    {
+      "id": "sm_04",
+      "inspection_id": "insp_hist_001",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "sm_05",
+      "inspection_id": "insp_hist_001",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "Flocked safety helmets and cap lamps in serviceable condition."
+    },
+    {
+      "id": "sm_1790490736922_76ss6",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790490736922_s2aag",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790490736922_5ellt",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790490736922_ezven",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790490736922_lu32e",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_06",
+      "inspection_id": "insp_hist_002",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE"
+    },
+    {
+      "id": "sm_07",
+      "inspection_id": "insp_hist_002",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE"
+    },
+    {
+      "id": "sm_08",
+      "inspection_id": "insp_hist_002",
+      "material_type": "LADDER",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "sm_09",
+      "inspection_id": "insp_hist_002",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE"
+    },
+    {
+      "id": "sm_10",
+      "inspection_id": "insp_hist_002",
+      "material_type": "OTHER",
+      "status": "ADEQUATE"
+    },
+    {
+      "id": "sm_1790538007660_13w7v",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538007660_a1wo5",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538007660_qn5vf",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538007660_1e2se",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538007660_2on1e",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538015421_7pffd",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538015421_fb6rh",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538015421_wlg0e",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538015421_n1blo",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790538015421_fzgu7",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790539884844_ykxc0",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790539884844_1hama",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790539884844_2n21x",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790539884844_thqu5",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790539884844_wjpfc",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790540491894_wpdu4",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790540491894_yp7fg",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790540491894_dztpj",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790540491894_hhbth",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790540491894_pql35",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701049065_9865b",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701049065_1g4su",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701049065_cj7aj",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701049065_kcqzu",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701049065_pv3xb",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701350258_nvs6t",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701350258_96vfk",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701350258_xqd9h",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701350258_joatz",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701350258_cvm0i",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701624723_3ivh6",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "material_type": "TIMBER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701624723_vs5g6",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "material_type": "BUNTON",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701624723_kudj4",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "material_type": "LADDER",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701624723_9ufuj",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "material_type": "CO_DETECTION",
+      "status": "AVAILABLE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    },
+    {
+      "id": "sm_1790701624723_df5b5",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "material_type": "OTHER",
+      "status": "ADEQUATE",
+      "description": "",
+      "remedial_action": "",
+      "remarks": ""
+    }
+  ],
+  "support_withdrawals": [],
+  "dangerous_places": [
+    {
+      "id": "dp_01",
+      "inspection_id": "insp_hist_001",
+      "observed": false,
+      "reported_by_other": false
+    },
+    {
+      "id": "dp_1790490736922_7p4o8",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    },
+    {
+      "id": "dp_02",
+      "inspection_id": "insp_hist_002",
+      "observed": true,
+      "location": "Panel 4 Return Airway Crosscut 12",
+      "nature_of_danger": "Excessive dry coal dust deposit and loose side coal spalling near old barrier.",
+      "action_taken": "Substantial danger fence and warning board erected; Overman notified for urgent stone dusting.",
+      "reported_by_other": false
+    },
+    {
+      "id": "dp_03",
+      "inspection_id": "insp_hist_002",
+      "observed": false,
+      "reported_by_other": true,
+      "reporting_person_name": "Bimal Murmu (Machine Operator)",
+      "other_report_details": "Unusual grating noise from Level 4 conveyor belt head roller bearing.",
+      "other_report_action": "Conveyor isolated, locked out, and bearing lubricated before restarting."
+    },
+    {
+      "id": "dp_1790538007660_vko8a",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    },
+    {
+      "id": "dp_1790538015421_hw300",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    },
+    {
+      "id": "dp_1790539884844_1abty",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    },
+    {
+      "id": "dp_1790540491894_mnu6m",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    },
+    {
+      "id": "dp_1790701049065_mvvkz",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    },
+    {
+      "id": "dp_1790701350258_wa01d",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    },
+    {
+      "id": "dp_1790701624723_pel5t",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "observed": false,
+      "location": "",
+      "nature_of_danger": "",
+      "action_taken": "",
+      "reported_by_other": false,
+      "reporting_person_name": "",
+      "other_report_details": "",
+      "other_report_action": ""
+    }
+  ],
+  "dangerous_operations": [
+    {
+      "id": "do_01",
+      "inspection_id": "insp_hist_001",
+      "occurred": false
+    },
+    {
+      "id": "do_1790490736922_b4ljx",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    },
+    {
+      "id": "do_1790538007660_382i8",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    },
+    {
+      "id": "do_1790538015421_4yp71",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    },
+    {
+      "id": "do_1790539884844_se7v8",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    },
+    {
+      "id": "do_1790540491894_21kn5",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    },
+    {
+      "id": "do_1790701049065_kx88i",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    },
+    {
+      "id": "do_1790701350258_ofi0l",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    },
+    {
+      "id": "do_1790701624723_ctg69",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "occurred": false,
+      "operation_nature": "",
+      "location": "",
+      "danger": "",
+      "precautions_taken": ""
+    }
+  ],
+  "inactive_places": [
+    {
+      "id": "inact_01",
+      "inspection_id": "insp_hist_001",
+      "fenced": false
+    },
+    {
+      "id": "inact_1790490736922_e3pzz",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    },
+    {
+      "id": "inact_1790538007660_o5w1m",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    },
+    {
+      "id": "inact_1790538015421_85cgg",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    },
+    {
+      "id": "inact_1790539884844_ih1gy",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    },
+    {
+      "id": "inact_1790540491894_wtr49",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    },
+    {
+      "id": "inact_1790701049065_qxagy",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    },
+    {
+      "id": "inact_1790701350258_27eoj",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    },
+    {
+      "id": "inact_1790701624723_1932v",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "fenced": false,
+      "location": "",
+      "entrance_details": "",
+      "action_taken": ""
+    }
+  ],
+  "gas_observations": [
+    {
+      "id": "gas_01",
+      "inspection_id": "insp_hist_001",
+      "detected": false,
+      "recorded_at": "2026-09-25T15:45:00Z"
+    },
+    {
+      "id": "gas_1790490736922_obibn",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T06:32:16.922Z"
+    },
+    {
+      "id": "gas_02",
+      "inspection_id": "insp_hist_002",
+      "detected": true,
+      "location": "Panel 4 Working Face Left Flank",
+      "gas_percentage": "0.65%",
+      "action_taken": "Auxiliary fan duct advanced to within 4.5m of face; gas flushed out and cleared within 15 mins.",
+      "recorded_at": "2026-09-26T17:45:00Z"
+    },
+    {
+      "id": "gas_1790538007660_h8g3v",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T19:40:07.660Z"
+    },
+    {
+      "id": "gas_1790538015421_bv83q",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T19:40:15.421Z"
+    },
+    {
+      "id": "gas_1790539884844_qlalw",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T20:11:24.844Z"
+    },
+    {
+      "id": "gas_1790540491894_xrlzb",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T20:21:31.894Z"
+    },
+    {
+      "id": "gas_1790701049065_swquo",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-29T16:57:29.065Z"
+    },
+    {
+      "id": "gas_1790701350258_eeoaw",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-29T17:02:30.258Z"
+    },
+    {
+      "id": "gas_1790701624723_8nrbs",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "detected": false,
+      "location": "",
+      "gas_percentage": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-29T17:07:04.723Z"
+    }
+  ],
+  "water_observations": [
+    {
+      "id": "wat_01",
+      "inspection_id": "insp_hist_001",
+      "observed": true,
+      "location": "Gallery 7 Dip Side",
+      "details": "Moderate roof dripping and floor seepage observed near face.",
+      "action_taken": "Main drain cleared and auxiliary face pump initiated. Water level kept under 5 cm.",
+      "recorded_at": "2026-09-25T13:30:00Z"
+    },
+    {
+      "id": "wat_1790490736922_qtkwp",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T06:32:16.922Z"
+    },
+    {
+      "id": "wat_02",
+      "inspection_id": "insp_hist_002",
+      "observed": false,
+      "recorded_at": "2026-09-26T20:00:00Z"
+    },
+    {
+      "id": "wat_1790538007660_j2qio",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T19:40:07.660Z"
+    },
+    {
+      "id": "wat_1790538015421_59dwo",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T19:40:15.421Z"
+    },
+    {
+      "id": "wat_1790539884844_yoeml",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T20:11:24.844Z"
+    },
+    {
+      "id": "wat_1790540491894_pshzr",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-27T20:21:31.894Z"
+    },
+    {
+      "id": "wat_1790701049065_e4nrx",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-29T16:57:29.065Z"
+    },
+    {
+      "id": "wat_1790701350258_zf5dk",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-29T17:02:30.258Z"
+    },
+    {
+      "id": "wat_1790701624723_qjrz6",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "observed": false,
+      "location": "",
+      "details": "",
+      "action_taken": "",
+      "recorded_at": "2026-09-29T17:07:04.723Z"
+    }
+  ],
+  "accidents": [
+    {
+      "id": "acc_01",
+      "inspection_id": "insp_hist_001",
+      "occurred": false
+    },
+    {
+      "id": "acc_1790490736922_hsd4q",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    },
+    {
+      "id": "acc_02",
+      "inspection_id": "insp_hist_002",
+      "occurred": false
+    },
+    {
+      "id": "acc_1790538007660_52080",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    },
+    {
+      "id": "acc_1790538015421_esfo3",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    },
+    {
+      "id": "acc_1790539884844_qxp2t",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    },
+    {
+      "id": "acc_1790540491894_3wj73",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    },
+    {
+      "id": "acc_1790701049065_gaf0j",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    },
+    {
+      "id": "acc_1790701350258_cbky5",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    },
+    {
+      "id": "acc_1790701624723_3d8fq",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "occurred": false,
+      "cause_details": "",
+      "first_aid_given_by": "",
+      "remarks": ""
+    }
+  ],
+  "successor_conferences": [
+    {
+      "id": "sc_01",
+      "inspection_id": "insp_hist_001",
+      "conducted": true,
+      "information_conveyed": "Briefed on strata support at Panel 4 / Gallery 7 and pump running status.",
+      "conveyed_to_person": "S. K. Mukherjee (Afternoon Shift Sirdar)"
+    },
+    {
+      "id": "sc_1790490736922_c77xq",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    },
+    {
+      "id": "sc_02",
+      "inspection_id": "insp_hist_002",
+      "conducted": true,
+      "information_conveyed": "Handed over district with Crosscut 12 fenced and brattice intact.",
+      "conveyed_to_person": "Rajesh Kumar (Relieving Sirdar)"
+    },
+    {
+      "id": "sc_1790538007660_9bnz8",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    },
+    {
+      "id": "sc_1790538015421_9ua92",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    },
+    {
+      "id": "sc_1790539884844_bbnv4",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    },
+    {
+      "id": "sc_1790540491894_qg1kn",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    },
+    {
+      "id": "sc_1790701049065_u5v56",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    },
+    {
+      "id": "sc_1790701350258_81dxp",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    },
+    {
+      "id": "sc_1790701624723_x90gy",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "conducted": false,
+      "information_conveyed": "",
+      "conveyed_to_person": ""
+    }
+  ],
+  "egress_records": [
+    {
+      "id": "eg_01",
+      "inspection_id": "insp_hist_001",
+      "travelled": false
+    },
+    {
+      "id": "eg_1790490736922_swbx9",
+      "inspection_id": "insp_1790430490081_1wv17",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    },
+    {
+      "id": "eg_02",
+      "inspection_id": "insp_hist_002",
+      "travelled": false
+    },
+    {
+      "id": "eg_1790538007660_ay4pc",
+      "inspection_id": "insp_1790538007660_5kz7s",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    },
+    {
+      "id": "eg_1790538015421_4qnln",
+      "inspection_id": "insp_1790538015420_f0i1q",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    },
+    {
+      "id": "eg_1790539884844_8ljtu",
+      "inspection_id": "insp_1790539808845_yr3a7",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    },
+    {
+      "id": "eg_1790540491894_e22qa",
+      "inspection_id": "insp_1790540432419_5ty7c",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    },
+    {
+      "id": "eg_1790701049065_27zh1",
+      "inspection_id": "insp_1790700940809_s7az9",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    },
+    {
+      "id": "eg_1790701350258_6w7rw",
+      "inspection_id": "insp_1790701289047_4bhiw",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    },
+    {
+      "id": "eg_1790701624723_esjrc",
+      "inspection_id": "insp_1790701576107_lv9yh",
+      "travelled": false,
+      "travel_date": "",
+      "remarks": ""
+    }
+  ],
+  "overman_reports": [
+    {
+      "id": "ovr_rep_1790494244389_0lkjg",
+      "report_number": "OVR-2026-000001",
+      "overman_id": "usr_overman_01",
+      "overman_name": "Arjun Singh",
+      "overman_employee_id": "O001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "district_id": "dist_jhanjhra_d2",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "shift_id": "shift_morn_01",
+      "shift_name": "Morning Shift",
+      "shift_hours": "06:00 – 14:00",
+      "report_date": "2026-09-27",
+      "parts_of_mine_inspected": "Panel 4 Continuous Miner Track, Tail Gate, Return Roadway, Substation",
+      "status": "SUBMITTED",
+      "assembled_from_inspection_ids": [
+        "insp_hist_001"
+      ],
+      "sections": {
+        "A": {
+          "code": "A",
+          "title": "Safety Materials",
+          "statutory_clause": "CMR 47(7)(d)(i) — Supply & condition of timber, brattice, buntons, ladders and CO detectors",
+          "population_status": "AUTO_POPULATED",
+          "is_overman_input_required": false,
+          "entries": [
+            {
+              "id": "ent_a_1790544314985_jljdm",
+              "section_code": "A",
+              "entry_type": "AUTO",
+              "title": "Deficiency in LADDER",
+              "location": "Panel 4 Safety Supply Point",
+              "details": "One inspection ladder rung cracked at Level 3 roadway.",
+              "action_taken": "Withdrawn from service and replacement requisitioned from Pit Head Store.",
+              "source_inspection_id": "insp_hist_001",
+              "source_inspection_number": "INS-2026-000101",
+              "source_observation_id": "sm_03",
+              "sirdar_name": "Rajesh Kumar",
+              "sirdar_employee_id": "S001",
+              "source_date": "2026-09-25",
+              "source_time": "09:20 pm IST",
+              "created_at": "2026-09-27T21:25:14.985Z"
+            }
+          ],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "B": {
+          "code": "B",
+          "title": "Ventilation & Gas",
+          "statutory_clause": "CMR 47(7)(d)(ii) — Ventilation adequacy, stopping conditions and inflammable gas detection",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "C": {
+          "code": "C",
+          "title": "Stone Dusting & Barriers",
+          "statutory_clause": "CMR 47(7)(d)(iii) — Heavy stone dusting along roadways and stone dust barrier maintenance",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {
+            "roadways_dusted": "45L",
+            "dust_quantity": "1000 kg",
+            "barrier_condition": "TOPPED_UP",
+            "sampling_result": "34%"
+          }
+        },
+        "D": {
+          "code": "D",
+          "title": "Haulage & Transport Roadways",
+          "statutory_clause": "CMR 47(7)(d)(iv) — Haulage tracks, safety appliances, runaway switches and signalling",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {
+            "haulage_track_condition": "wewe",
+            "safety_appliances_tested": "DEFECT_REPAIRED",
+            "signalling_check": "ewerwer"
+          }
+        },
+        "E": {
+          "code": "E",
+          "title": "Danger & Fencing of Places",
+          "statutory_clause": "CMR 47(7)(d)(v) — Dangerous places observed or reported and fencing erected",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "F": {
+          "code": "F",
+          "title": "Support & Strata Control",
+          "statutory_clause": "CMR 47(7)(d)(vi) — Systematic support rules (SSR), roof/side stability and remedial props",
+          "population_status": "AUTO_POPULATED",
+          "is_overman_input_required": false,
+          "entries": [
+            {
+              "id": "ent_f_1790544314985_erp9l",
+              "section_code": "F",
+              "entry_type": "AUTO",
+              "title": "Roof / Side Strata Deficiency",
+              "location": "Panel 4 / Gallery 7 Junction",
+              "details": "Spalling of roof coal and minor side slip detected along crosscut.",
+              "action_taken": "Erected 2 additional hydraulic props and timber cogs. Area secured and tested.",
+              "source_inspection_id": "insp_hist_001",
+              "source_inspection_number": "INS-2026-000101",
+              "source_observation_id": "obs_02",
+              "sirdar_name": "Rajesh Kumar",
+              "sirdar_employee_id": "S001",
+              "source_date": "2026-09-25",
+              "source_time": "09:20 pm IST",
+              "created_at": "2026-09-27T21:25:14.985Z"
+            }
+          ],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "G": {
+          "code": "G",
+          "title": "Hand Plan & Working Faces",
+          "statutory_clause": "CMR 47(7)(d)(vii) — Maintenance of daily working hand plan showing face advance positions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "H": {
+          "code": "H",
+          "title": "Working Faces Within 10m",
+          "statutory_clause": "CMR 47(7)(d)(viii) — Proximity of working faces approaching within 10m of other workings/water",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "I": {
+          "code": "I",
+          "title": "Abnormal Water Seepage",
+          "statutory_clause": "CMR 47(7)(d)(ix) — Water accumulations, unusual floor heaving and pumping operations",
+          "population_status": "AUTO_POPULATED",
+          "is_overman_input_required": false,
+          "entries": [
+            {
+              "id": "ent_i_1790544314985_5uuny",
+              "section_code": "I",
+              "entry_type": "AUTO",
+              "title": "Abnormal Water Seepage / Accumulation",
+              "location": "Gallery 7 Dip Side",
+              "details": "Moderate roof dripping and floor seepage observed near face.",
+              "action_taken": "Main drain cleared and auxiliary face pump initiated. Water level kept under 5 cm.",
+              "source_inspection_id": "insp_hist_001",
+              "source_inspection_number": "INS-2026-000101",
+              "source_observation_id": "wat_01",
+              "sirdar_name": "Rajesh Kumar",
+              "sirdar_employee_id": "S001",
+              "source_date": "2026-09-25",
+              "source_time": "09:20 pm IST",
+              "created_at": "2026-09-27T21:25:14.985Z"
+            }
+          ],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "J": {
+          "code": "J",
+          "title": "Persons Sent Out for Safety Infringement",
+          "statutory_clause": "CMR 47(7)(d)(x) — Persons ordered out of workings due to non-compliance or danger",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "K": {
+          "code": "K",
+          "title": "Safety Directions Issued",
+          "statutory_clause": "CMR 47(7)(d)(xi) — Orders and safety instructions conveyed to sirdars and workmen",
+          "population_status": "AUTO_POPULATED",
+          "is_overman_input_required": false,
+          "entries": [
+            {
+              "id": "ent_k_1790544314985_55k44",
+              "section_code": "K",
+              "entry_type": "AUTO",
+              "title": "Sirdar Safety Direction",
+              "location": "Panel 4 Travelling & Working Roadways",
+              "details": "Use designated travelling roadway only; avoid walking beneath unsupported roof in Panel 4. (12 workmen instructed)",
+              "action_taken": "Communicated and acknowledged on site",
+              "source_inspection_id": "insp_hist_001",
+              "source_inspection_number": "INS-2026-000101",
+              "source_observation_id": "si_01",
+              "sirdar_name": "Rajesh Kumar",
+              "sirdar_employee_id": "S001",
+              "source_date": "2026-09-25",
+              "source_time": "09:20 pm IST",
+              "created_at": "2026-09-27T21:25:14.985Z"
+            }
+          ],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "L": {
+          "code": "L",
+          "title": "Conference with Successor",
+          "statutory_clause": "CMR 47(7)(d)(xii) — Handover conference with relieving overman regarding district conditions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "M": {
+          "code": "M",
+          "title": "Accident & First Aid",
+          "statutory_clause": "CMR 47(7)(d)(xiii) — Dangerous occurrences, personal injuries and first-aid medical assistance",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "N": {
+          "code": "N",
+          "title": "Other Remarks & Summary",
+          "statutory_clause": "CMR 47(7)(d)(xiv) — Overall district safety compliance and statutory summary",
+          "population_status": "AUTO_POPULATED",
+          "is_overman_input_required": false,
+          "entries": [
+            {
+              "id": "ent_n_sirdar_1790544314985_e5o0h",
+              "section_code": "N",
+              "entry_type": "AUTO",
+              "title": "Sirdar Shift Remarks (INS-2026-000101)",
+              "location": "Panel 4",
+              "details": "District condition normal. Strata support reinforced at Gallery 7.",
+              "action_taken": "Incorporated into Overman composite review",
+              "source_inspection_id": "insp_hist_001",
+              "source_inspection_number": "INS-2026-000101",
+              "sirdar_name": "Rajesh Kumar",
+              "sirdar_employee_id": "S001",
+              "source_date": "2026-09-25",
+              "source_time": "09:20 pm IST",
+              "created_at": "2026-09-27T21:25:14.985Z"
+            }
+          ],
+          "overman_notes": "",
+          "structured_data": {}
+        }
+      },
+      "created_at": "2026-09-27T07:30:44.389Z",
+      "updated_at": "2026-09-27T21:28:54.477Z",
+      "selected_source_inspection_ids": [
+        "insp_hist_001"
+      ],
+      "submitted_at": "2026-09-27T21:28:54.477Z"
+    },
+    {
+      "id": "ovr_rep_1790544965355_fu22e",
+      "report_number": "OVR-2026-000002",
+      "overman_id": "usr_overman_01",
+      "overman_name": "Arjun Singh",
+      "overman_employee_id": "O001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "district_id": "dist_jhanjhra_d2",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "shift_id": "shift_morn_01",
+      "shift_name": "Morning Shift",
+      "shift_hours": "06:00 – 14:00",
+      "report_date": "2026-09-27",
+      "parts_of_mine_inspected": "Panel 4 Working Faces, Return Roadways & Haulage Track",
+      "status": "DRAFT",
+      "assembled_from_inspection_ids": [],
+      "selected_source_inspection_ids": [],
+      "sections": {
+        "A": {
+          "code": "A",
+          "title": "Safety Materials",
+          "statutory_clause": "CMR 47(7)(d)(i) — Supply & condition of timber, brattice, buntons, ladders and CO detectors",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "B": {
+          "code": "B",
+          "title": "Ventilation & Gas",
+          "statutory_clause": "CMR 47(7)(d)(ii) — Ventilation adequacy, stopping conditions and inflammable gas detection",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "C": {
+          "code": "C",
+          "title": "Stone Dusting & Barriers",
+          "statutory_clause": "CMR 47(7)(d)(iii) — Heavy stone dusting along roadways and stone dust barrier maintenance",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "D": {
+          "code": "D",
+          "title": "Haulage & Transport Roadways",
+          "statutory_clause": "CMR 47(7)(d)(iv) — Haulage tracks, safety appliances, runaway switches and signalling",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "E": {
+          "code": "E",
+          "title": "Danger & Fencing of Places",
+          "statutory_clause": "CMR 47(7)(d)(v) — Dangerous places observed or reported and fencing erected",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "F": {
+          "code": "F",
+          "title": "Support & Strata Control",
+          "statutory_clause": "CMR 47(7)(d)(vi) — Systematic support rules (SSR), roof/side stability and remedial props",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "G": {
+          "code": "G",
+          "title": "Hand Plan & Working Faces",
+          "statutory_clause": "CMR 47(7)(d)(vii) — Maintenance of daily working hand plan showing face advance positions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "H": {
+          "code": "H",
+          "title": "Working Faces Within 10m",
+          "statutory_clause": "CMR 47(7)(d)(viii) — Proximity of working faces approaching within 10m of other workings/water",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "I": {
+          "code": "I",
+          "title": "Abnormal Water Seepage",
+          "statutory_clause": "CMR 47(7)(d)(ix) — Water accumulations, unusual floor heaving and pumping operations",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "J": {
+          "code": "J",
+          "title": "Persons Sent Out for Safety Infringement",
+          "statutory_clause": "CMR 47(7)(d)(x) — Persons ordered out of workings due to non-compliance or danger",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "K": {
+          "code": "K",
+          "title": "Safety Directions Issued",
+          "statutory_clause": "CMR 47(7)(d)(xi) — Orders and safety instructions conveyed to sirdars and workmen",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "L": {
+          "code": "L",
+          "title": "Conference with Successor",
+          "statutory_clause": "CMR 47(7)(d)(xii) — Handover conference with relieving overman regarding district conditions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "M": {
+          "code": "M",
+          "title": "Accident & First Aid",
+          "statutory_clause": "CMR 47(7)(d)(xiii) — Dangerous occurrences, personal injuries and first-aid medical assistance",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "N": {
+          "code": "N",
+          "title": "Other Remarks & Summary",
+          "statutory_clause": "CMR 47(7)(d)(xiv) — Overall district safety compliance and statutory summary",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        }
+      },
+      "created_at": "2026-09-27T21:36:05.355Z"
+    },
+    {
+      "id": "ovr_rep_1790700367346_03hy3",
+      "report_number": "OVR-2026-000003",
+      "overman_id": "usr_overman_01",
+      "overman_name": "Arjun Singh",
+      "overman_employee_id": "O001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "district_id": "dist_jhanjhra_d2",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "shift_id": "shift_morn_01",
+      "shift_name": "Morning Shift",
+      "shift_hours": "06:00 – 14:00",
+      "report_date": "2026-09-29",
+      "parts_of_mine_inspected": "Panel 4 Working Faces, Return Roadways & Haulage Track",
+      "status": "SUBMITTED",
+      "assembled_from_inspection_ids": [],
+      "selected_source_inspection_ids": [],
+      "sections": {
+        "A": {
+          "code": "A",
+          "title": "Safety Materials",
+          "statutory_clause": "CMR 47(7)(d)(i) — Supply & condition of timber, brattice, buntons, ladders and CO detectors",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "B": {
+          "code": "B",
+          "title": "Ventilation & Gas",
+          "statutory_clause": "CMR 47(7)(d)(ii) — Ventilation adequacy, stopping conditions and inflammable gas detection",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "C": {
+          "code": "C",
+          "title": "Stone Dusting & Barriers",
+          "statutory_clause": "CMR 47(7)(d)(iii) — Heavy stone dusting along roadways and stone dust barrier maintenance",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "D": {
+          "code": "D",
+          "title": "Haulage & Transport Roadways",
+          "statutory_clause": "CMR 47(7)(d)(iv) — Haulage tracks, safety appliances, runaway switches and signalling",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "E": {
+          "code": "E",
+          "title": "Danger & Fencing of Places",
+          "statutory_clause": "CMR 47(7)(d)(v) — Dangerous places observed or reported and fencing erected",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "F": {
+          "code": "F",
+          "title": "Support & Strata Control",
+          "statutory_clause": "CMR 47(7)(d)(vi) — Systematic support rules (SSR), roof/side stability and remedial props",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "G": {
+          "code": "G",
+          "title": "Hand Plan & Working Faces",
+          "statutory_clause": "CMR 47(7)(d)(vii) — Maintenance of daily working hand plan showing face advance positions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "H": {
+          "code": "H",
+          "title": "Working Faces Within 10m",
+          "statutory_clause": "CMR 47(7)(d)(viii) — Proximity of working faces approaching within 10m of other workings/water",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "I": {
+          "code": "I",
+          "title": "Abnormal Water Seepage",
+          "statutory_clause": "CMR 47(7)(d)(ix) — Water accumulations, unusual floor heaving and pumping operations",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "J": {
+          "code": "J",
+          "title": "Persons Sent Out for Safety Infringement",
+          "statutory_clause": "CMR 47(7)(d)(x) — Persons ordered out of workings due to non-compliance or danger",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "K": {
+          "code": "K",
+          "title": "Safety Directions Issued",
+          "statutory_clause": "CMR 47(7)(d)(xi) — Orders and safety instructions conveyed to sirdars and workmen",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "L": {
+          "code": "L",
+          "title": "Conference with Successor",
+          "statutory_clause": "CMR 47(7)(d)(xii) — Handover conference with relieving overman regarding district conditions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "M": {
+          "code": "M",
+          "title": "Accident & First Aid",
+          "statutory_clause": "CMR 47(7)(d)(xiii) — Dangerous occurrences, personal injuries and first-aid medical assistance",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "N": {
+          "code": "N",
+          "title": "Other Remarks & Summary",
+          "statutory_clause": "CMR 47(7)(d)(xiv) — Overall district safety compliance and statutory summary",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        }
+      },
+      "created_at": "2026-09-29T16:46:07.346Z",
+      "updated_at": "2026-09-29T17:14:28.170Z",
+      "submitted_at": "2026-09-29T17:14:28.170Z"
+    },
+    {
+      "id": "ovr_rep_1790702118984_8vju8",
+      "report_number": "OVR-2026-000004",
+      "overman_id": "usr_overman_01",
+      "overman_name": "Arjun Singh",
+      "overman_employee_id": "O001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "district_id": "dist_jhanjhra_d2",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "shift_id": "shift_morn_01",
+      "shift_name": "Morning Shift",
+      "shift_hours": "06:00 – 14:00",
+      "report_date": "2026-09-29",
+      "parts_of_mine_inspected": "Panel 4 Working Faces, Return Roadways & Haulage Track",
+      "status": "SUBMITTED",
+      "assembled_from_inspection_ids": [],
+      "selected_source_inspection_ids": [],
+      "sections": {
+        "A": {
+          "code": "A",
+          "title": "Safety Materials",
+          "statutory_clause": "CMR 47(7)(d)(i) — Supply & condition of timber, brattice, buntons, ladders and CO detectors",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "B": {
+          "code": "B",
+          "title": "Ventilation & Gas",
+          "statutory_clause": "CMR 47(7)(d)(ii) — Ventilation adequacy, stopping conditions and inflammable gas detection",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "C": {
+          "code": "C",
+          "title": "Stone Dusting & Barriers",
+          "statutory_clause": "CMR 47(7)(d)(iii) — Heavy stone dusting along roadways and stone dust barrier maintenance",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "D": {
+          "code": "D",
+          "title": "Haulage & Transport Roadways",
+          "statutory_clause": "CMR 47(7)(d)(iv) — Haulage tracks, safety appliances, runaway switches and signalling",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "E": {
+          "code": "E",
+          "title": "Danger & Fencing of Places",
+          "statutory_clause": "CMR 47(7)(d)(v) — Dangerous places observed or reported and fencing erected",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "F": {
+          "code": "F",
+          "title": "Support & Strata Control",
+          "statutory_clause": "CMR 47(7)(d)(vi) — Systematic support rules (SSR), roof/side stability and remedial props",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "G": {
+          "code": "G",
+          "title": "Hand Plan & Working Faces",
+          "statutory_clause": "CMR 47(7)(d)(vii) — Maintenance of daily working hand plan showing face advance positions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "H": {
+          "code": "H",
+          "title": "Working Faces Within 10m",
+          "statutory_clause": "CMR 47(7)(d)(viii) — Proximity of working faces approaching within 10m of other workings/water",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "I": {
+          "code": "I",
+          "title": "Abnormal Water Seepage",
+          "statutory_clause": "CMR 47(7)(d)(ix) — Water accumulations, unusual floor heaving and pumping operations",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "J": {
+          "code": "J",
+          "title": "Persons Sent Out for Safety Infringement",
+          "statutory_clause": "CMR 47(7)(d)(x) — Persons ordered out of workings due to non-compliance or danger",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "K": {
+          "code": "K",
+          "title": "Safety Directions Issued",
+          "statutory_clause": "CMR 47(7)(d)(xi) — Orders and safety instructions conveyed to sirdars and workmen",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "L": {
+          "code": "L",
+          "title": "Conference with Successor",
+          "statutory_clause": "CMR 47(7)(d)(xii) — Handover conference with relieving overman regarding district conditions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "M": {
+          "code": "M",
+          "title": "Accident & First Aid",
+          "statutory_clause": "CMR 47(7)(d)(xiii) — Dangerous occurrences, personal injuries and first-aid medical assistance",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "N": {
+          "code": "N",
+          "title": "Other Remarks & Summary",
+          "statutory_clause": "CMR 47(7)(d)(xiv) — Overall district safety compliance and statutory summary",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        }
+      },
+      "created_at": "2026-09-29T17:15:18.984Z",
+      "updated_at": "2026-09-29T17:16:02.645Z",
+      "submitted_at": "2026-09-29T17:16:02.645Z"
+    },
+    {
+      "id": "ovr_rep_1790702251228_5csvb",
+      "report_number": "OVR-2026-000005",
+      "overman_id": "usr_overman_01",
+      "overman_name": "Arjun Singh",
+      "overman_employee_id": "O001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "district_id": "dist_jhanjhra_d2",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "shift_id": "shift_morn_01",
+      "shift_name": "Morning Shift",
+      "shift_hours": "06:00 – 14:00",
+      "report_date": "2026-09-29",
+      "parts_of_mine_inspected": "Panel 4 Working Faces, Return Roadways & Haulage Track",
+      "status": "SUBMITTED",
+      "assembled_from_inspection_ids": [
+        "insp_1790701576107_lv9yh"
+      ],
+      "selected_source_inspection_ids": [
+        "insp_1790701576107_lv9yh"
+      ],
+      "sections": {
+        "A": {
+          "code": "A",
+          "title": "Safety Materials",
+          "statutory_clause": "CMR 47(7)(d)(i) — Supply & condition of timber, brattice, buntons, ladders and CO detectors",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "B": {
+          "code": "B",
+          "title": "Ventilation & Gas",
+          "statutory_clause": "CMR 47(7)(d)(ii) — Ventilation adequacy, stopping conditions and inflammable gas detection",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "C": {
+          "code": "C",
+          "title": "Stone Dusting & Barriers",
+          "statutory_clause": "CMR 47(7)(d)(iii) — Heavy stone dusting along roadways and stone dust barrier maintenance",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "D": {
+          "code": "D",
+          "title": "Haulage & Transport Roadways",
+          "statutory_clause": "CMR 47(7)(d)(iv) — Haulage tracks, safety appliances, runaway switches and signalling",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "E": {
+          "code": "E",
+          "title": "Danger & Fencing of Places",
+          "statutory_clause": "CMR 47(7)(d)(v) — Dangerous places observed or reported and fencing erected",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "F": {
+          "code": "F",
+          "title": "Support & Strata Control",
+          "statutory_clause": "CMR 47(7)(d)(vi) — Systematic support rules (SSR), roof/side stability and remedial props",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "G": {
+          "code": "G",
+          "title": "Hand Plan & Working Faces",
+          "statutory_clause": "CMR 47(7)(d)(vii) — Maintenance of daily working hand plan showing face advance positions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "H": {
+          "code": "H",
+          "title": "Working Faces Within 10m",
+          "statutory_clause": "CMR 47(7)(d)(viii) — Proximity of working faces approaching within 10m of other workings/water",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "I": {
+          "code": "I",
+          "title": "Abnormal Water Seepage",
+          "statutory_clause": "CMR 47(7)(d)(ix) — Water accumulations, unusual floor heaving and pumping operations",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "J": {
+          "code": "J",
+          "title": "Persons Sent Out for Safety Infringement",
+          "statutory_clause": "CMR 47(7)(d)(x) — Persons ordered out of workings due to non-compliance or danger",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "K": {
+          "code": "K",
+          "title": "Safety Directions Issued",
+          "statutory_clause": "CMR 47(7)(d)(xi) — Orders and safety instructions conveyed to sirdars and workmen",
+          "population_status": "AUTO_POPULATED",
+          "is_overman_input_required": false,
+          "entries": [
+            {
+              "id": "ent_k_1790702334349_44s0h",
+              "section_code": "K",
+              "entry_type": "AUTO",
+              "title": "Sirdar Safety Direction",
+              "location": "Panel 4 Travelling & Working Roadways",
+              "details": "Use designated travelling roadway; keep clear of conveyor haulage. (12 workmen instructed)",
+              "action_taken": "Communicated and acknowledged on site",
+              "source_inspection_id": "insp_1790701576107_lv9yh",
+              "source_inspection_number": "INS-2026-000130",
+              "source_observation_id": "si_1790701624723_h72p5",
+              "sirdar_name": "Rajesh Kumar",
+              "sirdar_employee_id": "S001",
+              "source_date": "2026-09-29",
+              "source_time": "10:37 pm IST",
+              "created_at": "2026-09-29T17:18:54.349Z"
+            }
+          ],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "L": {
+          "code": "L",
+          "title": "Conference with Successor",
+          "statutory_clause": "CMR 47(7)(d)(xii) — Handover conference with relieving overman regarding district conditions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "M": {
+          "code": "M",
+          "title": "Accident & First Aid",
+          "statutory_clause": "CMR 47(7)(d)(xiii) — Dangerous occurrences, personal injuries and first-aid medical assistance",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "N": {
+          "code": "N",
+          "title": "Other Remarks & Summary",
+          "statutory_clause": "CMR 47(7)(d)(xiv) — Overall district safety compliance and statutory summary",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        }
+      },
+      "created_at": "2026-09-29T17:17:31.229Z",
+      "updated_at": "2026-09-29T17:19:10.047Z",
+      "submitted_at": "2026-09-29T17:19:10.047Z"
+    },
+    {
+      "id": "ovr_rep_1790702456066_8gter",
+      "report_number": "OVR-2026-000006",
+      "overman_id": "usr_overman_01",
+      "overman_name": "Arjun Singh",
+      "overman_employee_id": "O001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "district_id": "dist_jhanjhra_d2",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "shift_id": "shift_morn_01",
+      "shift_name": "Morning Shift",
+      "shift_hours": "06:00 – 14:00",
+      "report_date": "2026-09-29",
+      "parts_of_mine_inspected": "Panel 4 Working Faces, Return Roadways & Haulage Track",
+      "status": "SUBMITTED",
+      "assembled_from_inspection_ids": [
+        "insp_1790701576107_lv9yh"
+      ],
+      "selected_source_inspection_ids": [
+        "insp_1790701576107_lv9yh"
+      ],
+      "sections": {
+        "A": {
+          "code": "A",
+          "title": "Safety Materials",
+          "statutory_clause": "CMR 47(7)(d)(i) — Supply & condition of timber, brattice, buntons, ladders and CO detectors",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "B": {
+          "code": "B",
+          "title": "Ventilation & Gas",
+          "statutory_clause": "CMR 47(7)(d)(ii) — Ventilation adequacy, stopping conditions and inflammable gas detection",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "C": {
+          "code": "C",
+          "title": "Stone Dusting & Barriers",
+          "statutory_clause": "CMR 47(7)(d)(iii) — Heavy stone dusting along roadways and stone dust barrier maintenance",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "D": {
+          "code": "D",
+          "title": "Haulage & Transport Roadways",
+          "statutory_clause": "CMR 47(7)(d)(iv) — Haulage tracks, safety appliances, runaway switches and signalling",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "E": {
+          "code": "E",
+          "title": "Danger & Fencing of Places",
+          "statutory_clause": "CMR 47(7)(d)(v) — Dangerous places observed or reported and fencing erected",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "F": {
+          "code": "F",
+          "title": "Support & Strata Control",
+          "statutory_clause": "CMR 47(7)(d)(vi) — Systematic support rules (SSR), roof/side stability and remedial props",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "G": {
+          "code": "G",
+          "title": "Hand Plan & Working Faces",
+          "statutory_clause": "CMR 47(7)(d)(vii) — Maintenance of daily working hand plan showing face advance positions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "H": {
+          "code": "H",
+          "title": "Working Faces Within 10m",
+          "statutory_clause": "CMR 47(7)(d)(viii) — Proximity of working faces approaching within 10m of other workings/water",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "I": {
+          "code": "I",
+          "title": "Abnormal Water Seepage",
+          "statutory_clause": "CMR 47(7)(d)(ix) — Water accumulations, unusual floor heaving and pumping operations",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "J": {
+          "code": "J",
+          "title": "Persons Sent Out for Safety Infringement",
+          "statutory_clause": "CMR 47(7)(d)(x) — Persons ordered out of workings due to non-compliance or danger",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "K": {
+          "code": "K",
+          "title": "Safety Directions Issued",
+          "statutory_clause": "CMR 47(7)(d)(xi) — Orders and safety instructions conveyed to sirdars and workmen",
+          "population_status": "AUTO_POPULATED",
+          "is_overman_input_required": false,
+          "entries": [
+            {
+              "id": "ent_k_1790702483639_c7ujm",
+              "section_code": "K",
+              "entry_type": "AUTO",
+              "title": "Sirdar Safety Direction",
+              "location": "Panel 4 Travelling & Working Roadways",
+              "details": "Use designated travelling roadway; keep clear of conveyor haulage. (12 workmen instructed)",
+              "action_taken": "Communicated and acknowledged on site",
+              "source_inspection_id": "insp_1790701576107_lv9yh",
+              "source_inspection_number": "INS-2026-000130",
+              "source_observation_id": "si_1790701624723_h72p5",
+              "sirdar_name": "Rajesh Kumar",
+              "sirdar_employee_id": "S001",
+              "source_date": "2026-09-29",
+              "source_time": "10:37 pm IST",
+              "created_at": "2026-09-29T17:21:23.639Z"
+            }
+          ],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "L": {
+          "code": "L",
+          "title": "Conference with Successor",
+          "statutory_clause": "CMR 47(7)(d)(xii) — Handover conference with relieving overman regarding district conditions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "M": {
+          "code": "M",
+          "title": "Accident & First Aid",
+          "statutory_clause": "CMR 47(7)(d)(xiii) — Dangerous occurrences, personal injuries and first-aid medical assistance",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "N": {
+          "code": "N",
+          "title": "Other Remarks & Summary",
+          "statutory_clause": "CMR 47(7)(d)(xiv) — Overall district safety compliance and statutory summary",
+          "population_status": "COMPLETED",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        }
+      },
+      "created_at": "2026-09-29T17:20:56.066Z",
+      "updated_at": "2026-09-29T17:21:40.162Z",
+      "submitted_at": "2026-09-29T17:21:40.162Z"
+    },
+    {
+      "id": "ovr_rep_1790702958961_fexuo",
+      "report_number": "OVR-2026-000007",
+      "overman_id": "usr_overman_01",
+      "overman_name": "Arjun Singh",
+      "overman_employee_id": "O001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "district_id": "dist_jhanjhra_d2",
+      "district_name": "Panel 4",
+      "seam_name": "Seam III",
+      "shift_id": "shift_morn_01",
+      "shift_name": "Morning Shift",
+      "shift_hours": "06:00 – 14:00",
+      "report_date": "2026-09-29",
+      "parts_of_mine_inspected": "Panel 4 Working Faces, Return Roadways & Haulage Track",
+      "status": "DRAFT",
+      "assembled_from_inspection_ids": [],
+      "selected_source_inspection_ids": [],
+      "sections": {
+        "A": {
+          "code": "A",
+          "title": "Safety Materials",
+          "statutory_clause": "CMR 47(7)(d)(i) — Supply & condition of timber, brattice, buntons, ladders and CO detectors",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "B": {
+          "code": "B",
+          "title": "Ventilation & Gas",
+          "statutory_clause": "CMR 47(7)(d)(ii) — Ventilation adequacy, stopping conditions and inflammable gas detection",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "C": {
+          "code": "C",
+          "title": "Stone Dusting & Barriers",
+          "statutory_clause": "CMR 47(7)(d)(iii) — Heavy stone dusting along roadways and stone dust barrier maintenance",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "D": {
+          "code": "D",
+          "title": "Haulage & Transport Roadways",
+          "statutory_clause": "CMR 47(7)(d)(iv) — Haulage tracks, safety appliances, runaway switches and signalling",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "E": {
+          "code": "E",
+          "title": "Danger & Fencing of Places",
+          "statutory_clause": "CMR 47(7)(d)(v) — Dangerous places observed or reported and fencing erected",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "F": {
+          "code": "F",
+          "title": "Support & Strata Control",
+          "statutory_clause": "CMR 47(7)(d)(vi) — Systematic support rules (SSR), roof/side stability and remedial props",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "G": {
+          "code": "G",
+          "title": "Hand Plan & Working Faces",
+          "statutory_clause": "CMR 47(7)(d)(vii) — Maintenance of daily working hand plan showing face advance positions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "H": {
+          "code": "H",
+          "title": "Working Faces Within 10m",
+          "statutory_clause": "CMR 47(7)(d)(viii) — Proximity of working faces approaching within 10m of other workings/water",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "I": {
+          "code": "I",
+          "title": "Abnormal Water Seepage",
+          "statutory_clause": "CMR 47(7)(d)(ix) — Water accumulations, unusual floor heaving and pumping operations",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "J": {
+          "code": "J",
+          "title": "Persons Sent Out for Safety Infringement",
+          "statutory_clause": "CMR 47(7)(d)(x) — Persons ordered out of workings due to non-compliance or danger",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "K": {
+          "code": "K",
+          "title": "Safety Directions Issued",
+          "statutory_clause": "CMR 47(7)(d)(xi) — Orders and safety instructions conveyed to sirdars and workmen",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "L": {
+          "code": "L",
+          "title": "Conference with Successor",
+          "statutory_clause": "CMR 47(7)(d)(xii) — Handover conference with relieving overman regarding district conditions",
+          "population_status": "OVERMAN_REQUIRED",
+          "is_overman_input_required": true,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "M": {
+          "code": "M",
+          "title": "Accident & First Aid",
+          "statutory_clause": "CMR 47(7)(d)(xiii) — Dangerous occurrences, personal injuries and first-aid medical assistance",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        },
+        "N": {
+          "code": "N",
+          "title": "Other Remarks & Summary",
+          "statutory_clause": "CMR 47(7)(d)(xiv) — Overall district safety compliance and statutory summary",
+          "population_status": "PENDING",
+          "is_overman_input_required": false,
+          "entries": [],
+          "overman_notes": "",
+          "structured_data": {}
+        }
+      },
+      "created_at": "2026-09-29T17:29:18.961Z"
+    }
+  ],
+  "overman_report_sections": [],
+  "overman_report_entries": [],
+  "manager_demo_observations": [
+    {
+      "id": "mgr_demo_mine_representative_b_VENTILATION_1",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "VENTILATION",
+      "title": "Ventilation observation",
+      "description": "Repeated ventilation-related observation in representative demo records.",
+      "observed_at": "2026-09-18T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_1",
+      "source_number": "DEMO-B-001",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_VENTILATION_2",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "VENTILATION",
+      "title": "Ventilation observation",
+      "description": "Repeated ventilation-related observation in representative demo records.",
+      "observed_at": "2026-09-19T11:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_2",
+      "source_number": "DEMO-B-002",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_VENTILATION_3",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "VENTILATION",
+      "title": "Ventilation observation",
+      "description": "Repeated ventilation-related observation in representative demo records.",
+      "observed_at": "2026-09-20T14:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_3",
+      "source_number": "DEMO-B-003",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_VENTILATION_4",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "VENTILATION",
+      "title": "Ventilation observation",
+      "description": "Repeated ventilation-related observation in representative demo records.",
+      "observed_at": "2026-09-21T17:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_4",
+      "source_number": "DEMO-B-004",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_VENTILATION_5",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "VENTILATION",
+      "title": "Ventilation observation",
+      "description": "Repeated ventilation-related observation in representative demo records.",
+      "observed_at": "2026-09-22T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_5",
+      "source_number": "DEMO-B-005",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_VENTILATION_6",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "VENTILATION",
+      "title": "Ventilation observation",
+      "description": "Repeated ventilation-related observation in representative demo records.",
+      "observed_at": "2026-09-23T11:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_6",
+      "source_number": "DEMO-B-006",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "STRATA_SUPPORT",
+      "title": "Strata/support observation",
+      "description": "Support-related observation in representative demo records.",
+      "observed_at": "2026-09-18T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_1",
+      "source_number": "DEMO-B-001",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "STRATA_SUPPORT",
+      "title": "Strata/support observation",
+      "description": "Support-related observation in representative demo records.",
+      "observed_at": "2026-09-19T11:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_2",
+      "source_number": "DEMO-B-002",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "STRATA_SUPPORT",
+      "title": "Strata/support observation",
+      "description": "Support-related observation in representative demo records.",
+      "observed_at": "2026-09-20T14:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_3",
+      "source_number": "DEMO-B-003",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_WATER_1",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "WATER",
+      "title": "Water seepage observation",
+      "description": "Water seepage in representative demo records.",
+      "observed_at": "2026-09-18T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_1",
+      "source_number": "DEMO-B-001",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_WATER_2",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "WATER",
+      "title": "Water seepage observation",
+      "description": "Water seepage in representative demo records.",
+      "observed_at": "2026-09-19T11:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_2",
+      "source_number": "DEMO-B-002",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_DANGER_1",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "DANGER",
+      "title": "Danger observation",
+      "description": "Dangerous condition in representative demo records.",
+      "observed_at": "2026-09-18T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_1",
+      "source_number": "DEMO-B-001",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_b_DANGER_2",
+      "mine_id": "mine_representative_b",
+      "mine_name": "Representative Mine B",
+      "category": "DANGER",
+      "title": "Danger observation",
+      "description": "Dangerous condition in representative demo records.",
+      "observed_at": "2026-09-19T11:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_b_2",
+      "source_number": "DEMO-B-002",
+      "location": "Representative B working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "HIGH",
+      "severity_weight": 0.75,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_c_VENTILATION_1",
+      "mine_id": "mine_representative_c",
+      "mine_name": "Representative Mine C",
+      "category": "VENTILATION",
+      "title": "Ventilation observation",
+      "description": "Occasional ventilation observation in representative demo records.",
+      "observed_at": "2026-09-18T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_c_1",
+      "source_number": "DEMO-C-001",
+      "location": "Representative C working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_c_STRATA_SUPPORT_1",
+      "mine_id": "mine_representative_c",
+      "mine_name": "Representative Mine C",
+      "category": "STRATA_SUPPORT",
+      "title": "Strata/support observation",
+      "description": "Single support-related observation in representative demo records.",
+      "observed_at": "2026-09-18T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_c_1",
+      "source_number": "DEMO-C-001",
+      "location": "Representative C working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    },
+    {
+      "id": "mgr_demo_mine_representative_c_WATER_1",
+      "mine_id": "mine_representative_c",
+      "mine_name": "Representative Mine C",
+      "category": "WATER",
+      "title": "Water seepage observation",
+      "description": "Single water observation in representative demo records.",
+      "observed_at": "2026-09-18T08:00:00Z",
+      "source_type": "SIRDAR_INSPECTION",
+      "source_id": "demo_mine_representative_c_1",
+      "source_number": "DEMO-C-001",
+      "location": "Representative C working district",
+      "action_recorded": "Recorded for management review.",
+      "severity": "MEDIUM",
+      "severity_weight": 0.5,
+      "manager_action_status": "NOT_CREATED",
+      "demo_seeded": true
+    }
+  ],
+  "corrective_tasks": [
+    {
+      "id": "task_1790702950570_pkbku",
+      "task_number": "ACT-2026-00001",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "title": "Fencing needs to be improved",
+      "description": "Install the new fencing that is being sent",
+      "priority": "HIGH",
+      "assigned_to": {
+        "user_id": "usr_overman_01",
+        "name": "Arjun Singh",
+        "employee_id": "O001",
+        "role": "OVERMAN"
+      },
+      "created_by": {
+        "user_id": "usr_manager_01",
+        "name": "R. Mehta",
+        "employee_id": "M001"
+      },
+      "created_at": "2026-09-29T17:29:10.570Z",
+      "due_date": "2026-10-02",
+      "status": "IN_PROGRESS",
+      "source_observation_ids": [
+        "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+        "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+        "mgr_sirdar_obs_1790701049065_5wyx6_FENCING"
+      ],
+      "evidence": [],
+      "audit_history": [
+        {
+          "id": "audit_1790702950570_2gbvp",
+          "event": "CREATED",
+          "actor_id": "usr_manager_01",
+          "actor_name": "R. Mehta",
+          "occurred_at": "2026-09-29T17:29:10.570Z",
+          "note": "Corrective action created by Manager."
+        },
+        {
+          "id": "audit_1790702950570_y88n9",
+          "event": "ASSIGNED",
+          "actor_id": "usr_manager_01",
+          "actor_name": "R. Mehta",
+          "occurred_at": "2026-09-29T17:29:10.570Z",
+          "note": "Assigned to Arjun Singh."
+        },
+        {
+          "id": "audit_1790702969723_91oa0",
+          "event": "STARTED",
+          "actor_id": "usr_overman_01",
+          "actor_name": "Arjun Singh",
+          "occurred_at": "2026-09-29T17:29:29.723Z",
+          "note": "Overman started the corrective action."
+        }
+      ]
+    },
+    {
+      "id": "task_1790703227746_cx33b",
+      "task_number": "ACT-2026-00002",
+      "mine_id": "mine_jhanjhra_01",
+      "mine_name": "Jhanjhra Underground Mine",
+      "title": "improve fencing",
+      "description": "Install new fencing that is being sent",
+      "priority": "HIGH",
+      "assigned_to": {
+        "user_id": "usr_overman_01",
+        "name": "Arjun Singh",
+        "employee_id": "O001",
+        "role": "OVERMAN"
+      },
+      "created_by": {
+        "user_id": "usr_manager_01",
+        "name": "R. Mehta",
+        "employee_id": "M001"
+      },
+      "created_at": "2026-09-29T17:33:47.746Z",
+      "due_date": "2026-10-03",
+      "status": "IN_PROGRESS",
+      "source_observation_ids": [
+        "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+        "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+        "mgr_sirdar_obs_1790701049065_5wyx6_FENCING"
+      ],
+      "evidence": [
+        {
+          "id": "evidence_1790703273905_b1vqx",
+          "type": "NOTE",
+          "description": "ok",
+          "created_at": "2026-09-29T17:34:33.905Z",
+          "created_by": "usr_overman_01"
+        },
+        {
+          "id": "evidence_1790703273905_zkm6u",
+          "type": "IMAGE",
+          "name": "manager_preview_v4.png",
+          "description": "Supporting attachment",
+          "data_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB30AAAGuCAIAAAAbBIvEAACl4UlEQVR4nOzddVgU2xsH8EMt3V0iJnYLKAaoiBIGimKiYne33mv3tVuxCFEUEwzEQBERExEVRFHpbpbY3x9zf3PX3WVZloUF/H4en/vMnjlzzjtnZrj6cvaMBIvFIgAAAAAAAAAAAAAAIiIp7gAAAAAAAAAAAAAAoEFB3hkAAAAAAAAAAAAARAl5ZwAAAAAAAAAAAAAQJeSdAQAAAAAAAAAAAECUkHcGAAAAAAAAAAAAAFFC3hkAAAAAAAAAAAAARAl5ZwAAAAAAAAAAAAAQJeSdAQAAAAAAAAAAAECUkHcGAAAAAAAAAAAAAFFC3hkAAAAAAAAAAAAARAl5ZwAAAAAAAAAAAAAQJWlxBwDQ8Fk+KBZ3CAAgMqE2suIOAQAAAAAAAKCuQ94ZoGZZPij26cYQdxQAIDKWD4qRegYAAAAAAADgD+tsANQgJJ0BGh6fbgx8iQEAAAAAAACAP+SdAWoKks4ADRVSzwAAAAAAAAD8Ie8MAAAAAAAAAAAAAKKEvDMAAAAAAAAAAAAAiBLyzgAAAAAAAAAAAAAgSsg7AwAAAAAAAAAAAIAoIe8MAAAAAAAAAAAAAKKEvDMAAAAAAAAAAAAAiBLyzgAAAAAAAAAAAAAgStLiDgDgzzV00pzomDhCiJSUlKKCvLGBnnVP84kuQ5QVFek68T8TTnr7PY94m5SSJikpoayk1NjIYNEMt05tW9GHTxs3ctF0N6r++l0HL14LIIRYdunosXczISQrO3ffyfMPQ1+kpmdKS0upq6hYde+8cfk87nj41Oxm55Kbn899SJuWzfxO7iOErNzyz9WA+4SQAX16HNi0mv8hZWVl0TFxjrbWO9cuIYRkZudYOrgSQnasXeJka11pX+8+fj7heenVu6isnFxVZaXO7Vq7jxnRsa0Zx6gSQlSUFBsZGUwaNczOptf4OctfvY8ybWR09fQBOVkGIeTouYt7T5yTkpLyPrKrfasWHN3Fxf886eUXGvEmJS1DliGjq605dGC/aeNd2LvgP/I8I7Hv34f71CKjv5zx9X8W/rqgsNBAT8fZ3nbSqOGSkhKEkLLy8qPnLl65dS85LV1bU93J1mbu5DHS0tKEkN1HPU54XqYbiX5yi9r4lZTcb+Rk7l4+PLwuJSXFUcg/SPa9lA6tW148tofa5nNzCniCVQoVAAAAAAAAAOoRzHcGEDNHW+u39694Htyhp6118LTn8MnzUtIyqF1hr945TZpz6cYdO5teAV7HQq55Htq6tklj45S0dPYWvK/ezssvIISkZ2T5BwRxtL9iyx5v/1ujnAa9DPANuHBszuQxzJISnpHwqRke6Bv95Fb0k1sdWrckhAzu15v6SCWC8wsKA4NDqJrBT1+kZ2ZVeggf/A+8++ip68wlT8Ii1i6c+fyW94Zlc5+9fDN29tJb9x9xjGrUo5sbls2LjP6yZMPOd1Gftq9ZrCAvHxf/c+/xs4SQz1+/HTrjRQiZOWEUd9I5NOLNsMlzrwbcG2Fv+9DvTKDX8XlTxmfn5nFU4z/yPCN5HfmRu87eE+ccB/S943Pi/IHtaemZOw+fPn7Bl9q1Zf/xA6cudOvY9um1C73Muxw7f3HdzoPUrsUzJkU/uXVwyxqO1gz1dKkRYx9GHS0NSckKf+DzD9LR1ppujU46C3hz8j9BIUKtXz5//jxt2rRmzZopKipqamq2a9du+/bt9N7w8HAXFxcjIyMFBQVDQ8MRI0Y8f/6c3tu1a1cGgzFx4kSONgUspz6ys7Ky4t6lo6NjaWl58eLFsrKyvn37MhiMtm3bFhYWUjW3bt3KYDAUFBTCw8MrDaN///4MBsPZ2bnSACju7u5UuYuLC3fLVL+6uroWFhYbN27Mzs5mr8MxdM7OzqGhoRXFlpaWRjXo5eUleO/sg0MI0dbWZvBiYWEhxGjT3aWnp8+dO7dp06aKiopqampNmjSZMWMGAQAAAAAAaBAayL/tAeo1aWnp5k1M9m9aZWJk8CMhacv+Y4SQkpLSZZt2FRUVOw7ou2jaREM9XSVFhfatWvy9ZM7Avv+lb3S0NHLz8739bxNCzvheLWYydbQ06L1lZWUhL14RQjq2NZOTk9XX1Xa2t92+ZjF3DILX5Hbz3sPCoiJ1VRVDPd3S0lL/QN4Z2OorKmau33mwrKxs7DAHO2srZUXF/r0sJ40aWlZe/vfuQwX/T5ZRJCUl7KytFOTlWSxW2Kt3xgZ6K+dNJYScu3wt7NW7FZv3lJSUtm/VYubE0Ry9lJSULt+0u6iY6TjAepabq5aGuramhp211dJZv83M5T/yfCLhrnBy98Y+lt2UFRXbtWphZd6FEHL/SSghJCMr28f/NiFk7HAHVRXlCSOcCCFXA+4nJqcKOGJvP0S/jfpECJns6iwhIcGnZqVBshPw5qz0BIULtb548OBBt27dzp07N2nSpNjY2MjIyL/++isrK4vae/Xq1T59+ty9e3ffvn2JiYlHjhx58OCBtbU1e1Ky+lxdXZn/FxISwrGrqKjoyJEjEREREyZMePHihYeHh5KS0ufPn9etW0cIiYyM3Lx5MyFk5cqV3bp1E20Aubm5fn5+1PatW7dSUlK4D8zOzn7w4IGhoeHGjRu7d++emJhI7eIeuuDgYBsbG19fXwGjEqR39sEJDQ1NTU2lzqJ79+6EkJEjR1If2X9VIPho01lyd3f3Y8eOubu7p6amvn//ft26dcXFxQKeBQAAAAAAQB2HvDNAXSElJdW/lyUh5EFIWGlp6Zuo6OTUdELIIJtefI6y799XU0PtrK9/emaWj3+AsYGejZUFe5vysrKEkJnLNyz+a7vX1VvxPxMq6l3Amtwu3bxDCBlobTW4Xy9CyOWbdwU8sKrefojOzM4hhPTo2pEu7Nm9MyEkJy8/4l0U9yEsFosQIiMjTQgZ6TDQuqd5eTlr6pJ1UZ9j5eRkd6xdwr2ew5uoaGrKeXVGnn8kFSkrL4+O+UoIUVVRJoS8i/pUVlZGCDHQ1SGE6OvqUO28+RDNpxF2Z3z9CSHqqiqjnQYJUl+QIAkhAt6c3DhOsDqh1nFMJnPSpEmFhYWurq6rV6/W09PT19d3dnbeunUrIaSwsHD27NmlpaUzZ850dnZWVVV1cnJasGBBWVnZ3Llz8/I4Z9bXEElJSWdnZyUlJRaL9fDhQ1NT0127dhFCDhw48PDhwylTpjCZzG7duq1cuVLkXfv4+OTn52tpaZmYmJSUlJw/f567joyMTJs2bS5evNisWbO4uLhFixYRQoqKiioaunnz5uXzWqJHuN45Bqd6p8u7wdLS0rt37xJCLCwsFBQUjI2N3dzcPDw8qt8XAAAAAABAXYC8M0AdoqOlSQhhlpRk5+alpWdShdqaGoSQtIxMs1721B/3xWvpQ2QZMhNGOKVlZE5dvC43P3+y63Cp39coWD7HXVpaurCo6FbQ4w17Dtu6Tl22cVd5OYu7d8FrsvsUGxcZ/YUQYt+v9+B+fQghcfE/X779UK2BqAC1ggchRF1NlS5UV1Xh2EspL2cFBocUFhWpKCsNtulNFW5aPk9DTZVaP2T57CmNjQ25e6FHXktDnU8wlY48/0h42nno1NfvP6WlpedMGkMIycn7N4lGJYIZMjLUxxyuFT94SkpNu/voGSHEbdRQOTlZ/pX5BHnjbjB9720/dIqwDRH/m7PSExQu1HohLCyMmp87YsQInnvT0tIIITY2NnRh//79CSFZWVlPnz6trTAJ+f8vGxgMBiFk8uTJ9vb25eXljo6Or1+/VlBQOHPmDLWeuGidPn2aEDJ8+HBqmQs+yVZpaekhQ4YQQm7evFlSUvL8+fOKhi4jI+PZs2ei7Z19cESCvUFpaWkFBQUqknHjxh09ejQ2NlZUHQEAAAAAAIgd8s5Qv1k+KK6hP2I5HWptXIaMjKqykpbmv0nPtIxMQoiWhnr0k1sjHGy5j3Id5qCoIB/1JVZTXW344AEce0c42N7xPr5i7tTeFl2p9+ldvxv8NPwVdzuC12Tne+MOIURHS6NL+7atmjdpYmJECLl88w6fQypaRaHStRU01P9NN2dm/bfYKzUDmhCiqa5GF964G9y6j8OCdVvlZBm71i3V19Wm61BjqKKs5DrUnmcvHCPPB/+R5x8Jt30nz5/x9ZeTZRzcsoZ6NZ+K0r9vmKQS5cVMJvVRRVmJf2CUC5dvlJWVKSsqjhnuwL8m/yDZ13dePnsK4RoiPjcn/xMUItT6Ijk5mdrQ09Pj3pua+u9KKVpaWnQhvU3vrT5vb296ceHly5dz7C0vL/fz88vPz1dXV6eXOT527Ji2tja12sP27dubN28uYPuPHz8WMID3799HREQQQlxcXKh+P3/+zLEwBTt9fX1CSHFxcWZmJv+h414xg5uAvfMcHP6EGO0dO3bIyMjk5+f7+vrOmzevVatWbm5u5eXlgnQHAAAAAABQxyHvDPVSLWSHaz8BXVZWdu9JKCHExspcWlq6Y2szar1gah4oHypKii5Ogwgh40c4yfKal2eop+vmMvT4zr8DvI5Tc3Kpt+FVpyalmMm8cTeYEJKSltG6j4NZL/uv338SQgKDn+RW/IV3atWI7Jxc6mPW/xPHGmyzmHnq2KaVmqoyIeTZyzd04dMXrwghKkqKXdq3pgsdba0j7lxePGNSUTFzzqpNEe/+m39NvbNOUrLCLDc98oEPK0yEUSodef6RsDvo4XXkrI+cLOPI9vV9Lf9dS7ddqxbUMiAJyamEEGpZZwkJiY5tzPgHRggpKiqm1j8ZN8JRWVGRf2UBg6QJfnPSeJ6gEKHWF7q6utRGUlIS9146T0pN3eXY1tau8JcTVcW+4jD7Kw0JId7e3nJycq6urvLy8mfPnjU2NqbKdXR0Jk2aRAhRV1efPn264O337s1jLj/PAE6dOkUI0dfXt7Ky6tChQ8uWLcn/5yDzRM0cl5WVVVdXp4cuIyODrkAPnY6ODuHzmy0JCQF7r2hwBB8NAUd70qRJUVFRO3futLOzk5eXJ4R4eXndu3dPkO4AAAAAAADqOOSdof5hzwWH2sjW0B+e3dWQsrKymLjv89Zsif+ZYGygt3LuNEKIjIz01pULZRmMa4FBR876JKemFxYVZbDN82W3fPaU6Ce3ZkwYxb1r9MzF/oFBPxKSmCUlsd9+lLNYSooKXdq3qU5N2t2HT3Ny8xQV5N8/uEbNh/34+KaWhnpRMfPmvYcVHTXEzoYQ8uLN+3cfPxcUFp6/fJ0QYqCn06VDW37DRIicLOOvxXOkJCU9r94MDA7Jyy8ICnnucdFfUlJizcKZCvLy7JUVFeSnjh3Ro1snZknJ2h37S0tL+TdOo0f++p0HR89dTM/ISs/Muvc4dNcRHl/G5zPygkdy7PzFg6c9GTIyh7astezSkS7XVFcbPXQwIeTC5evZObnnLl0jhAwb1J/PpGna1cD72Tm58nJyE0YOEeCkqzZcVbo5+ZygcKHWC+bm5tQs3StXrnDvtbCw0NTUJIQ8ePCALrx//z4hRE1NrWfPnrUQoaura3p6+ubNmwsLC0eOHMm+uAf12w7JCtaNqaaioiJvb29CSGJiopycHIPB+PTpEyHEz88vO5vHLVRaWurv708IcXBwkJGRoYeOfXo1NXSqqqqWlpaEkEaNGhFCMjP//b4CnaHW0tISsHc+gyMcPg2amJjMnz//+vXrHz58oEY+Nze3mt0BAAAAAADUBcg7Qz1DZ4E5ssMix95+jaaeb9wNbmczZMyspQnJKbPdXK+c3q+rrUnt6tm985XT+50G2vjeCOznMtnSccyHTzHmndv368Xv/XUctDXUj5z1GTZ5bqcBzss37e7ZrdPJXRupyapC16RdvnWXENLLvAv9JjoJCQnrHt0JIZduVLjUhm2fnltXLWxuajJh3opudi73Hoc62lqfP7CNWtyDPztrK6/DO626dd6w57C5/eg12/ZZdGl//sB2J1trnvVXzZsmJSX19fvPc5euV9o4jRr5IQP7Xbwe0Md5Yj+XyTuPnFZSVBC8hSpFcsjDmxDCLCmZsngttUqyhcNo+qg5k8e+fPehh9PYJ2ER08a7bFg6h9p1/MIls172c1Ztoj5SB1LzzVksFpXNHz1kEL3+tdBBsq/vTAdWpZuTzwkKHWodx2AwTp48KScn5+npuXXr1uTk5JSUlGvXrq1atYoQIi8vf/DgQSkpqSNHjvj5+eXk5Ny4cWPv3r2SkpJ79+5VUhJoHZXqU1ZWXrp0af/+/YuLi2fMmFFSUlILnV69ejUzM1NZWTkvL4+aGlxcXKynp1dYWOjj48Nes7S0NCoqatSoUbGxsaamprt37yaEyMvLHzhwQEpK6uDBgzdu3KCHjhCybds2aujGjRtHCHn8+HF4eHheXt7BgwcJIY0aNbKyshK8d5EPDs8Ge/fufeHChbi4uOLi4qioqPLychUVldr5xQMAAAAAAEBNk6BecQNQL1D53xpNN4uwX8sHxT7dRPY2KgCoU0aHMyv9mRAdHb1r167g4OCkpCQZGRl9ff0JEyasXLmS2hsWFrZz587Q0NDMzEw1NTULC4vFixfTOceuXbu+e/eOvTVNTc3ExET+5a6urmfPnuVzOL2Lrvnx48cuXbqUlpZu27Zt0aJFhJD169dv3bqVrs8TRyOEkP79+z9+/NjR0dHPz49PALa2tg8fPnR2dqbmHVNmzJhx+vTpTp06hYWF0QdKSkqqqKiYmJg4OjrOnz9fVfW/dXhevHixe/fuZ8+epaamlpeXKysre3h4ODk50RXOnTt39OjRqKio4uJiHR2dvn37btiwwcTERMDe+QyOlZXVixcvRo4c6enpyTEaQoz2yJEjP3z4kJKSUlBQoKGh0bFjxzVr1lhYVOE3iwAAANX0Mipe3CEQQkjX1o3EHQIAAIge8s5Qb4gr6Sx078g7AzRgguSdoaYVFRX16dPn9evXJ0+enDBhgrjDAQAAqGdeRsW3aMzjHci17/O3JKSeAQAaHqyzAfWDeJPOdNe1+ZpBAADgT05O7uLFi+rq6jNnznz06JG4wwEAAKhP6k7SmRDSorFeHZl5DQAAIoS8M9QDdSrbW6eCAQD4wzVu3Dg5OTk/P79Pnz7ijgUAAKDeqFNJZwpSzwAADQ/yzlBviP0r7WIPAAAAAAAAAAAAoF5A3hkAAAAAAAAAAAAARAl5Z6jrxL6yMzus8gwAAAAAAAAAAFAp5J0BAAAAAAAAAAAAQJSQdwYAAAAAAIA/2pQpUxhsNDQ0evbseebMGaEbiYyMpMufPHlCly9fvlyQpuzs7BgMRrNmzSqqsHHjRqrB79+/VylIAACAWoO8M0BNCbWRHR3OFHcUACB6o8OZdWTxHwAAABCt0NDQ7Ozs2bNnh4eHT5s2zcPDQ7h2jh49Sm8fPnxYRNEBAADUJ8g7A9QgpJ4BGh4knQEAAOo+9bsb6D9VPVZeXn7hwoXU9vnz54ULwMvLKycnhxCSmJh47do14RoRlx3btmipKT17GkIIycnJMdDRcB01ghCSmpIyYpiTga5mL8vur19FUJV5FhJCVq9YpqWmpKWmtHjhfLGcBQAAiJ20uAMAaOBCbWTxHkKAhgRJZwAAgLqMO9FMlWTarhO8EQ0NDUlJyfLy8oyMDCFi6NKlS0RExIULF2bNmnX8+PHS0tJu3bqFh4dzVLt48eKRI0fev3/PYrGaNGkyduzYWbNmycr+9zcNFot15MiR06dPf/nyRUtLa8aMGUuWLCGEWFhYvHr1iqrTvHlzQkjr1q3fvHkzceJEb29vqlxBQaFZs2aurq6LFi2SkJCo6imYmDS+deN6j55WdwJu6+sbUIXLly5SVlZ+H/XZ49SJSRPGvXzzXlpammchIWTzth2bt+1YvnRRaWlZlUcQAAAaBOSdAWocslQAAAAAALWAz+xm9bsbBE89p6enl5eXE0JatGghRBizZs2aMmXK0aNH3d3dT506RQiZOXMmR955/fr1W7du1dfXDw4O1tPTc3FxWb58eUBAQGBgoKTkv99L/vHjR1RU1N27d/fv37958+ZVq1Z16tSpX79+z58/37hx48aNGwkhX758MTExoeqfPXv27NmzhBAmk/nixYuhQ4euXLlSSkpqwYIFVT0Fq169Q548JoTcuH5tsL1DTGxMUVFhYMDtgLtBmpqa8xYs2r/3n/AXYZ06d+YutOzRU4hBAwCAhgfrbAAAAAAAAAD8q7CwcO/evYQQRUXFFStWCNGCo6OjgYFBdHT0vHnzkpKS2rZt26tXL/YKCQkJO3bsIITMnj27ffv2Ojo6VGr44cOHd+/epatJS0tv2bJFXV191KhRVElERAQRAIPBsLKysrCwIIT4+PgIcQrSMjKt2rR5HvosPv57CzMzQsj3b9+ZTKaZWSuqfVNT05gvn3kWCtEdAAA0SMg7AwAAAAAAQL1X6VLOgqz1bGlpqaqqun37dgaDcezYsc6dOwsRibS09NSpUwkhp0+fJoTMnDmTo8LLly/LysoIIWvWrGEwGAwGw8XFhdr1+fN/eVsdHR1lZWVCiJycHFVSXMxvBb+QkJDBgwfr6+vLyckxGAwqhf3t2zchToEQYu/gtGzxQpt+/amPBQX5UlJSpWVl3Tq3f/f2jZKyUl5+Ps9C4boDAICGB+tsQENmcyHq0fecivYuszTYatOoNuMBAAAAAIC6LDQ0tFGjRtOmTbt169bEiRNlZGSGDRsmRDvu7u5bt25lMpmqqqpjxoxJS0tj38tisaiNo0ePTp48uaJGqIWSCSGCLND869cvBweHgoICZ2fnw4cPq6ur29vb37t3j0pwC6H/gAEzp7kPtnf4+DGKEKKgoFhWViYtJRX+6h0hJC83T0lRkWehcN0BAEDDg/nO0GDdj8vmk3RWkZVaamlQm/EAAAAAAEDdp62tfeLECRUVlbKystmzZ+fl5VHlO3bsoOYmf/jwodJGdHV1qYT1+PHjFblSsd26dZOSkiKEPH36VLgguTPRr1+/LigoIISMHj1aXV29vLz848ePwjVOkZdX+JmU2rVbd+qjSWMTBoPx6VM0IYTJZMbFxTVr3oJnYXU6BQCAhgR5Z2iw1j78wWfvInN9DXnM9wcAAAAAAE5aWlpz5swhhKSlpR04cEC4Rs6fP89kMvfs2cO9y8DAYOnSpYQQHx8fHx+f/Pz8uLg4b29va2vr7OxsQRpv3LgxtfH69Wtqo02bNjIyMoSQ27dv5+TkbNmy5efPn8JFzpOcnLzdoMF79+zKyMg4uH+vurp6127deRaKsFMAAKjXkHeGhunap4wXCXkV7dWUl15grl+b8QAAAAAAQI3KtF1XzQrsFixYoKqqSgjZu3evgLngKtmwYcP58+ctLCzmzJmjr6/v6Oj44MGDLVu2UJ1WysXFZdy4cVpaWqNGjWIwGLNnzzY1NfX29m7durWnp2e7du2ys7NtbGxEG/P2nXuys7PbmjW7cvmSx7kLVJqbZyEh5OTxY1pqSqdOHD/rcUpLTenM6ZOiDQYAAOo+CXphKYC6yfJBMSEk1EZW8EPKWaTTiXeRqQUVVdjRz2SxhZB5ZyHiAQAAAACAWsD/zYFVyjs3bC+j4ls01hN3FJw+f0vq2hov4AEAaDgw3xkaIO8PaXySzvpKMrO66tZmPAAAAAAAUAv4ZJaRdAYAAKhlWN8WGqAvGUVj2mpVtHdYSw15afzGBQAAAACgAaLyy+wTn5FxBgAAEAvknaEB+qu3kbhD4CEvL8/LyysoKOj169fp6emFhYVqamrNmze3srIaMWJEp06dhGs2KytLR0eH2lZUVMzMzORTXlHlOqtx48YJCQn0x/bt2798+ZKjTklJSdOmTZOSkuiSHj16PHz4sHYihNrHcVdQpKSk1NTUzMzMbG1t3d3dtbW1xRKbEOrdUwkAAFAvINcMAAAgdpj1CVAbTp8+3bRp0zlz5ly9evXbt2+5ubmlpaVpaWmhoaE7d+40Nzf39PQUd4z1wLt370JDQzkKr169yp50hvpi6NChjP+7cuVKNVsrKytLT09/+vTp+vXr27dvHxQUJJIgKyLa4AEAAAAAAAAaHuSdAWrcggULZsyYwX8aY35+fq3FU68dO3aMo+To0aNiiQTqrPT0dGdn5+/fv4s7EAAAAAAAAIA/F/LOADXryJEjhw8fpj8aGBgcOnTo69eveXl5P378uHjxYr9+/WotGDU1Neb/1dOv8/v5+aWlpdEfo6KiQkJCxBgPiNeuXbuo+/n79+/Lly+nywsKCvbt2yfGwAAAAAAAAAD+cMg7A9Sg7Ozsv/76i/7YpEmT58+fT5061cjIiMFg6OrqDhs2LCAgwMfHR01Njf3A8vLyK1eujBw50tTUVFlZmVq4dtKkSU+ePKlOPFlZWfTiAOrq6hx7y8vLr1+/Pnr06KZNm6qoqGhoaHTq1Gn16tUpKSmVtuPj42Ntba2trc1gMCZOnEjv3bJlC8exM2fOpPeeOXNG8OAZDAYhpLi4mP2oI0eOsO/l6efPnydPnnRxcWnVqpWampqCgoKurq6lpeWKFSvi4uIqPbW7d+/a29vr6OioqKh06dKFe3p1ldqn/PjxY+rUqSYmJsrKyi1btly+fHlWVtb69evprlevXs1eX/BLk5SUxBH/2bNnLSwsVFVVjY2NJ02aFB8fTzV49OjRrl27qqqq6uvrjxo16tOnT9xxCthvVQeNWqTi9u3bdMno0aPpFnbs2MFz0PjT19ffuHFjr1696BL2h0XwB4r/vR0UFCRg8ELcFQAAAAC1pmvrRp+/1a2l6j5/S+raupG4owAAAJFiAdRtFkFFFkFF4o7iP1WK59SpUzJsgoKCBDkqKSmpT58+MhWYNGlScXExXTkzM5Pepaamxr+8ososFis1NXXAgAE8e9TS0uKInKOdefPmsdf38fGRl5entlu0aFFeXk4fWFpaamBgQB+Ym5vLfyhMTEzoZseOHUttNG/evKysjMVi5ebmamhoUIXjxo2ja/bp04e9ESMjo4oGU0VFxd/fn8+prV27lvuoVatWCd0+i8V69eqVjo4OR81mzZq5ubnx7KJKlyYxMZE9/tmzZ3Mcoq+vHxsbO3ToUI5ybW3tmJgY4W6Jqg7akCFDeDZL2b59u+B3xb59+9h3zZkzh95lampKFVbngeK4t+/duydg8ILfFXyeSgAAAIAaFf7he3Z+cV34E/7hu7gHAwAARE9a3HlvgIbswYMH9HajRo1sbGwqPaSkpGTo0KEREREVVbhw4YKMjAz3MsfVUVpaOmzYsLCwMJ57s7Ozhw8fHhoa2qpVK+69+fn59KRjirq6uqOj49WrVwkhcXFxjx496tu3L7XryZMnqamp1Lazs7OSkpLgQbq5ud24caOwsPDbt2937twZNGjQhQsXcnNzCSEGBgaOjo4XL14UvDVKYWGhm5vbly9ftLS0eJ7atm3buMt37949Y8YMY2NjIdrPz893cXHhXuTk+/fvPNcjrualOX78OEdhWlqaubl5dnY2R3lWVtbatWu9vLyq2W/1B606Pnz4QG9ramqS6j1Q3Pd2eXl59YPkf9cBAAAA1JqurRu9jIoXdxSEEIKZzgAADRLW2QCoQeyZxE6dOglyiIeHB50jk5GR2b17969fv75+/Tp79myedUTi3LlzdIZRUlJy69atv379iomJcXJyogoLCgqWLl1a0eGysrJbt26NjY2lVtq1tbWdNWsWvZd9WQwqGU1xc3OrUpDq6uojR46ktql0Kp0rnDJlirR0hb9Fa9Gixfr160NCQuLi4vLy8pKSkq5du2ZiYkLtzc/P9/X1rehYZWVlT0/P1NTUW7duqaioUIXl5eV37twRrv2zZ8/Sd4WUlNTOnTsTExOjo6PpoeZQzUujr68fFBSUlpa2ePFiujA7O1tFReXq1atpaWnsC6EEBgbSedXq9FvpoPn7+zOZzMGDB9OH+Pj40CuPL1u2rKLT4SMxMXHt2rXsi31bWVmRaj9Q3Pe2gMFX564DAAAAqDVdWzeqC3/EPQwAAFAzxD3hGqAS9XqdjbZt29LfoJ88ebIgh/Tr148+ZM6cOey7LC0t6V3Lly+nCkWyzkb//v3p8lmzZtHlubm5+vr69K6fP39ytyMjI7N582buE+nQoQO9qkBWVhaLxSovL2/UqBFV2KpVK0FGg31FhZcvX758+ZLalpWVpaapysjIyMvLJyQk+Pn50TU51tng6dixY3T9KVOm8Bw3GRmZ/fv307tmzJhBl3MstSF4+3Z2dnS5u7s7XV5YWMi+MgPdflUvDfs6GzIyMp6enlR5fHw8ezm9HASTyVRSUqLLExMThehXuEFjX7DCz8+P/3iyY78rKqKqqhoXF8eq3gMlU8G9LXTwPO8KrLMBAAAAAAAADRLmOwPUIPa3Bebk5AhyyLt37+hte3t79l2DBg3iWa363r59S2+PGjWK3lZSUuratSv98dmzZzwPnzhxInfhzJkzqY3CwkJqBYzQ0NDExEQ+h1SqS5cuVDzl5eV0+05OTvr6+nyOyszM3Llzp62trYmJiYqKCvX+tzlz5tAV0tPTKzqWnmFNCDEwMKC38/PzhWs/KiqK3nZwcKC35eTk+vfvzx1ANS/NwIEDqQ1dXV32cnq6royMDLUeBaWgoKD6/QoyaDVKXV390qVLjRs3JtV+oIS7UUn17joAAAAAAACABgDrOwPUoEaNGtGLFbx+/VqQQ9gX3tXR0WHfpaenR29nZWWJID5enfLMflLorDE7BoPBnlukjR07dvXq1VS2/cyZM9OmTaMX2ZCSkpowYYJwoc6YMcPd3Z0QUlRURJfwqf/58+cBAwbwjJxWUlLCs1xGRoY9XctgMOhtFoslXPvsv37Q1tZmr8ZxuSnVvDR0Tpk9ePJ7OpgdfV5C9yvIoNUEKSkpVVXVli1bDhgwYOrUqXQM1XmgKrq3K1Wduw4AAAAAAACgYcB8Z4AaxP4iwfj4ePbXDFZEVVWV3k5JSWHflZycTG+zz6SuPvZO+eA5X1VGRkZCQoK7XElJafz48dT2y5cvIyMj6bzzgAED+M9Q5sPFxUVDQ4P+2LJlS/qlhTwtWbKETv9NmTLly5cvhYWFTCbz5MmTlfbFYDDYT43naVa1fXq9Y0JIWloa+y6Oy02p5qWpqD5HGlqE/QoyaCK0a9cuamHlwsLCpKSkR48erVmzhj3xXZ0HqqJ7u1LVuesAAAAAAAAAGgbknQFqkLOzs7q6Ov1x1qxZSUlJ3NWuXr1Kv2SsXbt2dPnt27fZqwUEBNDb7du3F2GcHTp0oLdv3LjBrMDKlSur1OzMmTPptN38+fPj4/99WXZV3yjITk5Ojn3pg+nTp/Ov//jxY3p73bp1JiYmUlJShJDg4GChY6hO+23atKG32V9OWFRUFBQUxF2/hi5NpWqhX/aUbllZWbXCrVgNPVD8g6/puw4AAAAAAACg7kPeGaAGqamprV+/nv749etXCwuLEydO/Pr1q6SkJDk52d/ff/DgwaNGjaK/5s++lu6pU6cOHTqUlpb269evJUuWhIeH07vYl9CtPvZOp0yZ4uXllZSUVFJSkpKS8u7dO19f36lTp1pZWVW12RYtWtAzvp88eUJtaGlpsa9rLITp06dTWT8FBQV6SnVFSktL6e1Dhw5lZ2cnJydv3LjR09OzOjEI3b6TkxO9febMmWPHjmVkZMTFxU2cOJHn7yRq6NJUqhb6ZZ/6HRAQIOAC6FVVQw8U/+Br+q4DAAAAAAAAqPuwvjPUdaE2spYPii0fFIfayIo7FmL5oJgKSfBDZs2a9fHjx2PHjlEfExISZs+ezae+m5vbqVOnqMWgS0pKFi5cuHDhQo46EyZM6NKlS9VC58vNzc3Dw4NKw6WkpPCcjyzcQrczZ87kmMbr6upa6SIP/DVp0qS4uFjAypaWlo8ePaK2d+zYsWPHjup0Xf32x48fv3v37u/fvxNCSkpK5s6dO3fuXD71a+7S8FcL/Xbo0MHb25vavnDhwoULF6jtL1++mJiYVKdldjX0QPEPvqbvOgAAAAAAAIC6D/OdAWrcgQMHDh48yH9FZkVFRWqDwWD4+/ubm5tXVNPV1fXQoUOijVBaWvratWvW1taibZYQYm9vb2xszF5SnUU2hLBt2zYFBQWOQiUlpTlz5oilfUVFxYsXL3LfDCYmJmPGjKE/0ss41Nyl4a8W+nV1dRXtMuU81dADxT/4mr7rAAAAAAAAAOo+5J2h3qDmGtfTAKZNmxYbG7t///4hQ4aYmJgoKSlJS0trampaWFgsWbIkLCxs7NixdGV9ff2HDx96eno6OjoaGBjIysrKy8ubmpqOGTPm7t27Z8+elZUV/dRvLS2twMDAq1evuri4mJqaKigoyMrKGhoadu7cefz48R4eHqGhoUI0KyUlNW3aNPpj586d2dfbrQVdunR59uzZ8OHDNTU1ZWRkDAwMxo0bFxERYWFhIa72O3fu/PLlywkTJujq6jIYDFNT04ULF4aHh0tK/vcDmX0Zhxq6NJWq6X719fWDg4OHDRumo6NDLX9cQ2rigeIffE3fdQAAAAAAAAB1nwSLxRJ3DACVE2KBiwYZQ30UHh7es2dPanvfvn0zZ84Ubzx1U05OTocOHX79+kV9vHjx4rBhw8QbEgAAAAAAAACA0DDfGeoHKtsrxinPSDoLgcVi/fz586+//qI+ysvLu7q6ijWiOsHDw2PMmDHXr1+PjY0tLi7Ozc19/Pixs7MznXRWVlam38cIAAAAYmdlZXX69On63gUAAABALcN7BaHeEOMLBpF0FsLQoUNv377NXjJlypRaWM+37issLLx8+fLly5crqrBhwwZVVdXaDAkAAKDhcXBwuHv3LiFETk5OT0/P0tJy3rx5wr2ZOSQkRNTREQsLi1mzZk2YMEFUXXRfefLd9xRCyFIny42j/31Dw5xTASeDXhNCrNs2Dlg1ht/xAAAAAKKG+c5Qn9Cznmtt4jPdF5LO1dSkSZN169aJO4q6jsFgbNmyZfbs2eIOBAAAoCGYO3cuk8lMS0u7efOmvr5+r169rl27Ju6gatzx+69yCosJISnZ+Rcevxd3OAAAAPDnQt4Z6hk6/1vT2Wf29pF0FpqkpKSJicn06dMfP36Myc6UKVOmXL58edSoUa1atVJRUWEwGNra2lZWVqtXr46MjFyyZIm4AwQAAGhQGAxGixYttm3bNm7cuPnz51Ovt8nLy1u0aFHTpk21tbWHDh0aHx9PVT548GDz5s3V1NSsra1fv35NFdKLYCQkJDg5OWlqarZv3/7QoUMMBiMtLY2q07Vr17/++svW1lZTU7NNmzb37t2jyocOHcpgMGRlZZs3b75lyxaq97Fjx7569crd3Z3BYFhZWZHf19lISUkZP368oaGhkZHR5MmTMzIy+HexY8cOMzMzaltfXSm7oPj4/VeEkP23XxSVlOqrK7GPRveVJ+XGbJEbs0V5/LZ2i4/uvRVG72o0c5/cmC1rfYIdtnnrTNndbO7B0w/eVHpUXErW4C3e2pN3dV1+8lBgOFXtRcwvQkhmftHS8/fbLDyiMWlnx6XH990OKytnsfe1wjPIdpOn1uRd5x+/q8YVBgAAgDoK62xA/UMtuEFt18LEZySdhePv7y/uEOooWVlZJycnJycncQcCAADwZ3F1dT1z5sznz59btmw5adKk4uLioKAgDQ2NzZs3jxgx4vnz57GxscuXL793717nzp3fvn178eLFTp06sbcwZswYIyOj6OjovLy8cePGcbR//vx5Hx+fNm3a7Nu3b9KkST9+/JCQkKD+RlRWVvb+/XtXV9cmTZqMHj3a09MzNjaWfZ0Njl4UFRVfvnxZVlY2efLkSZMm0dO0eXbBfuyoHm28QiIPBLyY2Kf9iaBXpjpq/ds3OXH/FV3hxVZ3QgiLRb6lZg3b6bvCM6ixjtrQbi3pCtfCP99e5RoS/cPt0LW5pwMcujTXUVWs6KiSsnKn7T5fEjOWDemx0MFigccdup2SsvIBGy5E/khZNqTHYkfLxefuLr8QFJeStddtIF3H/8UnvyUj2xhrV+k6AgAAQH2B+c5QL4XayFJ/6nUXAAAAAFBrjI2NCSHp6em/fv26du3asWPHGjdurKKisnXr1q9fv0ZFRcnIyDAYDBUVFTk5OXNz823btrEfHhsb++zZs71792pra5uamm7atImj/blz53br1k1BQWHGjBkpKSmJiYn0LikpqY4dO86ePfvGjRv8g4yLi3v8+PH+/fv19fWNjIz++eefgIAAuimeXSxbtiw6OpqqICcjPduuW3JWvuM2n+yC4oUOFlKSEty9SEgQUx21/u1MCSE3Xn5m3zXZpqORpsrAjk0JIWXlrLiULD5HPfn4/UtiBiFksaOluqLcAntzuvK9d18jf6TISEmuHGalqiA707YrIeRk0GtqDRDKtAGdkXQGAABowDDfGeo35IUBAAAAQBA/fvwghGhpacXFxRFCTExM2Pd+//7d3t7+woULK1asSEtLa9eu3dy5c9u3b09X+PXrl5KSkpaWFvWxSZMmHO3r6OhQG/Ly8oSQwsJCQoifn9/27du/fPmSn59PCOnRo0elQUpLS9OxNW3alBDy8+dPfX39irrgMH1A513Xnr35lqytojihT/sVnkH0LhaL7LoR6vXk/Y/0nLwi5r/nlZHLfriuqiIhREbq3/lJZeXlfI76kZZDCFGQlVFVkCWE6Kn9t6ZHfGo2IaSkrFzdbQddWFpW/iMth84166v9tgYIAAAANDDIOwMAAAAAQMPn7e1taGjYvHlzeXl5SUnJX79+aWpqctSxt7e3t7cvLy/38fGxsbGJj49XUFCgdhkaGubl5aWlpVGp569fv1baY3Jy8rhx4y5evGhtba2kpHTgwAFfX19ql6Qk7y+eGhsbl5aW/vjxg5qdHRsbSwgxMjIS/DTVFOSm9Ou091bYbLuucjK//XPv9usva32CleQYjzdMbGWoPd8j8Pj9V2Xl5fwb5HOUsZYKIaSguCSviKkkx0jKyvvvRLRUCCHyDOmUU0voLDYAAAD8UfA3AAAAAAAAaLBKSko+f/68cuXKCxcu7N27V0JCwtjY2MHBwd3d/cuXLwUFBS9fvhwxYkRxcfH9+/fXrl0bGxtbUlJSVlZWWFhYzpaTbdq0qYWFxYIFC1JTU+Pi4tasWVNp10VFReXl5dRrhMPCwvbt20fv0tPTe//+fWlpKcchpqamvXr1mjdvXmJi4s+fPxcuXGhnZ0dNdq4I+3sFKdvG9ivyWrViaE+OmsUlZYQQKUkJhrRU1M/UKy+iKz0F/kf1amXSXF+DELL3VlhWQRH7+wZtOzRtY6xdyCxd4x2cU1j8KyPX+2nkqH/8BOkRAAAAGgbknQEAAAAAoAE6cOAAg8HQ0NCwt7dPSEh48uTJkCFDqF0eHh4tW7Z0cHAwNDRcsGDBxIkTZWVle/furaqq6uDgoKOjs2/fPm9vbyWl3xaC8PLyys7ONjMzc3JycnZ2JoQwGAw+AZiYmGzdunX8+PGamppLly4dNmwYvWvJkiWBgYEqKipWVlYcR3l6eioqKnbp0sXc3NzAwOD06dOiGQ5ChnZvOXdQdylJyd7rzv596dGAdpxLhVT1KBkpyWvLRlm3bbz3Vpj1+nMdG+tR5VKSkjJSkvfXjV/oYH779ReTmfv6/X0+OPLb+pG9RXUuAAAAUPdJsFgscccAAAAAAABQnwQEBLi5uSUnJ4s7kDrkafSPfhvOS0pI/Dy2QENJXtzhAAAAgJhhfWcAAAAAAIDKXbp0SVpaun///nFxcatWrXJxcRF3ROK373aYrqrSwI5NM/MK1158SAhxs+6ApDMAAAAQrLMBUGvs7OxWr14tqtacnZ3nz59fEy2L1sSJE6dPny7uKIRXnfjZr1Ft6rzshNyYLe5Hb9RoyzXXyx9lxvFbcmO2tF98TNyBAACAQGxsbC5fvtysWbMhQ4ZYW1vv2LFD3BGJn2vPtg8/fOu49Jjl6tOFzJIDk+32T7ITd1AAAABQJyDvDFCDpkyZ0r9/f3FHIQwrKyuOfKuXlxeDwSgqKhJXSHXKlClTGAzGlClT2AtXrlzJYDAcHBxqORjHbT5yY7YYTPunlvutBReffZAbs4X68+FHau10yj2eEV8TqRgOBLyonRhqwZxTAUh5AwBUlaampqenZ3Jyclxc3J49e+TlMauX6KgqHp1m//3w/OSTi0M3T57av7O0FP6NCQAAAIRgnQ2AesrPD28DF7NGjRr5+fn9888/KioqhJCSkpILFy40atSIrtDwrtGrHVNrucfzj9+xb28b26+WAwAAAAAAAAAA4SDvDFB70tPT3dzcgoKCysrKRo0atWvXLikpKULI7NmzT5w4QQjR0NAwNzffvXt3s2bNqEPs7OwaN25cVFTEcZSzs7ORkdG+ffv4t2xnZ2diYpKXlxcYGNi5c+d79+7x6UtwFUVFCCkqKlqwYMGlS5eUlJQGDx6cl5cnJydHHcVisfbt23f06NFfv36ZmpouWLBg8uTJdIPscV67dm3evHlXrlxRVlYePHhwSkqKlpbWsWPHuGveunVr3bp1Xl5eGRkZ7dq127Jli7W1NdVm165dx4wZs2jRIurj2LFjlZSU6EaEiJ+DmZlZVlaWr6+vu7s7IeTWrVvKysrdunVLT0+nKrBfIz498hmW6sgtZM47HRj4JjYzr9CypdGRqfaGGsqEkEFbvIIjvxFCJCUk1JXke7Qw2uRq3dJAkzqq87ITUT9Th3RrqauqyH0stXdc73YnZzjy74Wq6dS1haqCXPCHb7LSUh/+mcm/a26/MnIfvP9GCDFvbhj25ZdXSOSm0dbUFCqe7ZezWIcCwz2C38YmZ6gryndtqv+XS5+2xjpUa1XtnT8+ffHvKLugeL5H4I2Xn9WV5Pu1M80pKGZvln2vTdvGuYXMqy+iW+hrvts9nRDSaOa+lOz8uYO67xzfnxAy/oD/pdCozqZ6zzZP5t8v93Apysm8+55CCPmcmC43Zgsh5MQMh/G92/M5L55jfvft181XnkT/SpOSlOzYWG+yTUdn81YSEsINKgAAAAAAADQo+A4UQO05c+aMjY1NVFTUtWvXzp8/f/78ear80KFDTCaTyWS+ffvW0NDQ2dm5tLS00qMEaZna1bdv3+/fv9+7d6/Svqp/LmvWrHn48GFQUNCrV68UFBRu3Phv/d/Nmzd7eHicP38+OTn54MGDa9eu9fX15RnnypUrQ0JCHjx48OrVK2VlZfZGOGquX7/e19f30qVLP378GDx4sJOT07dv32oofm6TJk06c+YMtX369Gk3NzcheuQ/LBV5/vx569at9fT0qN8icLv+8lPfNo0fb5iooSx/9+3XFZ5BVHnAqjFFXquKvFYlnlg0sU/7GxGfnXddKi4pE+RYwXv5/97Pli2MIvfM+PDPTAG7Znf+8btyFktDSd5jlpOEBEnJzg98E8un/TmnApaev6+nphR7YO6pmY4Br2Os1px5FZck+IkLjk9f/DuadeK2z9MPrYy0nm6cNKhTs6svotmbZd87uHNzjr2UirK6lZ4g+3C92Oru3q8TIaSFviZ11Pje7SsdQ45GUnPyXfZcfvst+fEGt0/7Z68a3vNyaFRMUoZwQwoAAAAAAAANDPLOALXH0dFxwoQJ1KzYwYMHh4SEcFTQ1dX9559/Pn/+/PHjR8GP4l+nf//+U6dOVVJSEqSvap5LYWHh8ePHN23a1LFjR01Nze3btxsYGFD1i4qKdu/evWfPnm7duikoKPTu3XvmzJkeHh7ccRYUFJw6dWrz5s1UI1u3bjUyMmLvmq5ZVFR08ODBjRs3mpubq6urr1271szM7MCBAzURP08uLi4fPnyIior69evXgwcPxo8fX9UeKx2WiixYsCAmJiYjI2P+/Pk8f3PQvZnhcHMzPTUlK7NGhJA335I4KqgqyE7p14kQEpOU8S4+uUrHClizW1ODyTYd5WQ4v1jDp2t25x+9I4SM7tmmia5671YmhJBzj95W1H5scqZH8BtCyOrhVloqCv3amXZrZlhUUvrPzefC9Z6RV0gvLd1zzW9XRMC+uDuKS8nyC/tICJk7qLuumuLQbi27NNGn6/PfS5OsbDpxRSdY0eWo0nmxN/I5IaOopJRZWvYpIb2svNzKrJHPQufm+hr8wwMAAAAAAIA/BNbZAKg9zZs3p7fV1dV//vxJbUdFRa1evfrFixdpaWksFosQEh8f365dO/5HCdIyIaR169bsNfn3Vc1ziYuLKyoq6tKlC1UuLS3dqVMnajs6Ojo/P5965x7r/0xNTbnj/PbtG5PJ7Ny5M/VRSkqqQ4cO7F3TNePi4oqLi7t3707vMjc3FzCNXtX4eVJWVnZ2dj5z5oyqquqAAQP09XlkCfn3WOmwVIS6dnw00VGnNqgUIT3vNeB1zPZrzz7Ep+QVM+k24tOyuzU1qPRYwXuhNNP7LQUpSNe0p9E/YpMzCSHjercnhIzv3f5R1PeA1zFpOQVaKgrc7b+MTaDa7Lfhty8ExP5/+m2VeieEaCjJJxxfSG1HfE1kTz3z74tPR/SrEZvoqtOnEPE1kdrmv7dSlZ4gx+XgVukYcjTS0kBTQVamoLjEZc9lQoiJtqqzeau/XPowpKUEjBkAAAAAAAAaMOSdAWqPBK+JiiwWy9HRcdCgQaGhofr6+lJSUsrKymVlZfyPEqRlCoPBELwvmrKycm5uLntJbm6urKws3RqfHnnuKi8vJ4S8evWqVatW/OOkMqqCnBF37pXFYlV0IBUA/yAr3cVt0qRJLi4uCgoKe/bs4V9TuGGpyJ49e6ZMmZKVlbVx48br6Tx+kktJSfy/3/8KY5IyXPZcLikr3+RqPW9Q9/i07LaLjhJCyspZlR7LE/+a9F7Bu6ad+/8bBXusPk0XlpSVez+NnDuoO3f79L3wasfU1kbaHK1VtXf++PQlYEcSROL/TfEIgP9eWmnZf7e0IP2yD1dVz4tnI1oqCteXj9px7VnYl1/ZBcXfU7P33HyuraK40MGcf0cAAAAAAADwJ8A6GwBilpCQ8OPHj4ULFzZq1EhGRubt27clJSVi76tFixaRkZHsJe/fv2/WrJmkJL8fGqamprKysi9fvqQ+lpaWvn79mto2MzOTl5cPDAysNEhTU1MGgxEREUF9LCsre/v2Lc+aTZo0kZWVDQ8Pp0vCw8PNzMyobXV19aysLHpXTEyMIF1XFH9Fevbsqa6uXlRUNGjQoErb5yb4sHD3Gx0dnZSUNHXqVMGPeh2XVFJWTggZ36s9Q1rqc2LtLcVbpa7zi0uuPP9ICLm7Ziy1+nCR16r9k+0IIeceveN5SNem/042f/75VzV7rxSfvvh31NpIi9qITc74/0amgHsJIdQ84oLif5/ZuJT/9gpxgtzrdfAfQ56szBpdXz466cTiyD0zqGnaH36mCHgsAAAAAAAANGzIOwOImY6Ojrq6+pkzZ/Lz8yMjI6dNm1YX+po9e/bXr1/Xr1+fnJyck5Nz6dKl8+fPL1q0iH/78vLy06ZNW7NmzZs3bzIyMpYvX56QkEDtUlBQWLJkyebNmy9evJiTkxMfH3/s2LEtW7ZwN6KgoDBlypS1a9e+ffs2IyNj9erVPJcWIYTIycnNmTNn3bp14eHhWVlZmzdv/vjx49y5c6m9VlZW3t7enz59ys7O3rZtW0XJawHj5yMyMvLHjx/S0sJ8fUTwYRGJNsbaVLbx9usvyVn5W648qaGOqtn11bDo3CKmpIREZ7YFjqn1It7Hp7yO47HedDM9jYl9OxBCtvqHvI5Lyi1ihscmLDp798T9V1XtvVJ8+uLfURNd9WHdzQghBwJeJGfl+4d/Yl9Gg/9eQkgHE11CyMMP39NzC3xDo958+2/tZiFO0FhLlRCSmJmbmpNf6XnxbOFLYsaYfVdCouOzC4tU5GVlpaUIIebNDCvtGgAAAAAAAP4EyDsD1CAWiyUlVclSpzIyMl5eXtevX9fV1R06dOi4ceMUFRVrKB7B+2rRosWDBw/Cw8O7dOliamq6e/fuI0eO8H9vHmXTpk29e/e2sbHp1KlTfn6+o6MjvWvt2rWbNm3asmWLgYFBv379Pn786O7uzrORrVu3WlpaWltbd+rUKSsry9bWVlZWlmfNv//+29nZefjw4UZGRjdv3rx+/Xrjxo2pXYsXL+7Zs2evXr06dOiQlJRkb29fafD8468hgg9L9bU20j46zb6xttp8jzuDt3qN7tm2hjqqZtdnH70lhLQy0lKS+2+VmHaNdOQZ0qTiKc+H3QfvGNdfVV6u719nW847tPT8/ZYGmmN6tatq74KoqK9KOzoybfCoHm2ifqZZrD514+VnKtEs4N5dEwZYt22ckJlrvur00+gfgzs1o3cJcYJTbDoO7NhUQkLCeMY+uTFbPiWk8zkvni0009MY26vdjmvP2i06ZrbgcDmLtcnV2r1fZwHHEAAAAAAAABo2iUpfTgUAQhs6dKiKisq5c+dE3vKQIUNat269detWkbdc17BYrLZt206ZMqXS2dZ/rN7rzr6I+dVYWy1636wa7ajd4qNfEjOmD+iyb9LAGu0IKDOO3zrz8G0Lfc13u6eLOxYAAAAAAACAqsF8Z4AawWKxIiIiHj161KdPH5E3npKS8vbtW3oh44YnODj46NGjqampSUlJy5cv//nz58iRI8UdVF1UVs66+/ZrxNcEQsgIi6q9mbCqYpIy4tOyCSEWzbGQAgAAAAAAAABUQpgFSQGgUk5OTu/evXN3d58wYYJoW3706NHQoUMHDhw4atQo0bZcd1hYWNy4caNbt24FBQXt27e/f/++sbGxuIOqi6z/Ovc+Prm1kfbonm0X2JvXXEc7r4eu9QnWV1ca16tdba7OAQAAAAAAAAD1FNbZAAAAAAAAAAAAAABRwjobAAAAAAAAAAAAACBKyDsDAAAAAAAAAAAAgCgh7wwAAAAAAAAAAAAAooS8MwAAAAAAAAAAAACIEvLOAAAAAAAAAAAAACBKyDsDAAAAAAAAAAAAgCgh7wwAAAAAAAAAAAAAooS8MwAAAAAAAAAAAACIEvLOAAAAAAAAAAAAACBKyDsDAAAAAAAAAAAAgCgh7wwAAAAAAAAAAAAAooS8MwAAAAAAAAAAAACIkvTLqHhxxwAAAAAAAAAAAAAADYcEi8USdwwAAAAAAAAAAAAA0HBIF5eUiTsGAAAAAAAAAAAAAGg4sL4zAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErS4g4AoPYUsaQErGkXUlyjkQAAAAAAAABAw/DMWrbSOhISpLikrBaCAag7JIqYpeKOAaCWVJp3RroZAAAAAAAAAITDJwGNvDP8gZB3hj8In7wzR8Y50Kry31UCAABAA8IiRIJtm1Twkb1a1VT9MD4hiUYFzfE5x4pDkhBNhFUPqcYJFhLHyAi4S9iQxDYYPLF+j0i4oRD9JRZlcyJqq25dN0JI3Qyp7sVU9yLC7S2QWg6pR/BvKQWe2WfkneEPhLwz/EEqyjuzJ52RcQYAAPgjIe/Ms1+BQ0LeGXlnto+8tgXfJRpIzAmiLoZU92KqexHh9haIWEJizz5zp56Rd4Y/EPLO8AfhmXemk87IOAMAAPzBkHfm2a/AISHvjLwz20de24LvEg0k5gRRF0OqezHVvYhwewtEjCHR2WeO1DPyzvAHQt4Z/iDceWcq6YyMMwAAwB8PeWee/QocEvLOyDuzfeS1Lfgu0UBiThB1MaS6F1Pdiwi3t0DEHhKVfWZPPSPvDH8gSXEHACA2SDoDAAAAAAAAgMhRGWeOdZ8B/jTIO8MfCklnAAAAAAAAAKghSD0DIO8MfyIknQEAAAAAAACgRiH1DH845J3hj0O/SBAAAAAAAAAAoKYh9Qx/JuSd4Q+Fyc4AAAAAAAAAUKPYXy0I8KdB3hn+LJjsDAAAAAAAAAC1zPIB0hHwx0HeGf5EmOwMAAAAAAAAALUAU57hj4W8MwAAAAAAAAAAAACIEvLO8AehFtnAZGcAAAAAAAAAqDXUlOe+T0rFHQhArULeGQAAAAAAAAAAAABECXlnAAAAAAAAAAAAABAl5J0BAAAAAAAAAAAAQJSQdwYAAAAAAAAAAAAAUULeGQAAAAAAAAAAAABECXlnAAAAAAAAAAAAABAl5J0BAAAAAAAAAAAAQJSQdwYAAAAAAAAAAAAAUULeGQAAAAAAAAAAAABECXlnAAAAAAAAAAAAABAl5J0BAAAAAAAAAAAAQJSQdwYAAAAAAAAAAAAAUULeGQAAAAAAAAAAAABECXlnAAAAAAAAAAAAABAl5J0BAAAAAAAAAAAAQJSQdwYAAAAAAAAAAAAAUULeGQAAAAAAAAAAAABECXlnAAAAAAAAAAAAABAl5J0BAAAAAAAAAAAAQJSQdwYAAAAAAAAAAAAAUZIWdwAAf6J+Y+d8+PKVEDJ3osvq2W5U4bJtB89duU0I6dWt46VDW+jK8zf8c/HmPUKIvXXPU9tXczQiISEReGZvh1bNCSHz/t7je+u+XR+LMzvXVXo4ISTuR8LhC35Pwt8kpKRJSkioKiuZGhusnj2pW/tW7EHSOrdtefv0P+zlqsqKjY0MZowZNmxgX5GNDgAAAAAAAAAA1HOY7wwgTmf9buXmFxBCUjOyLt68z10hr6DwRtATavvuk7C0zCyOCiwWa90/Jypqn8/hTyPe2YydfcE/0Kl/r6eXjr8P9Dqzc20L00bJqensLTjbWSe9uE39uX36H/byhOe3dq2a9/bjl1nrdoa/+1iV8wYAAAAAAAAAgIYMeWcAsdHT1szJyz/rd4sQcszrajGTqaetyVHnSmBwQWGRhpqKsb5uSWmpL1duWlJSIuxN5O2Hz3h2UdHhJSWlc9btLCwqdrazXjXLzVhfV1lRoVObljtWzHHoZyVg/JKSEo79eikqyLNYrKcRb6tw5gAAAAAAAAAA0KBhnQ0AsRlm2+dywIPj3v6jHQecu3LbxFCvr3nns1dus9fxvHaHEOJoY6WspHjw3CXP63dnjR/BXmHIgD43H4RsPHB6gFV37i4qOjwiMjoxNZ0Q4tS/VzXPgsViEUIY0vhhAgAAAADQEPR5VCzuEOCP89RaVtwhAIDoYb4zgNjIMhjuo4akpGe6zlubk5c/c5yzpNRvj2RUTNzbj18IIUNt+wy17UMIif3+M+xNJHsdEwO9ySMd434keFy6ydE+n8NT0jOpOrpaGtRHve6DqT+u89ayN+IXGEzv+nvfSfZd5eWsG0FPCgqLVJWVhgzoI4IRAQAAAAAAMenzqJj6I+5A4E/UM7iY+iPuQABAlDBFEUCc3EY4HDjr+/5TrJa6mqvjgL9+T+xe8A8khOhpa5p3bCspKdGssXHMtx+e/nfMO7Zlr7ZoiuvFm/f3nPI279hGwMN1NNWpOlQCWkdTPenF7UWb9nldv8MRobOd9aENS7kj9wsM9gsMJoTIyTKObFxmqKddzaEAAAAAAACx4Mg1h2DmKdQ6q/9nnKnUM6Y/AzQMmO8MIE6qyorjhw0ihLiPdpJlMNh3FTOZfgHBhJCk1HQDC3u97oNjvv0ghFwPepKTl/97I0oLJ4/Oysm9FxIm4OFd2ppRa0nfCn4qXOTOdtYxD/3WzJlUVMx0W7Yx7M0H4doBAAAAAAAxopPOIday1B/xxgN/Jo7bDxOfARoG5J0BxGz9fPekF7cXTBrNUX7zwdPs3DwlBfkfT68nvbid9OJ2YtgtHU31omLmlTsPOSpPHunY2Ei/vJwl4OEyMtJ71y2UZTAu3Qr657R3Ymp6QWFRelZ2lSJXUpCfM2FkH/NOTGbJ4i37S0pLhRoAAAAAAAAQA3pVDaSboe6g70YsuwHQACDvDFBHeV27QwixtuwqI/PvejgSEhLUywOptwWyk5GRXjNncpUO72ve+f6FAyMG97vgH9h9yKQ2A13fffzSs0v7gX0s2NthX9+51QDO5DghZOOi6dJSUjHffpzwuSaK8wYAAAAAgBrXl22as3gjAeCGic8ADYNEERNTFOFP0fdJKSEk0Ap/rwIAAAAOLEIk2LZJBR/Zq1VN1Q/jE5JoVNAcn3OsOCQJ0URY9ZBqnGAhcYyMgLuEDUlsg8ET6/eIhBsK0V9iUTYnorbq1nX7f94ZSWeoy6yqsdZzXXviCCE9gosJIQ974UVr8AfBfGcAAAAAAACAPwiSzlAv0AtuiDsQABAS8s4AAAAAAAAAfwoknaEeQeoZoF5D3hkAAAAAAAAAAAAARAl5ZwAAAAAAAIA/AiY7Q72DKc8A9RfyzgAAAAAAAAAAAAAgSsg7AwAAAAAAAAAAAIAoIe8MAAAAAAAA0PBhkQ2op7DUBkA9hbwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAAAAAAAAAIErIOwMAAAAAAAAAAACAKCHvDAAAAAAAAAAAAACihLwzAAAAAAAAAAAAAIgS8s4AAAAAdYKhprK2EoP9z+0b1+tIa3+UFYvmayvJsg2d7BC7AeIOCgAAAACgnpEWdwAAf64Jo50Dbt7gLpeQkAh7G2XapCmfY2/fuD7RdQTPXUtXrV22aq1oQoR65fOn6OdPQ8LDQqM+RGZmZmRnZuXn5ykoKCoqKRoYGjVr3sKsdZtefazbd+wkKYlfOkL9U9HPTBkZGWkZGTlZOVU1NTV1dSMjYxPTJh07d7HsaaWrp1/7cQIAAAAAAABB3hmgDmKxWCePHt68YzefOieOHKy1eKCOKysru3nt6rFD+8PDnnPvzc3Nyc3NSUpMfPUynCrR0NAc7jJ6vNvk1m3b1W6kADWipKSkpKSksKAgMzODxJE3ryKocklJyR5WvWfPX9h/4CDxRggAAAAAAPAHwpQ3gLrI+/zZ/Py8ivZ+/BAZ8vhhLYYDdVfc19hBNr3cJ4zhmXTmKSMj/eTRQ8MG29ZoYABiV15eHvL4oavzEJch9gm/fok7HAAAABClaVPd5WUZ8rKM0aNc2Msz0tPnz5vbollTFSVFTXW15k2bzJo5o9Jd5t26yssyJrlNpNuJjY2dM3tWm1ZmairKGmqqpiYmA/r3ex4ayl5fQU72VcS/v/Ce6j5FXpbhMsKZvQL7n969rNjLlRUV9PV0e1habN60MTs7W7iTZe9FT1enZw9L34sXee5lj6HSZgEARAV5Z4C6KDc3x/vCuYr2Hjt8oDaDgTrr9o3r1pbdXke8FHcgAHVacNC9Ab0t3715Le5AAAAAQDRyc3Ov+PlR27dv3UpNTaF3TXV3P37s2BR396SU1Dfv3q9Zu664uLjSXRwePXrYvWuX06dOOY8Y+fZ95Lf4H5cuXzYzM0tMTGSvxmKxli1byifO0a6uhcVM6s/jJyHs5RlZ2feDHhgZGm7auNHSvDtHywKeLN1afmHR4cNHXkVEuE2cQCfH+cdQabMAANWHvDNAHXXq6GEWi8VdnpGR7ufrU/vxQF3z9MmjqW5j+cyLBwBaSnLS6OFOP+LjxR0IAAAAiMBFH5/8/HxNLS0TE5OSkpIL589T5aWlpffu3SWEmFtYKCgoGBsbT3RzO3Xag/8uDkwmc7KbW0FBwWhX1w0bN5qYmKioqHTt1u3AwUPDhg9nrykpKfk0JOT6tWtCnIKMjEybNm28fC42a9YsLi5uyeJFVT1ZjkiGOzsrKSmxWKxHjx4KEoAgzQIAVBPyzgB1VMyXz8H373KXnzt9sqiwsPbjgTrl18+fE0aNYPKaoCGvoDBxylQPL99XH77EJaUnZOZ/ik8MfR3p4eW7ZOWabuYWUlJStR8wQA359D0hNY+ZnFP05Wdy6OvIQyc8hjqPlJbm8fqK1JTksSOH8nxqAAAAoH7x8DhNCBk+fPiIkS6EkDMe/6aPpaWlFRQUCCEjhg+fMH7csaNHY2NjK93F4UVYWEJCAiHEecRI/mGMGDmSwWCsWrmipKREuBORlpZ2dBpCCLl182ZFjVR0styoeUsMBkOQrgVvFgBAaHivIEDddfzIIZsBA9lLSktLPU4cFaKp/Py8qMjIqMj3H96/+/wpOikxIT0traCwoKy0VEFBUUlZqZGJaes2bfvY9B9gN4jP31QMNZU5sjZnvS8PdnQihATeuunv5xsR/iI5OUlKUsrQyKi3db/ps+aamJrWdFS0d29ee571ePzwQULCL0kJSR1dXfMePYePHNXXpj8hZMWi+aeOH2Gv38Oq97XA+3wajPny+dZ1/7DQZ58/fczOzMrPz1NRVdPR0elqbmHT33aQgxOfHC6fsXr7+tXpE0dfhj3/+fNHQX7+yNFjDp88U+nZsdu6YV1ODo9l4AY5OO49dExDU4u9UENDU0NDs1nzFg5OQ5evXpeRkX7Zx+vW9UrmZXz8EBlw8/rz0GexMZ+zMjILCvJVVFTVNTTatGtv0aPnkOEjdHT1uI96/PCBs4Mde4mcvPzHuJ9KSso8e1m7YunRg/vYS3r1sb5y6w53zepcCyLU5aibd7too2KXmpJ849rVl2HP3799k5GRkZWVyZBh6BsYmPfoOWyES+++NvwPr+YFqiZJSUk1NXU1NfVmzVu4uI6N//ZtxpQJ3Iuef/wQefb0iakz53CUi/BnEYvFCnn88M7tW+/fvon7GpOTnVNUVKikpKyqrqaurqGjq9e0WXOzVq07du7SslVrnvnxilTz+rIrLS29etn35rUr79+9TU1JkZOVM2rUaIDd4PFuU4wbNar0cOF+ONBq4VkQ5Gfsq5fh3hfOPnkYnJiYICUppaunZ2nVy9lldM9efSodAQAAEK/3799TqyqPHOmiqqq6e9fOz58/Pw0J6WllRQjZtn3HvLlz8vPzL/n6XvL1JYS4jhlz8tRpSUlJPrvY209OTqY29PX0CCHJyUmN////xwEDbK/fvEnXNDVtMn3GzAP79x07+tu/Mmg+3t4+3t7U9vwFC7dt385dx8BAnxBSXFyclZWpra1TpZOllZeX+1+9mp+fr6auTuWR+ccgYLMAANWEvDNAHdKuQ8dP0R/pf0g/uHfna2xMk6bN6Ao3r11lfzuWsYlJcVFxSnJSpS1PGDXi8cMHPHfl5ubk5uYkJiSEhT71OHlMQ1Prr01bXcdP5FmZp5gvn+fPnPbi+TP2wk/RHz9Ffzx76vju/YdHj5tQ01GVlJSsXb7E4+Sx8vJyujAvL/drbIz3+bMDB9vvO3xc8DMihHyNjVm3cundgNscq52kp6Wmp6V+jPpw3uOUaZOm6zdts3caInizZWVlKxbPP3Pyt2B4LqjCx+dP0Zd8vLjLR40Zd/D46UoP19DQnDZr7rRZcyuq8DHqw7oVSx8+4MzIZ2SkZ2Skx8Z8uX7V76/VK0a6jl2/aau6ugZ7nV59rBs1bhz/7RtdUlRYePOa/+ix47k7Ki8v9/fz5SgcO3ESR0kNXQsi1OWoC3e7CKOiJCclbli7yt/vEpPJZC9nFhd/+fzpy+dPF86cbt223eYdu6169+U+vOYukNAaNW7sH3B/pNPgZyGPOXb9s3P7eLcpcvLy7IWiujrRH6NmT53EvZB0dnZWdnYW9Vzc+3/hzr0H3dynCXI61by+HN69eT1n2uSPUR/okqLCwqyszMh3b48e3Lf2703ceXladX440Gr0WRDkoWYymSuXLDjvcYq9PDc3J+bL5/Mepxychu4+yDt3AAAAdYTHqVOEEH19/Z5WVpKSki1btvz06ZOHx2kqZ+o2aZK1jc31a/5B94MeP35UWFjo7eU12tXV1nYgn13s7evq6lIbSclJhBBdXb3CYubMGdN5zghetWrVhQvnt2zZ0rNHD+69o11dPc6c5X86CQmJhBBZWVk1NfWqniyFzizLy8ufOXvW2Ni40hgEaRYAoPqwzgZAHaKlrTPM+b8vc7FYrJNHD7NXOH74IPvHKdNmSkmJ+CnOSE+bN3PqX6tXCFj/1csX9v36cCREaEwmc97MqQ/u8Zi+KsKoSktL3Se4njp+hD3pzO7O7VtDBw0Q/F0Z16/62fTofuf2Lf4pyLivsW5jRm5av0bAZgkhC+fM4EiIkKrnnW9c9eM+U2MTkz0HRJAr8fE8b9unB3deiQOTyfQ862Ft2fXt61fs5RISEmPGcSaJ/C5682zk6ZNHSb+/QUVVVc3BaSh7Sc1dC1L1y1EX7naRR3X/TkDv7p19vT05ks4coiLfTxzN46umNXqBqoPBYJw676WgqMhRnpqS/ORRsNDN8rk68d++OfTvK/K3F4r2rnvx/NkQu/7sSWd2hQUFq5Yu2rFlI8+91fzhIISqPgtEgIeayWROGD3i3OmTFd2xN6/7Dx00IDU1VYiAAQCgFhQVFXn7eBNCEhMTFeXl5GUZnz59IoRc8fPLzv7364AmJiZz5833v379XeQH6htXuTm5le6idTc319fXJ4Rc8/evNB41dfWVK1dmZmTcvn1biNMpLS29fs2fEGLv4CAjIyPEyRJCRru6pqSlb9q8ubCwcNTIkc+ePuXfqYDNAgBUH/LOAHULxyxUnwvn8vL+/ZvQm1cR4WH/vZtYQVGRe2aoqBzatyfw1s3K6xGyb/eOjIx0PhVYLNbyRfMrygiLJKrd27fcvnGd/7HRH6OuX/UTpJcH9+5MnzRe8Pf17du9Y9/uHYLUvOTj6X2+kvkOgrh/N5C7cO7CJQxZ2Wq2fPvG9fkzpwq+gPivnz9HDXP8HhfHXug63o3ju4pPHgXznJXP/YbMEaNcZeXk6I81dy2IUJejLtztoo0q5PHDia4j+R/OR41eoOrT0tYZN3Eyd/mD+/e4C6uE59XZuH51dnZWNVvmJtq77tC+PfT/Uyqyc8vG+3cCOApF8sNBOII/C4I81Ds2bwji9SOU3ccPkQL+/wIAAGqf/9WrWZmZysrK2bl5hcXMwmJmQVGxrq5eYWHhRR8fQkjfPr09L1yIi4srLi7++DGqvLxcRUWlR8+e/HexYzAYx0+elJOT87xwYdvWLQkJCfn5+WkV/0py+oyZTZo0qerfAEtLS6OiosaMHhUbG2tqarpz124hTpamrKy8eMnSfv36FxcXz5o5g/9604I3CwBQTcg7A9Qt7Tt26m7x31e0cnNzfC6co7aPHz7AXtPFdSzPr2Lx0ahx4wVLV3hd9n/9MTYuKT0puzA2IfXB0xer129QUVHlqLxr2yahzoCHb3Ff+UwwrGZUX2Nj9u7cJqpQMzMzpk4cV1payl6oraO799CxD7HxCZn5oa8jx0+awnHUlr/XvXoZXmnjN69d5VlepfnOLBbrzasI7vKBgxwEb4SntNSUWe5uVf0bc3pa6kz33yY4Gxga9u03gL2krKzs6mXO9TSYTOZNf84BYf9VSo1eCyKiy8GtRu920UaVnZ01ZZwr/2nOfNT0BRKJAXaDuAsjwsN4Vq7O1SkrK7sTcIu9RF5BYevuva8+fPmRmh2fkvX6Y6znpasLl61s1bpN9c6JB/53nRAWz5vF/u9VUf1wYFcTz0KlD3XMl88H9/L4Vz0AANQj1GIXA2xt6XcASEhIDLYfTP7/ojxdXd1tW7dYdO+mpaE+ZdLk/v0HXL9xk5q/zGcXh/79B4SGvRgzduzpU6fMWjRvZGT46tWrPn36Ojg6cldmMBibt2zlGa2Pt7e8LIP6Y2igz16uqqxkY933e3z8qtVrQsNeGBgYCHGyHHbu3i0tLf3p06dDB//7lyN3DFVtFgBAaFjfGaDOmTZrDvtXqk8ePTxl+qy01JRrVy6zV3OfMVvwNps1b+E+Y7advYOEhAR7uYqKarsOHdt16Nizd9/B/Xqz73r7+lVyUqKuHo+/h3GQkJCYPnvepKnTjYyMY2O+rF2x9FFwEEedp08e97HuVxNRnTh8kCPzRQjR0tZZt2Gz7aDBysoqsTFfDh/YS6fv+du3awfH+/oUFBWv3wlq1rwFHfOeA0cUFZXY34ZXXl6+bdPfvv4Czchr16HjouWrLHv0VFRUivsa++RRMMdaE/xlZqTzPF8DQ0PuylMnjvX3u1RRU/oGBu8+f6M//rNzO/fEVV09/dXrN/QfaKeqpp7469clH889O7ZyTKAID3t+N+CW7SB7umTcxEkcX/y/fNF7+ux57CX3AgM4Joe279ipXYeO9MdauBak6pdDvHe7aKPav3snz4m0NgMGuk2Z1rlrVw1NrdzcnKjI9zf9r3qeP8NRrXYuUDW1Z7ujaGlcS+5U/+qkpaYUFhSwV5g2c4779Fn0RyMFBSNjY9tB9qvW/R39Mer44QPyCgoCnoXQdx1P8goKy1evGzJ8pI6ubmpKyrUrl7Zt+psj+IRfv65f9XN2GU19FOEPB1LDzwLh+1CfPHKorKyMo76BoeHaDVtsBtgqKSp+/frV4/jR00K9vxcAAGpH4N273IWHjxw9fOTfn94XfSv82y+fXWHhLzlKzMzMjp84KWD9ocOGFRYz+VSotJynSk+Wo7VWrVrl5v/3//SK+qq0WQAAUUHeGaDOsXcaamhk9OvnT+pjbMyXB/fuRLwMZ5+W2Nemf0uzVoK3uf2f/fwrdDO30NHV41gMISI8fLCjU6WNr/l707xFS6ntVm3aXvC90ql1c47MTnRUZA1Fdd3/CsdRcvLy/gH36PFp1abtgaMnlZVVThw5SPhisVi+3p4chQsWL6PzaLQlK1efPHqIPf8bfP9uYkKCPq95Cuys+w244HuFXhCjVZu2rdq05X8Ih7S0NO5CTU3NKjXCjcVica96oaSkfPNecGPTJtRHE1PTJSvXNGnWfPokzpcEXvLxYk8tDRzsoKGplZH+X6hvXkXExnxp2qw5XeLny7noM/tk51q4FkSoyyHeu120UV30usDd1N9bts+at5D+qKGhadW7r1XvvouWr2RfZrd2LlD1qaqpS0hIcMxh536Iqn91OFKohJCUlOSKWjNr1bpKq7ELfddxk5CQOOvla93flvpoaGQ0a95Cs1atRw3jnL11/eplKu8s2h8OpIafBf4PNff/L5SUlG/cCW7UuDEhhBCWWavW2//Zr6ahsWf7lkr7AgAAAAAA/rDOBkCdIy0t7eY+nb3k8P69HC9KmjqzCpOdabExXw7v/2fS2FF9LLqYNTZspKOmoyyrrcSg/nCvwMs9K5Cbianp7PmL2Evk5OUtLDnf5pyRnlETUX2L+8pdYbzbFO6k/Kr1f3O/YYxDVOT7VK5UkZ09jy/TqaqqNWnajKOQewYiB4as7IFjJ6u/CjM37pxXVX14/y49jXPRuinTZ9J5JdrwkaM6dOrMUfj44W/f8WcwGC6uYznqsKeucnNz7gb+9uoVWTk5enIlqflrQYS6HOK920UbVVTk++QkzpnddvYO7Elndjq6eodPnmE/vKYvUM2p6HmpztXR1NJWVlZh3+t9/uyYEUNPnzj65FHwj+/fhV71u/p3Hbs+1v3opDPNZsDAnr36cBS+eP6c2hDtDwdaTTwL/B/qb3FfuW/aiVOm/j/p/J8Fi5dxXE0AAAAAABAC5jsD1EUTJrvv3r6FfoPT44cP2PeaNmnafyCPRUv5+Pnjx6qlCwJu3qjSURxfoufJ3nEo9SZodnoGnGs+8HzzWPWjivsay12h3wDOrAohRElJubu55cMH9/m0HBvzhbuwtzlnGqUin6M/8q8wcJC9gN8T50NLS4u7MCNDoJQTH19jY7gLrfsP4C4khFj3t337+tVvAaSnZWdnqaqq0SVjJ05iX12BEHLZx2vZqrXU9q1r/sVFRex7HYcMYz+8pq8FEepyiPduF21UPEd47AQeb+HjqRYukEhkZWZwL9ityfUQVf/qSElJ2TsN8fE8z17hXuDte////YqsnFyTps06d+3Ws1efQQ6OSkrKAvZSnbuOW0UPdR9rm6dPHrGXpKWm5OfnKSoqifyHQ809C/wfap7/v+hjbcNdKK+g0M3C4sE9Ht9BBgAAAAAAwWG+M0BdpKGhyT73k4P7jFmSklV4eL/HxdlZW1X1H/mEEO51MLmZtWrNXajAtW4pd+pHJFFlZ2VxVzA0bsTzQAMjI/4tp3HN6auSSg/vZm5RnfYpauoa3EmolOQk7rmrVcIzeEMjY56VDQ15jGT672sXmLVq3aVbd/aSuK+x9AvluL+2z77IRkXxCE6Qw4W4HOK920UbFc8hat6ypYCB1cIFEgmOHChFW1uH/aOors7KdRv4LB5SXFT08UOk51mPWe5urZsYb1q/hllcLEgvQt91PBnwengJIfq8yjMzMomofzjU6LPA/6Hm+f8LnidOKh4oAAAAAAAQHPLOAHXU9FlzeZYrKSm7jp9YpaYWzZ1ZzaQkH8qqqtyFklyJUW41F1VFX6KvUrJeCHm5ufwrVH+yMyFEUlKyY+cu3OX37wRyF54465max6T+LFy2sqp9SZBqLd8xdsIkjpLLF70JIakpyU8e/fbV+8amTbi/5l8dlV4LItTlqIN3OxE2Kp5pyuov2CIgQS6QSNwLDOAu7NLNnP2jqK6OgaFhYPBTx6HDuX8zxKGwoGDf7h3cSyHzJPRdx1OFl1iwtPV/7Qj7w6FGnwX+D3WV7nkB8/gAAAAAAMAH8s4AdVSrNm15ZuJGj5tQpXUn479941imgxCib2Cwe//hVx++/EzLofOSRsa856/xJynB48dIpdkrUUWlqqbGXZiY8Itn5V8/fvCPSktLm38F/irNU8jJyVenfVq/AQO5Cw/t28P+6raq4nnuP3/G86z869dP7kLutQuGjXThWFPb3+9SWVkZ9V/28rET3DjumZq+FkSoyyHeu120UXHM+aV8jo4WsNNauEDVl5qS7Hn+DHe5db/+9LZor46BoeHpCz6vomJ27j04fOSoVm3aysrJVVT55nX/kMcPK21TuOtbkV8/ef8Y5PljU11DnYj0h0NNPwv8H2o1dXXuwoSqDAgAAAAAAFQJ1ncGqLumzZrLseCmhIREVd8oGPHyBXeh1+Vrbdt3YC8pLy+v/hrBghNVVE2acL6vjBAS8uhhX5v+HIV5ebkvnofyj8q0SVPuws8/ktTVNfgfWMschznv3LqJI3P35fOndSuXbdm5R7g2eZ77w6D7PH/58TDoHkeJhoYm+/qtFCUlZadhzj4XztElqSnJjx8+oGY906SkpEaNnSBIPHXwWgiibj6DTZs15y70Ou9hZ+8gyOF1/wKVlJS4TxhbWFDAUa6lrdOrjzX9sSaujoGhoZv7NDf3aYQQFouVlpoS8+VzaMiTw/v3Zmdnsde8c/uWVe++AjYrEg+D7vN8deSjYM50sKaWtqKiEhHpDwfxPgs8T+RR8APuFy0WFhSE//+1igAAAAAAIDTMdwaou+zsHYxNTNhL+tnaNWnKI9PKRzrX0pzKyioc/8gnhDx98qggP1+IIIUjqqhMTE25v1h95uTxXz8559xt37Sh0vdutW3fQYtrEuita/78j6p9Zq1aDx85irv8xJGDC2ZPF+46tm3fQZNrVuPp40fjv33jKLx25fKbVxEchb15vZuLEDJuIudSG3u2b6VXeabYDBjIvSpufbkWgqibz2Drtu24n52AmzeOHz7As35WVuaC2dPpj3X8AsV/+zbErt+zkMfcuxYtWyEn/9+s2Jq+OhISEto6upY9ey1avmrT9l0ce3/Gfxeizep4+OD+o+AgjsIH9+5w/I6TEGJuaUltiPCHg3ifhcamTbR1dDkKz50+yX0ie3fvyM3NEXkAAAAAAAB/GuSdAeouSUlJ9+mz2EumVXGyMyGEmrDGLjc3h+Of2Tk52auW8JgBV3NEGJXTMGeOkuzsLEfbvlcv+2ZmZjCZzI9RHxbMnn704L5Km5KQkBgxypWjcPPf677GxvA56tfPn7u2bpo9lTPBWqNWr9+opKTMXe551qNTq2Yb161+FByUnJTILC4uLipKS00JefzwTcRLPg1KSEhwv8oyJyfbwbavj+f5tNSUkpKS+G/f9mzfMsvdjfvwkaPH8GzW3LJns+Yt2EuePwvhqMO9DDSpV9eiUnXzGSSEjB7LY33h1csWuzoPuXP7VmpKcmlpaVZWZnhY6MZ1q7u0bnHj6hW6Wl27QOXl5dnZWbExXy75eLlPGGPesXV4GI/5qq3atJ04eSp7iQivzqQxLt7nzxYXFVVUoaSkhKNESrq2v3bGYrEmjB5x5MDehF+/SkpKEn79OnJgr9tYHr/Hchz6749WEf5wEPuz4DhkGHcAjgOt/Xx9qP9ffP4UvWLR/D3bt9RQAAAAAAAAfxSsswFQp82at5Dnd6IF165DR+7CcaOGb9q+q3PXboSQx8HBm9av/vL5U3V6EWNUU2fO9jhxlGNp4x/x8dPcxgkR2MKlyz3PerDPdEtLTelvZTFt9txB9o5NmzeXl1fIzc1JT0v7GPXh7etXQXcD3799QwjpYdVbiO6EZmxictrTZ4zzEO41nTMy0vfv2bl/z86qtkmdO8es8MSEhLnTp/A/sGt3c9tB9hXtHTPBbcPaVRXt1dLWsR00mE88df9aVKpuPoOEkLmLlpz3OJWRkc5Rfv9OwP07PF7Hp6Ly2wvu6sgFamnCOVm+IlraOp6X/BmysuyFIrw60R+jbl73X7lkYT/bgb36WLdt36GRiYmqqhqLxUpNSQm6d2fjutUchzT9/bcytaMgP3/dymXrVi7jU0ffwGDI8BH0R1H9cBD7s+A+c/bZ0yc41pdP+PVrxmTOpX4AAAAAAKD6kHcGaODatu/QrkNHKt1D+/gh0tnBTkwRESLSqEybNF24bOXOLRtFEpiGptbR02cnjB7BnpjIzc3ZvW3z7m2bRdKFqFj3G3DohMe8mVP5zK+sEi1tnUMnPCaPG1VeXi74UZpa2kdPneNTYfTY8Vv+XlfROw9Hjx0vIyPDc1c9uhb81c1nkBCiqqp28rzX6GGOTCZTiMPr1wXS0dXz9rtm3KgRR7nIr05+ft71q37Xr/pVWlNKSorngjl1we79h9kfTFH9cBD7s9C8Rcs5Cxbv272jdroDAAAAAPjDYZ0NgIZv596DsnJy/Ou4jp9oZGxcO/FQRBjVomUrBzk48q/TqnUb7hU5eLIdZH/M4zzPVSzqmuEjR9179KxFSzMhjpWRkek/cBBHob3TkH1HTlR6XWiGRkY+V66bmJryqaOtozvAjrMj2pgJbnyOrUfXgr+6+QwSQnr1sT7j5Sv0ywDrywWy7m9773Fo+46deO4V19VZvnpdS7NWom2zUrPnL6r0ei1dtXaAHee3EET1w0Hsz8Ky1ev62VaS5jZr1VrA/18AAAAAAAAfyDsDNHxdunX3vHRVQ1OL514ZGZlFy1ftPXRMQkKinkYlLS196rzPlGkzJSV5/0yzs3fwD7inpq7OUS77+zfuaUOGj3gY+tLBaaiUlFSlvYtXqzZtg5+F/3PwqODZZ7NWrZeuWvv6Y8yeA0e4944eO/7eo2e9+/J+TyCNwWCMmeAWHPqyY+culfY4dsJknuXdLXo0b9GS/7H16FrwUTefQcoAu8GPX7weOXoMg8HgU61Vm7ZnfS5xl9flCyQpKdm7r83Fqzd8/W8aGBpWVK32r462ju6+w8cXLlspqgYF192ih3/AvYry3fIKCpt37F62ai3PvSL54SD2Z4HBYJzzvjTObXJFXQwcbO8fcE9bm/NVigAAAAAAUFVYZwPgj9DHul/Y2w9nTh6/G3Dry6dP+fl5qmrqRsbG1v1tR40Z17RZ8/oelYyMzLY9+1zHT/Q86/H44YPExAQJIqGrp9fdsoezy+i+Nv0JIRnpnOvYamrxzn0QQkxMTT28fH/++HHz2pXwsOcfP0RmZGTkZGdJSUsrK6soKysrq6ho6+i2aGlm1qp1y1atW7aq7XmLNIas7Di3yWMnTnrzKiL06ZOw0KdxsbGZmRmZmZms8nIlJWVlVZVGjRqbtW7Tpm27Pjb9K51I2KpNW7+bgR8/RN6+cS0s9FlMzOesjMzCwgJlZRV1DY3WbdtZ9rQaMnyErp6+gBH2H2inp6+flJjIUT5uokDvl6tH14KPuvkMUvT09Q+fPPP3lu3X/a+8DHv+/u2b9PT0nOwsGRmGgaGheY+eQ4aP6GPdr6I8ndgvkLS0tLSMjLycvIqaqoaGpqGRsWmTph06de5h1UtbR1eQFkRydQIfhkRHfYj6EPkxMvLL508ZGek52VnZWdn5+XmycnLKyiqNTEzMWrex7jdgwMBB8goK1Ttp4XXo1Dk49KXfRe9bN/wj371NTU2VZcgaNWpkazd4wuSp3EuRsBPJDwexPwsMWdl/Dh4d7zbF85xHyKOHiYkJkhKS1P8vho8cZd1vQE0HAAAAAADwh5AoYvJecxOg4en7pJQQEmjFe4orNHid2zT/8f07e8n8xcvW/L1JXPEAAEBdwiJEgm2bVPCRvVrVVP0wPiGJRgXN8TnHikOSEE2EVQ+pxgkWEsfICLhL2JDENhg8sX6PSLihEP0lFmVzImqrLly3vo+KCSEh1vgHEdQ/VsHFhJCnAt+9deGJ49AjuJgQ8rAXJoDCHwTrbADAHyHk8UOOpDMhpLd1JV8YBwAAAAAAAAAAISDvDAANwejhTq9ehle0N+HXrwWzp3MUauvoWvSwquG4AAAAAAAAAAD+RJjeDwANwZNHwUF3A7t06z585Chzy56NGjdWVlbJz8+L/fLl/t3Ak0cOZWZmcByycu1f/F+kBgAAAAAAAAAAwkHeGQAajojwFxHhLwSp6eA0dKxgL7UDAAAAAAAAAICqwjobAPDHGT5y1LEzFyQl8QMQAAAAAAAAAKBGIO0CAH+QVm3anvG6dMzjPFbYAAAAAAAAAACoOVhnAwAagojIzy/DwyJehL178zo1JTkrKzMzM7O8rExJWUVNTa2FmVmHjp372dp16tJV3JECAAAAAAAAADR8yDsDQEOgp6/v4DTUwWmouAMBAAAAAAAAAACsswEAAAAAAAAAAAAAIoW8MwAAAAAAAACI0qdPn+RlGdSfuXNmU4U3rl+nCz98+FDLIfHsXbwh8eQycgQdkrwsIzo6WtwRAQAICXlnAAAAAAAAAADxy8rMvBMYyF7i7eUlrmAAAKoJeWcAAAAAAAAAAPG7fPkyk8lkL/Hx9mKxWOKKBwCgOpB3BgAAAAAAAIAGztHJqbCYSf1p06aNuMPhzdv739nNsrKy1EZ8fPyzp0/FFxEAgPCQdwYAAAAAAACA2vbgQVA/G2tNdTU9HW3nYcOioqLY9757+5Z9mWNFeTk9XZ1eVj23btmck5NDV+NYoJlPm4Is5cw/JI4W/C5f7tnDUkNNtYelhYDR8vf9+/fQZ8+o7Tlz58nLy1PbdDK60jDoOmHPn0+e5GbWormairKWhnq3Lp3XrlmTmpoixAgDAAgNeWcAAAAAAAAAqFXnz51zGDz42dOnBQUF2dnZt2/fGjRwIJ90Z3l5eXZW1svw8A1//93T0iIzI6P6bVbn8KNHDo8bO+ZVRERhYWF5ebkQ0XLz9vKkl9QY7eraf8AAatvPz49j8Q3+YWz4+2/rvn28vby+f/9eXFycn58fGRm5a+eOLp06v3n9uqLehYsZAIAP5J0BAAAAAAAAoFadPHHc08s7KSV1565dVElKSvK5s2foCu07dKCXxSgsZialpPpfv66lrU0IiYmJ2bNnjxBtVjMkdufOnt21Z0/8z5+FxcznYS+EiJabj7c3tdGkSZO2bds6OQ2hPmZlZgYGBAgSBiHkkq/v1i2bWSyWlJTU/gMHk1JSY77GOTo5EUJSU1NGjnAuLCykjhVJzAAAfCDvDAAAAAAAAAC1atbsOcOGD1dVVZ0zd56aujpVGB0dXVF9VVXVgQPtBg8eTH28f/9e9duszuHTZ8ycPXuOtraO0NFyeBUR8enTJ2p7yNBhhBB7e3tpaWmqxMvLU8Awdu3cQW2MGj166rRpqqqqhoaGBw4epAp//vx5/do1UcUMAMAf8s4A4ud7+UY/O5fsnNwaav92YFA/O5ek5NTa6Q7CX77pZ+fy9h3vNeMajAZ2mhyPCQAAAADUKGsba3pb4/9J3vT0dPY6d+4EjnEd3aplCw01VWoN4nNnz1K7khKThGuzmiHRBtoN5CiparQcvDz/yywPGTKEEKKuoWFl1YsqCQwIyM7KqjSM3Nzcd+/e0Q3Sazc3btSIrvP27VtRxQwAwB/yzgBi8PjJ8352LsGPGv5biR8+etbPzmXoyMlMZom4Y+Hh9FmffnYu8T9+cZSvWL3ZznGsWEJqYOJ//Nr1z5ExE2YPdBgzdMSkpSs2Bj96Si9aJy7+1wP72bmkpgn6LxAAAAAAEDn2Kbr0rF52e3bvGurkdPXKlW/fvtFLQ9CYJTzWO660zWqGxE5XV6+a0bIrKyu7dOkSta2np9/d3Jzadhr671IbxcXFfn5+lYaRmZnJvyNCSF5erkhiBgCoFPLOAA3fYLt+QYG+erratd/1rcAgLU2N3Ny8J0/Dar93EK8nT8Omz16WmZXz97olN6+ePXVsT9cu7bfvOrx5237uV6+InRgfEwAAAIA/kISEBJ+9TCZz65Yt1HaHjh1fvnqdm19QWMwcP2GC0G1WMyQ+lYWLlt39+/dSUpKp7aSkRAU5WWr28aIFC+g63t5elcas/v9p2oSQJUuXsS/fTP/Zf+CgSGIGAKgU8s4AUFOSklJev4mcOH5km9YtbwUEiTscqFU/fiZs3X6gc8d2m/5a1ryZqYyMjKam+qiRQ1YsmR386Kmnz1VxBwgAAAAAdVdycnJeXh61PW7cuDZt2khLS5eXl78MDxdvYDxVP1pvLx45ZQ5PQ0J+/PjBv46ysnK7du2o7du3bpaWltZczAAAlaryF08AoIaUlZUdP+V5525wYVFxpw5tFsybqq2lSe16Hhaxev12altWVraxidFQRzvbAX2oEt/LN46dPH/J+/jlK7d4Hn47MGj33mOeZw+xz+Xk0x3VoK/nsUtXbt5/8DgnJ2/DuiV8AqjIrcAgRUWFftZWsgzG1p0HfyUkGRr89y0w7l7u3vImhKSmpZ897/si/E12To6WpkZ/m97jxzpTX3PjPw41pNLhJYREfog+dvJCTGycqqrKiGEOJo0MORrhc1IVjcPb91EnTnnGfv1Gt7lizZY9O9Z3aN+moqNiYr+dOX/xfWR0cTHTyFDfycHWycGWjuHQ0TM3bt0LvPHfsnHUeO7bvaFtGzORnCa7i5euFzOZ093Hc0zB6Nunx6UrN30vX3dxdpCVlaXP5aLnUR/fa0HBIUwms0un9rOmT9TT++97jlUdQD63ytET5y/53SCEjB43k6qwc+vazp3acT8mfMaz0uHKzsn1OOsTFv46KytbW1vL0rzz2NHDVVSU+YwYAAAAANC0tLTk5OSKiooIIf7+/sOdR8jISG/etOnjx4/iDo2Hakabl5d34/p1anuki8u58xfY90ZHR3fq0J4QwmKxfLy9li5bzr+1xUuWuk2cQAiJiopymzhh3fq/TExMUlNT479/Dw5+cP3atYDAOxqamvVrhAGgnsJ8Z4C64vQZH9PGxudO7/9n51+xX7/v2HWY3mVh3iUo0Dco0Pd+wMULZw70trLYsedwyLMXAh5e1e4ox06eN21s7HFi77zZUwQJgEN5efmdew9t+/eRlZXt09tSVUX5diCPKc/svRBCklNSZ85d8T3+18a/ll27fGbJwpl37j3cvG2f4ONQQ/gM16fPsUtWbNRQVzt9bM/RA9vy8vJu3P7t1c/8T4rCMQ7Rn2KWrdykra3pcfyfowe3FxYVcbTJfVRM7Ld5i9YymSUH92729Tw6aKD1gcOnj5+8wH1UDZ0mh/CXb/T0dBrxyk2bd+tUUFD44ePn387lxPkWzZtc8Diwd9eGxKSUBUvW5+b+O/9CiAHkc6vMmDp+7qzJhBCfC0eoOp07teMOUpDx5DNcW3ccePsuauP6pdcun9m+aZWurk7g3Yd8hgsAAAAA2MnLy8+ZO4/afhoS0tS0cSMjo5s3bjg4OIg3MJ6qGe01f/+CggJq28lpCMdeMzOzZs2aUduCTIseNXr0ipWrqMkffpcvd2jXVk1FuXnTJv1srDdt3Pju3TvqbSv1a4QBoJ5C3hmgrjAw0B3Qr7eiokLLFk1dRjq9evM+MTGZo46EhISGutpolyGdOra9eft+VQ+vUn0Dfd2BA/oqKyk6DO4vSAAcnr94lZ6eSc0PlZaWHmRnc+few7KyMs4wfu/l5GmvkpLSTX8vb9miqZycbKeObefOnvw4JCwq+ouA48AuJvZbPzuXQ0fP8IlTQHyG68x5XyUlhdUr5uvr66qpqbpNGMXxEkVBTopjHM6cu6iqorxq2Vw9PR01VZXxY5zLyngsiMx+1Okz3jIy0n+tWWxsZKCiouw8zH6wXb9LV24mp6TWzmmyKy8vT8/I1NXhvVayrq42ISQ5OY290MjIwLZ/H0VFhebNTNeuXJCWnuHnf1voAaQJfsdyEGQ8+QzX23cfrHp0b9bUlMGQ0dfXHT5kkMsIR8F7BwAAAKjvCv+fSCWEyDJkhWhhw8aNR44ea9++vYKCgpa2tuuYMU+ePtPT1xdJeNVcCZpbdaKls8kMBsN24EDuCg6OTtTGx48f3755U2mD6//66/GTkPETJjRt2lReXl5eXt7U1LRPn75/b9gQHvFKU0ur+jEDAAgC62wA1BUW3TvT26YmxoSQxKQUfX1dQkh5efnlK7eCgp/8+JlYXFxM1WFfs4L/4VXtjmJp0ZXeFiQADrcCgjp3bGdsZEB9dLQf4ON7LTQswqpHd/Zq7L0QQkLDIjp3aqfKthxB547tCCHv3kW1NmsuRBiiUtFwsVisN28j+/SyZDBk6ApWPbqFv3xDf+R/UlQJ+ziwWKy376P69u4hI/Nfmz0suj4Pi+CIij6KxWK9fhtpYd5FQUGe3tunl8XN2/fevo0SfCmS6pwmO2oORUWovRx/1e/BNgKNGhkaGxm8fhPpNt6FVH0AiVB3LEeEgownn4eoaZPGNwPua2lrWHbvoqOjJWC/AAAAAA3G27dv6W2TxibUhqOTU2Exk0fl95HchRISEm6TJrlNmsReeODgoQMHD7GXCN5mVlYWva2ioiJESBVVFjxanm7evs2/wtZt27Zu20Z/7NCxY0Vh0Lp269a1Wzf+daoTMwCAIJB3BqgrNDT+e/Uwle3Ky8unPh4/5Xn12u0Fc6dZdO+sqqosKSm5bsPOmJhvAh5e1e4oWloa9LYgAbBLT898Ef66vLy8n50Le/mtgCCOvDN7L0VFxYWFRc9CXw4YPJpOXFIbOTm5QoTRrGnjoEDfiseASEpIEF5J0nIWS1Lyt6+DVDRcRUXFTGaJuroqe2V1NTXBT4rnODCZJWpqKuxtcnzkOKq4mMlklmioq7HvVVdXI4Rk5+RwH/j/MDhLhD5NDlJSUpoa6hVNtU5JSSOEcGRjuRpXzczKJkINIKn6rcJBwPHk8xCtX73oxGnPk6e89h88paenY9Wj+9jRw7C+MwAAAPwJmEzmi7CwjRv+pj7KyMg4cq0dUftSU1PoacW6unqGhvxeVQIAACKBvDNAXcHnq1737j/qbWUxaKA1XZKUlCL44VXtjkK9tE3wANgF3H2gqaHuc+EIe+Hbdx8WL9+Qmpqurf3fq+rYe5GVZcgyGL2szFcum8uz2aqGUSkVVRVCSHZ2Lkd5Vla2qupvKcKKhktOTpbBkMnMzGYvzGSbSVHpSVHYx4FqMyvrt3wxx0eOo2RlGRWFofr/qRyKigolJSWlpaX0UWnpGRwNCn2a3Lp26RB4Nzj+x69Gxpx/pw8Lf60gL9+mVYvfWsvM1tL8L3ecmZWtoqJEhBpAUu1bRZDxJHwfIm1tzVXL55WVlX2Ni3/+4pW3z9UvX77u2fmX4DEAAAAA1Effv383a9Gc/igpKbl7zz+NGzcWX0SEEOI6epT/1av0x5WrVol8nQ0AAOCG9Z0B6gf2JRe+xn3/GhdfZwNgsVgBd4K7de3IUd6mtZm8vFzAnQcVHSghIWFh3iXi9bvcimdqi3YcOrRrTQh5+eote2Faesa37z87tm8jSAsSEhId2reJePWupOS/xY6fhr5kr1DpSfFos13riNfvSktL6ULuRTY4DunYoe2r1+8KC4vowichYRISEh06tKY+GujrEkK+ff8hYJucIfE9TW6jRjoxGDLHTpznmE7+8NGz6E8xI50dZGV/W+Yv9Pl/rcX/+PXjZ0Knju2IUANI4XOryMnJEkJKSkp5HEYIEWw8BSElJdW8men4Mc421lbvP0TzX34EAAAAoMFQUFBo2bKl26RJz0KfT502Tdzh/EtWVrZDx44nT52ePmOGuGMBAPgjIO8MUA9YWnR9+Dg0POJtUVHx+8iPe/Ydb9+uCsmvWg7g1ev3SUkp3HlnaWmpzh3bBdwN5pN9m+Y+TlJCctXare8jPxYUFmZmZr96/f6vjbtjYuOqGoYgmjYxGTig7yW/G1f8b6elZxQWFkV++LR63XYFBfkJY0cI2IjbeJec3LwtOw4kJadmZeecu3BJRua3ubf8T4p3mxNGZWfnbt15kGrT0/sKx7of3CZPHF3MZP69ec/PX4m5uXlXrwXcCghyHmZPv9yvV09zFRXloyfOp6amZ2Zme5y9KC8vz7/NKp0mh0bGhiuWzol4/X7NXzu+xMSVlJSkZ2RevHx9265DfXpZjhvjzFH/56/E+w+e5OcXxMTGbd62T1NDffiQQdQuIQaQ/61i2rgRIeT5i1fsmX0OlY4nHzk5uUtXbHwaGp6WnlFSUvIx+sur1+87tG+NaTUAAADQ4JmYmBQWM9Mzs968e3/k6LEOHTuKOyJCCPH2uVhYzMzKyX0e9mLsuHHiDgcA4E+BdTYAxICaNColJegDOGvGRCkpqe27DhYWFrUya754wfQL3lequcRElVQpgFsBQZKSkl06tePe1b1bp5BnL8JfvunerRPPY/V0tY8e2n7By2/bzoNp6RmqqipNTE0cBw9o2qRxVcMQ0NJFM1u2bHrn7sNTZ7xLSko1NNS6dGr/99rFeno6ArZg1rLZjq1rTpzydHNfoKaqMnzoYMfBA54+CxfwpCpsc8vqE6e93NwXqKmpjBjmYDugT8izF+xzeDk0b2a6f8+mM+cuzpq3sriYaWSoP3uGm5ODLV1BXl5u4/qlh4+dHTdprpaWxtjRw1qZNQt+9FRUp8mtTy/LxibGFy9dX7dhZ0ZGppycXLOmjZcummnTtyd3Bnaa+zhP7ysHj3iUlJR06th2/ZrF9GrIQgwg/1ulZYum48eO8PH1P3z0DIvF2rl1bWeu27XS8eRDRUV5rOtw/+uB+w+eys3N09LS6NvbcszoYYIcCwAAAAAAANAwSBQxK5ztBdDA9H1SSggJtJKttGZN87p49ZSH98G9m1uZNa+8drXdDgzavfeY17lDgkzVhLrp2o07+w+d8jxzUPCEeH3he/nGsZPnr/ieUsVr9wBAnFiESLBtkwo+slermqofxick0aigOT7nWHFIEqKJsOoh1TjBQuIYGQF3CRtS3fr+DOv3iIQbCtFfYlE2J6K26sJ16/uomBASYi3+fxABVJVVcDEh5KnAd29deOI49AguJoQ87IUJoPAHwe0OUKtYLNbXuPhbt+8bGui1bNG0djotKCgihKgoI6lXjz0Oea6jo9Xwks4AAAAAAAAA0CAh7wxQq8a5zcnJzWvXxmzWDLdKV+wVidy8/GfPX5o2NpaXl6uF7kBUtmzf7+Rg26SJSXZWzhX/22/efli2eJa4gwIAAAAAAAAAEAjyzgC1yvPsodrs7umz8M3b9jVtYrJ8yZza7Beqb0C/3qfPXvz69RuTWdK4sfHalQv69ukh7qAAAAAAAAAAAASC9Z3hD1J31ncGAACAOgbrO/PsV+CQsL4z1ndm+8hrW/BdooH1nXnC+s5Qf2F9Z4D6qDa+5g8AAAAAAAAAAAAAfw7knQEAAAAAAAAAAABAlJB3BgAAAAAAAAAAAABRQt4ZAAAAAAAAAAAAAEQJeWcAAAAAAAAAAAAAECXknQEAAAAAAAAAAABAlJB3BgAAAAAAAAAAAABRQt4ZAAAAAAAAAAAAAEQJeWcAAAAAAAAAAAAAECXknQEAAAAAAACgPknPLVAcu0Vx7JYXMb/EHUt11cdzMZ21T3HsFp+QSHEHAgB1mrS4AwAAAAAAAACAP4LFypPv41NG9Wx7epYTISQ9t6DRjL2EkFMznUZbtRVzcHXSy9iEPTdCn336mZlfqKYoZ9nCaKGDpXlzw9qMwXmXb+DrmOkDuuxxG1ib/QJAfYe8MwAAAAAAAABAneP/InriQX+GlNSxGQ792zV5FPXd/cj126++nJzp5NKjjRgDizs8X4y9A0B9gbwzAAAAAAAAANQJprP2pWTnL3ayfBOX9CImQVVBdsUwq0nWHQkhX5Mz554KeBmb0FhHza1vR/ajsvKLtl4JCXj9JTEzz1hb1a1vh9l23aUkJegG5w02fx2X9DoucfdE255mjeaeCgiP+WWireZm3WHpuXuEkOC/J3ZvZsizvn3n5luuhNx5E5OQmWuooeLQtcWKoT2V5WUJISrjt5aVs/yWuNh1avYrI7fF3AOEkNc7p7cw0ORzIvzPhVbILJ13OrC0rHzOoO7DzVsRQhy7tpg7uPvWKyELPO4M7txcSY5B9bLAweJ1XNKrr4kGGsobR1vbd24uxLAcDHjxPj6FECIjJdlYR22yTad5g80JIV2Xn/j4M5UQcuxexLF7ERpK8j+OLaQOp2apZ+YVVjQ+/AfhYOCLk/df/UzP0VVV6t++ydIhPYw0VUR1IwFAXYD1nQEAAAAAAACgDrke/vnwVPv9k+1+pufMPx2Qkp1fUlY+fOfFhx++zR3c/e7aceGxCXTlkrJy240XDga+GGbeKvbQvK5N9Fd6Bi09d/f3Bj/tcbNNPrVkVM+2w3b4BEfGzbDtenftuPCYBK7Of6vv0qPNgI0XDt8JH9mjzddD8/u3b7L35nOnbT7lLBZdWUJCQvAToQKu6FzYhcf8Ss8tIITYtDWlC/u1a0IIyS4oCv30ky68+fLz8ekOlxaPjE3KcP3n8ocfKVUdlnG92z/f6p7vuSrvwqrXu2ZISkqu9Ay6Fv6JEPJy+1S7Ts0IIdMHdMn3XPXj2EL2FpilZZWOD89BePMtafn5+/IMmdhD8+6uG9/OROfYvYiKhhEA6inknQEAAAAAAACgDpls09FIU8W2Q1NCSFk5Ky4l60nU9y+JGYSQBfYWqgpy8web05Xvv/v64UeKjJTkimFWKgqyM2y7EkJOPXidW1hM15nav3NrI21CSMjHf9tZ7Gippig3396c8ELXv//u68efqRISZJGjpYqC7EIHC0LIi5hfzz//l/aVrDjvzH0ihBA+58IuJSef2tBUlqcLtf6/nfr/vYSQ8X3aG2mq9GrVqKdZo7Jy1tmHb6s6LDQJCWKqo9a/nSkh5GbE54rOiybI+PAchJyCYkJIfFq2d0jk1+RMF8s2G0dbV9odANQvWGcDAAAAAAAAAGpDRVODOYp1VBQJIdJS/06VKysv/5mRQwhRYMgoyTEIITqqinTl+LRsQkhJWbnWpB10YWlZ+Y/0HDqpqqemRG38SP+3HRUFWUKIrqoSz3g46ivJySrKyrD3+zM9R5Dz5T4RQgifc2GnraxAbaTnFtKFaf/f1lb57yj6LHRVFQkhP9JySBWHhcUie26EeoW8/5mek1fEpAp/ZeRWeoKCjA/PQehp1silR5tLoR8Wn71L7Z032BypZ4AGBnlnAAAAAAAAAKgNjbRU331Pzsz7N3ma8f8NLRXeuVeakYYKIaSAWZJXxFSSY1BrNVCMNVUIIfIM6cSTS2SkKvlWN1WZbic5O0+Q+nlFxfnFJYqyMnS/hpoqhBApScmy8jJmWRkhhD0koc+FXffmRhpK8hl5hQ8i4/q1+3epjaD3Xwkhqgpyli2N6Jr0WSRn5xNCjLVUSBWHJeD1l3UXg5XkGA//nmhmqL3wTOCJ+6/Ky8upvRVO565sfPiQkpTwmD1k76SBkT9SA1/H7LkRuudG6FKnHtTvAwCgYcA6GwAAAAAAAABQG1yt2hJCQj7Gv4xNyCtiHr7zkhDSSEu1R0tj/gf2am3SVFedELL31vPsgqJ9t8PoXQM6NG1tpF3ILF3nE5xbWPwrI/fi00jXf/x4tmPVyqS5vgYhZP/tsOyCon23wnhWo/Vv36SloRY1HTinoPifm88JIV2bGli2MCKENNPTIIQEvfuaU1C879ZzAQeBz7mwk2dI75tsJyUpcfxuxJWwj7mFxTcjPh+4/UJSQmLPRFtqrjTl/KN3P9NzQqLjn0bHS0pIjO/ToarDUlxaRgiRlJSQkZb6+Cv16oto9r3U3OrvadmlZeVVGh8+Xn1NnHXiVlxKVmdTfdsOTQghSnIMeVkZ/kcBQP2C+c4AAAAAAAAAUBuGdjc7Nt3h+L2IQZs8i0tLtVUUR/Vsu35kH3lGJdkJGSnJK8tGzT0VcOD2i6th0ZNtOl18Gknvurdu/I5rT2+/+nLifoSuqlKv1o3WjexdYTtLR809FbDvVpjf848T+nTwffaBECItyXtaHkNa6t7acVuuhFx8Grn35nMDDeV5g81XDOtJrel8YMqg+R6B5x69ffbph5t1x0uhUYIMAp9z4TDcvJWRpsqeG6ELz9zJyi9SVZDr09pkgYMFR5revkvzKYevv/mW1ERX/e9Rfds10qnqsAzp1nKOXXfPkPfW68/2NDPu164Je0jzBnd/9z05ODJOdcK2/u2bXFs+WsDx4aNDY72+bRovPXfv3fdkKUnJni2N147sXem8bACoXySKmKXijgGglvR9UkoICbTC13YAAACAA4vta8QsQkgFH1l8v23MT9UP4xOSaFTQHJ9zrDgkCdFEWPWQapxgIXGMjIC7hA1JbIPBE+v3iIQbCtFfYlE2J6K26sJ16/uomBASYo1/EP3n6acfthvOS0pIfD+6QENJvvID6hjTWftSsvNPzXQabdVW3LHULKvgYkLIU4Hv3rrwxHHoEVxMCHnYCxNA4Q+C2x0AAAAAAAAA/hT7b4fpqSnZdmiakVf418WHhJCJfTvUx6QzAEAdh7wzAAAAAAAAAPwpRvds+5fvwxWe9wuZpU101PdNtnPr21HcQQEANEDIOwMAAAAAAADAn0JHVfHwVHtxRyEacYfnizsEAIAKYcl2AAAAAAAAAAAAABAl5J0BAAAAAAAAAAAAQJSQdwYAAAAAAPhfe3ceHlV19wH8BpAAEmURKKXqWxdAkaJFVPZNZBFRUayl7i9UrPuCgsgiFFFApa59FQQpgixRQUVABaJQFyqCCyhgceuiICLKEkKY94+p05QkwyS9MBPm83l48szMuefc3z05/ME3hxMAAMIkdwYAAAAAIExyZwAAAAAAwiR3BhLVf8CIx594KtlVAAAAAJDqKiS7AKA07rn34QUv5wRBUL58+VqH1WjV8pTLLv5V5cqVEul1Rqe2t918dezDx8ZPmT5rTrOmTe4eOajU9QwacvdPf/qTq/tdVuoR9pBgqQteyZky7Zmvvtrws3p1+1zeu/lpTWMXF9e0Y0fuq4uWzHlhwbpP1g+89drTO7QOq+a0Emcac3funDBx2mtL3ty8eUvNmtVPb9/60ot7lSu35485t27dNvmpmUuWvv3tt9/VrVunXdsWPc/uevDBVUpdUvxFuHbd+qdnPLfy/VW7duU3rH90nyt6H3P0z2Otxa2WOL02frNp/BNT31r2bkYQdGzf6n8v712pUmYpyo5zi8v63PDFl38veHGrFqfcOeSWwoOEO5n7eSaD8CYTAACA1GG/MyRB/wEj+l1zW/dzL7nq2gHRr2eec3Hs63kX9k1kkCaNj3913oyX5kwZeOu1C1557bEJUxLpVad2rZzX3ty2bXv07a5d+QtezalTu1bpH2af2Wupy/6yYuz9f7zo1z1nPf14187th44Yu2btX/faNG/BotUfrb35hiv38+OkphUrPxw6fOxV1w64vO+N/QeOeHXh65FIJJGOcaZx/ISncl57Y/iQ/nOyJ91601XPzJ47feacwpeNGvPg8nc/GHrHzc/OemLoHTdFdu+et2DRf/s8xZs0eXqb1qc9/sjYSePH1ap12C23Dd/4zaZoU5zVUlyv77//4bobB2/duu3RB++eOvmRww+v987y90IvbNL4ca/OmxH98+SEPwRB0Kb1aUUOsj8nM9yZDEKdTAAAAFKH/c6QHA/c9/v+A4ffN3rYTbcOu2/0sOtvHvLQuJHX3DDooXEjb+o/LPFxypcvf0Kjhp06tnl96VvXJ3D9EYf/tEaNagsXL+3e7fQgCN546y9VqlRp2OCYLd9tiV4QiUSyn31x9vPzN2zcVLdu7V49u3fr0jHWfcuWH0aNfvCdd9/bnb+7Q/tWv7vy0nLlyt1z78Nvvr08CIJnnpsbBMHEx+/PfnbuC3NfDoIgK6vq8Q2PvbrfZfXq1U38oRIsdcas55uf2vSM09sGQXB+z+4LFy/NfvbFgbdeG7/pnB5dSlrJgWrik9PXf/r5lX0u+vs/vlr10dpze3SZOv2515a8Nfj2GytUKB+/b5xpXLNufbOTT6x/7FFBEDT5RaPGjRquWffXPa7Jy8t7e9mKW27sF73siMPrXXJRr1hrnEXYf8CIOnVqbd++fcXKD/N37+7WpWPfK3pnZGQUXoRHHF6v4B1HDh8Qe33d1VfMf3nxO8vf69ypXRB3tRTXa9r05/Ly8u64/YbMihWDIOjR/Yz40xVHnMIKmjtvYVZW1dYtTy08QpzJTP2ZDIIgxMkEAAAgddjvDAeCSCSSl5eX4MVdO3eI7YWcO29h1zPaF2ydMjV77ryFgwZcP3vWEzdc23fCxGmLcpbGWl+av/CXJzWe/MQDd40YOP/lxfNfzgmC4Labrz7tlF/2PKdbdGPmEYfXu/G6vtHXEx+7v1atmoPvHJOfn1+K54pTaiQSWfXRmiZNGsU+OenEEz5cvSZ+EzGvLlry3ZYtw4f2j/1I4JBDsvr1vbhF85P/y1O8O7Rr+Zd3Vq77ZH1eXt57769e9dHaDu1a7nFNhQoVKlXKXLHyw127ilgYe12E9Y896skJf7hzyC3z5i/MfvbFoKhFGKfC73/Yunv37ugxFImvloK9lryxrFXLU6I5aYgK3qKg/Pz8l1/J6dSxTcWKBxXuFWcyU38mg302mQAAACSX3BnKtvz8/A8+/PiVha+3b7tntFec9u1arP/0808/+2LDxm+Wv/v+GZ3axpp27sx7eubsa666vGGDYzIzM5s0Pv6cHl3mzlsYu6Bl82adO7WrUrlywwbHND+16fsfrI5/r+rVD73mqsu/+PLvn33+ZeHWJ6fM7HHeZaUrdfv2HTt25FY79JB/36vaoZs2bY7fRFQkEnluzrzfXXlZ4abOndp99vmXmzd/V+rBzz6rc9s2p1159W1dzvrNTbcOu7DX2YV36WZkZFx/TZ+c19/o1fu3g4eNnj5z9pd/+0e0aa+LsEH9o3/V6+yqVQ9u0vj4Cy84Z2b2CyWt8OFHJ9aqVbNZ0yZBSVZLwV7//OfXWVlVBw4e1bXHb359ye8efWzyjh25JS0j/i0KevPt5Zu+3Xxm145F9ipuMsvETAb7bDIBAABILudsQFm18v1VHbtcEH3dskWzfn0vTrBjlcqV27Zu/tL8RVWrHtzs5CY1a1SPNX3+xZc7duTeNmhkEATRc34jkUjdunViFxQ8LqNq1YM3btxU5C0+/eyL8ROnrl699rst30fH+frrjUf9/MiSPWHcUguLRCIZGSVuSk9fb9hYu1bNgptn8/Pzd+7815b5E3/RaMV7q9q1aV66wR+b8NRrS956aNzIo35+xKrVa+8ceV/FzIo9z+66x2Ud27dq1rTJsndWfrjq4xfnLZww6elrrrq8R/cz9roIG9Q/+t+vGxy98ZtN27Ztr1KlcoLlTZg07a1l7957z9DMzKJ/c12Rq2WPXpFIZPrMOQNvvXbooJs++/zLoSPGbt267ZYb+yVYQ0kLe2n+wuOPq/8/Rx5eXN8iJ/P4445N/ZkM9s1kAgAAkHRyZyirmjQ+/r4xw/Ly8l5f+vboex9Z+udlxf3OscK6dekwdPjYSpUyf9fvsoKf794dCYJg/B/HHnnEz4rsmEh6G4lEBg4edWqzkx55cFTNGjXKly/X5aze+fm7C1956UW9Li1wqm+JSq1cuVKlSpmbfzzrOQiCzd9tqV69Wvwmor777vusrKqxt1lZVT/44KMBg0ZG3276dvO5hWLiBEUikedmv9Tnit7HNTw2CIKTTjyhe7fTs595oXDuHATBIYdkdWzfqmP7VpFIZPR9j/zx8T9173b63hdhUPqfITw5Zeazs1+6+/e3xyLXRFZL4V41qlc79tifR6P5BvWPPv/cMyc/NatwVLr0z8uGDB9T8JPhQ/q3bNEskcJivtn07dvLVtx0/W/jP1rhybx/zLAg5WcySHgyAQAAKFvkzlC2HXTQQR3atVy//vM/PDzh5JObVKmc0F7FExo1zMqq+sPWraed8suCnx95RL3MihXfXvZucUFVccpXKB/dUBkEwcZvNn399cZe551Vp3atIAjWrltf5Bm+CSqu1IyMjOMb1l+x8oNYoPnuig8aHVc/fhNRtWvV/OdXG2JvGzY45r4xw2Jvn5wys07tw0o9eLny5Qr+gCISiZQrt5cznTIyMho3avjyK6/l5u7c6yL8aM262OuPP/6kZs3q0S26BRdhkSZPmTkz+/lRIwae0KhhwVvHXy1F9jqhUYPcnTv/4xmL+plMyxbNXp03I/6zF3eLmAUv52RmVmzXpsVex4k9UXQy69Q+LPVnMkh4MgEAAChbnO8MB4JfX3hOEIlMnzEnSODQ5KhJ48fNmvZ4+fLlC36YmZn5qwvOnvzUrIWLl27btv2rrzfMeWHBlGnZex2tTu1a6z75dPv2HUEQVK9WLavqwfPmL9qxI3f9p5+Pvf/RUj5V3FKDILjg/LPefGv5gldyvv9h66xnXlz3yafnnXvmXpsIgqBatUPzd+Vv2PBN4ab8/Pxlf1lx0kmNSzdyRkZGy+bNZmY/v/qjtbk7d65Y+eGLL71a+HznvLy8G/sPfX3pWxs2fpO7c+eqj9bOfOaFk048oXLlSntdhB+v+WT6zNlbt25b+f6qp2c8d/653aOfF1yEhT017ZkZ2c+PGjGw8QnH7dEUZ7UU1+uC83u8s/y9xa+9kZub+/GaT7Kfm9uhXavSzVicwqJeWrCoY/tWlSoVfZZFUPxkVqt2aOrPZBDqZAIAAJA67HeGA0GVypUv6n3e409M7XHWGf/lUJde1KtatUOmTM2+Z+zDh9WsftqpTS/ufd5ee513TrdRYx4878K+ubm5Ex+/f8igmx56dOKM7Odr1qje85xusV8ZF65mJ594y439pkzNvnfc//2sXt1hg2+uf+xRe21a/u77/QeOiL4eNfrBUaMf7Nq5Qxr+p/4+V/S+a/QDw4f0L3jgRn5+/v0PPHZm19MzK1aM3z3ONF5/bZ9Jk2eMuGvct5s3H1azxtndO1/Uu+ce3Q866KArLr3w2dnzHn500pYt39eoWb35qU0v+c350db4i7Br5/Yfr/nrjFnX5efnd+3S4fye/0o291iERxxer+Ad/zQ1Oy8v74ZbhsY+ueTHY17irJbiejWof/TQO26eMHHa3WMeqlmjWqcObS7+sfiSilNYEATvvb/6b3/7x+CBN8QZIc5kpv5MBkEQ4mQCAACQOjJ27NyV7BpgP2n3+q4gCOa1Knbb4H7Tf8CI22+7bsido0cOHzBoyN0jhw8YcMddo++649bbfz/6rjsGDb3nD/cOT3aNHPjefHv5+CemntW90ylNT6xYseKHqz6emf182zbNz+/ZPdmlFav/gBH16x/V94rfJLuQMs9MQiGR4N+HnkePminybcHLSqbk3eKUFI7ifh1v8TcqvqSMcCoseUn7XGIl7TEzCTaVtqTUOo4o8p8VlW4qwv8WhzlcSGOlwvetXU5uEARL2if/H0RQUq0W5QZBsDTh1ZsKf+P20GJRbhAEi1vbAEoasdwhCRo0OPqesQ8dfHCVu+55IPr1kKyqvx81Lvr10EOzkl0gaeG0U37Z6Lj6C17JmfinGbvydh155M8GDbzhJ3VqJbsuAAAAoMyTO0MS9Lm8d7JLgCAIgqysqk6+BgAAAEIndwagzBhz9+Bkl3CAMJMAAADsU+WSXQAAAAAAAAcUuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAADAgW9x28wgCFotyk12IVAy0UW7tH1msgsBSkbuDAAAAABAmOTOAAAAAACESe4MAAAAacFRG5Q5DtmAskvuDAAAAABAmOTOAAAAkC5seaYMsdkZyjS5MwAAAKQR0TNlgtAZyjq5MwAAAKQj0TMpy+KEA4DcGQAAANJLdMtzIN0jJcWWpc3OUKZVSHYBAAAAwP6W0zYzCIK2ObnRjG+JgI8UIHGGA4ncGQAAANJUTtvMtjm5QYG8TwDN/rfHvnuhMxwY5M4AAACQvmIbn6NvnbxBEkmc4UAidwYAAIB0l/Pjic+xABr2G3EzHJDkzgAAAMC/xALo/S8jI1l3LlbqVRRqSSGNlYKzBKSCcskuAAAAAACAA4rcGQAAAACAMMmdAQAAAAAIk9wZAAAAAIAwyZ0BAAAAAAiT3BkAAAAAgDDJnQEAAAAACJPcGQAAAACAMMmdAQAAAAAIk9wZAAAAAIAwyZ0BAAAAAAiT3BkAAAAAgDDJnQEAAAAACJPcGQAAAACAMMmdAQAAAAAIk9wZAAAAAIAwyZ0BAAAAAAiT3BkAAAAAgDDJnQEAAAAACJPcGQAAAACAMMmdAQAAAAAIk9wZAAAAAIAwyZ0BAAAAAAiT3BkAAAAAgDDJnQEAAAAACJPcGQAAAACAMMmdAQAAAAAIk9wZAAAAAIAwyZ0BAAAAAAiT3BkAAAAAgDDJnUkj81plBkHQZUlusgsBAAAA0kWLRblBECxuXSHZhcB+JXcGAAAAACBMcmfSkS3PAAAAwH4Q3ewMaUjuTHqJHrUBAAAAsN+80UEcQdqRO5OmbHkGAAAA9imbnUlncmfSji3PAAAAwH7z5/aCCNKR3Jl0FI2ebXkGAAAA9pHoZmehM2lL7kyaEj0DAAAA+4jQGeTOpC/RMwAAABA6oTMEQZCxY+euZNcA+8mOSPnCH8ZyZ+c+A0AaiwRBRoHXQTFvC15WMiXvFqekcBQzXJxnLL6kjHAqLHlJ+1xiJe0xMwk2lbakpE1GkSL/WVHppiL8b3GYw4U0Vmp934IgSM2SUq+m1KvI8k5IEkuK/SLBPULnjIwgNy8/GRVB0sidSSNF5s7Bf255lj4DQFqSOxd534RLkjvLnQu8Lep14k3hEMwlIhVLSr2aUq8iyzshSSkpljgHRe10ljuThuTOpJHicueg0Gkb0mcASDNy5yLvm3BJcme5c4G3Rb1OvCkcgrlEpGJJqVdT6lVkeSdkP5dUMHEOijleQ+5MGpI7k0bi5M5RznoGAAAASifOgc5yZ9KQ3BmK0O51fy8AAACAvVvcukKyS4BUJHcGAAAAACBM5ZJdAAAAAAAABxS5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGGSOwMAAAAAECa5MwAAAAAAYZI7AwAAAAAQJrkzAAAAAABhkjsDAAAAABAmuTMAAAAAAGH6f/KTQ1Eini4MAAAAAElFTkSuQmCC",
+          "created_at": "2026-09-29T17:34:33.905Z",
+          "created_by": "usr_overman_01"
+        }
+      ],
+      "audit_history": [
+        {
+          "id": "audit_1790703227746_93sy8",
+          "event": "CREATED",
+          "actor_id": "usr_manager_01",
+          "actor_name": "R. Mehta",
+          "occurred_at": "2026-09-29T17:33:47.746Z",
+          "note": "Corrective action created by Manager."
+        },
+        {
+          "id": "audit_1790703227746_whzt7",
+          "event": "ASSIGNED",
+          "actor_id": "usr_manager_01",
+          "actor_name": "R. Mehta",
+          "occurred_at": "2026-09-29T17:33:47.746Z",
+          "note": "Assigned to Arjun Singh."
+        },
+        {
+          "id": "audit_1790703249378_3hg1i",
+          "event": "STARTED",
+          "actor_id": "usr_overman_01",
+          "actor_name": "Arjun Singh",
+          "occurred_at": "2026-09-29T17:34:09.378Z",
+          "note": "Overman started the corrective action."
+        },
+        {
+          "id": "audit_1790703273905_qit2v",
+          "event": "SUBMITTED_FOR_VERIFICATION",
+          "actor_id": "usr_overman_01",
+          "actor_name": "Arjun Singh",
+          "occurred_at": "2026-09-29T17:34:33.905Z",
+          "note": "Corrective work and supporting evidence submitted for Manager verification."
+        },
+        {
+          "id": "audit_1790703333517_gx7l5",
+          "event": "RETURNED",
+          "actor_id": "usr_manager_01",
+          "actor_name": "R. Mehta",
+          "occurred_at": "2026-09-29T17:35:33.517Z",
+          "note": "not satisfactory"
+        }
+      ],
+      "return_note": "not satisfactory",
+      "work_summary": "done",
+      "submitted_at": "2026-09-29T17:34:33.905Z"
+    }
+  ]
+}

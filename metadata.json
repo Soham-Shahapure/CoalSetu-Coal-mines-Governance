@@ -1,0 +1,6 @@
+{
+  "name": "Underground Coal Mine Sirdar Digital Inspection System",
+  "description": "Statutory underground coal mine Sirdar shift inspection, observation recording, and immutable digital reporting system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

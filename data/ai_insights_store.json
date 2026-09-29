@@ -1,0 +1,2249 @@
+{
+  "reports": [
+    {
+      "reportId": "ai_0bcca7e1-fe49-4016-ae30-88f55506275e",
+      "createdBy": "usr_manager_01",
+      "createdAt": "2026-09-29T17:31:06.533Z",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "scopeLabel": "Jhanjhra Area",
+      "mineIds": [
+        "mine_jhanjhra_01",
+        "mine_representative_b",
+        "mine_representative_c"
+      ],
+      "periodDays": 30,
+      "periodStart": "2026-08-30T17:30:58.824Z",
+      "periodEnd": "2026-09-29T17:30:58.824Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "promptVersion": "phase3c-v1",
+      "schemaVersion": "1.0",
+      "sections": {
+        "areaSummary": "Analysis for Jhanjhra Area covering 3 selected mines, 14 submitted source records, and 29 total observations between 2026-08-30 and 2026-09-29. The data highlights recurring categories including fencing, ventilation, danger observations, strata support, and water management. High severity observations total 11 across the recorded period.",
+        "recurringPatterns": [
+          {
+            "title": "Fencing Deficiencies",
+            "summary": "Multiple instances of poor, broken, or deficient fencing noted during inspections, with corrective actions involving replacement sections.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+              "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+              "mgr_sirdar_obs_1790701049065_5wyx6_FENCING",
+              "mgr_sirdar_obs_1790539884844_00d7f_FENCING"
+            ]
+          },
+          {
+            "title": "Ventilation Flow Impairments",
+            "summary": "Observations of sluggish air, reduced air velocity due to damaged brattice cloth, and repeated ventilation issues across mines.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+              "mgr_sirdar_obs_06_VENTILATION",
+              "mgr_demo_mine_representative_b_VENTILATION_6",
+              "mgr_demo_mine_representative_b_VENTILATION_5",
+              "mgr_demo_mine_representative_b_VENTILATION_4"
+            ]
+          },
+          {
+            "title": "Strata Support and Roof/Side Conditions",
+            "summary": "Reports of spalling roof coal, minor side slip, and support-related observations requiring hydraulic props and timber cogs.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_02_STRATA_SUPPORT",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+              "mgr_demo_mine_representative_c_STRATA_SUPPORT_1"
+            ]
+          },
+          {
+            "title": "Water Seepage and Drainage",
+            "summary": "Moderate roof dripping and floor seepage observed near working faces, managed through drain clearing and auxiliary pumps.",
+            "evidenceIds": [
+              "mgr_sirdar_wat_01_WATER",
+              "mgr_demo_mine_representative_b_WATER_2",
+              "mgr_demo_mine_representative_b_WATER_1",
+              "mgr_demo_mine_representative_c_WATER_1"
+            ]
+          }
+        ],
+        "attentionAreas": [
+          {
+            "title": "Dangerous Conditions and Accumulations",
+            "summary": "High severity observations involving excessive dry coal dust, loose side coal spalling, unusual conveyor roller bearing noise, and gas observations.",
+            "evidenceIds": [
+              "mgr_sirdar_dp_02_DANGER",
+              "mgr_sirdar_dp_03_DANGER",
+              "mgr_sirdar_gas_02_GAS",
+              "mgr_demo_mine_representative_b_DANGER_2",
+              "mgr_demo_mine_representative_b_DANGER_1"
+            ]
+          },
+          {
+            "title": "Safety Infringements",
+            "summary": "Personnel found beyond statutory danger fences without safety lamp checks, resulting in immediate removal from the district.",
+            "evidenceIds": [
+              "mgr_sirdar_po_02_SAFETY_INFRINGEMENT"
+            ]
+          }
+        ]
+      },
+      "evidenceSnapshot": [
+        {
+          "id": "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T17:07:04.722Z",
+          "title": "FENCING deficiency",
+          "description": "Poor fencing",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790701576107_lv9yh",
+          "sourceNumber": "INS-2026-000130",
+          "actionRecorded": "Replaced that section"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T17:02:30.258Z",
+          "title": "FENCING deficiency",
+          "description": "Poor fencing",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790701289047_4bhiw",
+          "sourceNumber": "INS-2026-000129",
+          "actionRecorded": "Replaced that section with new fencing"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790701049065_5wyx6_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T16:57:29.065Z",
+          "title": "FENCING deficiency",
+          "description": "fencing is poor",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790700940809_s7az9",
+          "sourceNumber": "INS-2026-000128",
+          "actionRecorded": "replaced that section with new fencing"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-27T20:21:31.894Z",
+          "title": "VENTILATION deficiency",
+          "description": "sluggish air",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790540432419_5ty7c",
+          "sourceNumber": "INS-2026-000127",
+          "actionRecorded": "replace cloth"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790539884844_00d7f_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-27T20:11:24.844Z",
+          "title": "FENCING deficiency",
+          "description": "fencing broken",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790539808845_yr3a7",
+          "sourceNumber": "INS-2026-000126",
+          "actionRecorded": "fencing replaced"
+        },
+        {
+          "id": "mgr_sirdar_obs_06_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "VENTILATION deficiency",
+          "description": "Air velocity reduced due to damaged brattice cloth near face crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Brattice screen repaired and air flow restored to statutory requirement."
+        },
+        {
+          "id": "mgr_sirdar_dp_02_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Dangerous place observed",
+          "description": "Excessive dry coal dust deposit and loose side coal spalling near old barrier.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Substantial danger fence and warning board erected; Overman notified for urgent stone dusting."
+        },
+        {
+          "id": "mgr_sirdar_dp_03_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Danger reported by another person",
+          "description": "Unusual grating noise from Level 4 conveyor belt head roller bearing.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Conveyor isolated, locked out, and bearing lubricated before restarting."
+        },
+        {
+          "id": "mgr_sirdar_gas_02_GAS",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "GAS",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Gas observation",
+          "description": "Gas percentage observed: 0.65%.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Auxiliary fan duct advanced to within 4.5m of face; gas flushed out and cleared within 15 mins."
+        },
+        {
+          "id": "mgr_sirdar_po_02_SAFETY_INFRINGEMENT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_INFRINGEMENT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Person ordered out",
+          "description": "Found beyond statutory danger fence without safety lamp check.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Sent out of district immediately; disciplinary safety report submitted to Overman."
+        },
+        {
+          "id": "mgr_sirdar_obs_02_STRATA_SUPPORT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "STRATA SUPPORT deficiency",
+          "description": "Spalling of roof coal and minor side slip detected along crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Erected 2 additional hydraulic props and timber cogs. Area secured and tested."
+        },
+        {
+          "id": "mgr_sirdar_sm_03_SAFETY_MATERIAL",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_MATERIAL",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Safety material deficiency",
+          "description": "LADDER recorded as deficient.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Withdrawn from service and replacement requisitioned from Pit Head Store."
+        },
+        {
+          "id": "mgr_sirdar_wat_01_WATER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Water seepage observation",
+          "description": "Moderate roof dripping and floor seepage observed near face.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Main drain cleared and auxiliary face pump initiated. Water level kept under 5 cm."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_6",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-23T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_6",
+          "sourceNumber": "DEMO-B-006",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_5",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-22T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_5",
+          "sourceNumber": "DEMO-B-005",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_4",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-21T17:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_4",
+          "sourceNumber": "DEMO-B-004",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_VENTILATION_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Occasional ventilation observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Single support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_WATER_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Single water observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        }
+      ],
+      "metricsSnapshot": {
+        "selectedMineCount": 3,
+        "submittedSourceRecordCount": 14,
+        "observationCount": 29,
+        "recurringCategories": [
+          {
+            "category": "FENCING",
+            "count": 4
+          },
+          {
+            "category": "VENTILATION",
+            "count": 9
+          },
+          {
+            "category": "DANGER",
+            "count": 4
+          },
+          {
+            "category": "STRATA_SUPPORT",
+            "count": 5
+          },
+          {
+            "category": "WATER",
+            "count": 4
+          }
+        ],
+        "highSeverityObservations": 11,
+        "correctiveActions": {
+          "total": 1,
+          "open": 1,
+          "overdue": 0
+        },
+        "dashboardRiskScores": [
+          {
+            "mineId": "mine_jhanjhra_01",
+            "score": 79,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_b",
+            "score": 100,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_c",
+            "score": 46,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          }
+        ]
+      },
+      "dataCoverage": {
+        "level": "HIGH",
+        "submittedRecords": 14,
+        "observations": 29,
+        "note": "Coverage is a prototype heuristic, not a statistical confidence estimate. Low coverage does not imply safety."
+      },
+      "status": "SAVED",
+      "archivedAt": null,
+      "archivedBy": null,
+      "restoredAt": null,
+      "restoredBy": null
+    },
+    {
+      "reportId": "ai_4d91b6eb-442e-4ef5-afa5-5dab5809d1e3",
+      "createdBy": "usr_manager_01",
+      "createdAt": "2026-09-29T17:26:22.781Z",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "scopeLabel": "Jhanjhra Area",
+      "mineIds": [
+        "mine_jhanjhra_01",
+        "mine_representative_b",
+        "mine_representative_c"
+      ],
+      "periodDays": 30,
+      "periodStart": "2026-08-30T17:26:19.471Z",
+      "periodEnd": "2026-09-29T17:26:19.471Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "promptVersion": "phase3c-v1",
+      "schemaVersion": "1.0",
+      "sections": {
+        "areaSummary": "Analysis for Jhanjhra Area covering 3 selected mines, 14 submitted records, and 29 observations between 2026-08-30 and 2026-09-29. Findings indicate recurring issues centered around fencing deficiencies, ventilation restrictions, and strata support observations, with high-severity items noted across multiple inspection categories.",
+        "recurringPatterns": [
+          {
+            "title": "Fencing Deficiencies",
+            "summary": "Multiple records indicate broken or poor fencing requiring replacement across inspections.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+              "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+              "mgr_sirdar_obs_1790701049065_5wyx6_FENCING",
+              "mgr_sirdar_obs_1790539884844_00d7f_FENCING"
+            ]
+          },
+          {
+            "title": "Ventilation Constraints",
+            "summary": "Sluggish air movement and reduced air velocity linked to damaged brattice cloth or ducting.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+              "mgr_sirdar_obs_06_VENTILATION",
+              "mgr_demo_mine_representative_b_VENTILATION_6",
+              "mgr_demo_mine_representative_b_VENTILATION_5",
+              "mgr_demo_mine_representative_b_VENTILATION_4"
+            ]
+          },
+          {
+            "title": "Strata and Support Observations",
+            "summary": "Roof spalling and side slip occurrences noted requiring additional props and timber cogs.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_02_STRATA_SUPPORT",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+              "mgr_demo_mine_representative_c_STRATA_SUPPORT_1"
+            ]
+          }
+        ],
+        "attentionAreas": [
+          {
+            "title": "High Severity Danger Observations",
+            "summary": "Dangerous conditions including excessive dry coal dust, loose side coal spalling, and unusual conveyor noise.",
+            "evidenceIds": [
+              "mgr_sirdar_dp_02_DANGER",
+              "mgr_sirdar_dp_03_DANGER"
+            ]
+          },
+          {
+            "title": "Gas and Safety Infringements",
+            "summary": "Recorded gas percentages and personnel observed beyond statutory danger fences without safety checks.",
+            "evidenceIds": [
+              "mgr_sirdar_gas_02_GAS",
+              "mgr_sirdar_po_02_SAFETY_INFRINGEMENT"
+            ]
+          }
+        ]
+      },
+      "evidenceSnapshot": [
+        {
+          "id": "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T17:07:04.722Z",
+          "title": "FENCING deficiency",
+          "description": "Poor fencing",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790701576107_lv9yh",
+          "sourceNumber": "INS-2026-000130",
+          "actionRecorded": "Replaced that section"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T17:02:30.258Z",
+          "title": "FENCING deficiency",
+          "description": "Poor fencing",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790701289047_4bhiw",
+          "sourceNumber": "INS-2026-000129",
+          "actionRecorded": "Replaced that section with new fencing"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790701049065_5wyx6_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T16:57:29.065Z",
+          "title": "FENCING deficiency",
+          "description": "fencing is poor",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790700940809_s7az9",
+          "sourceNumber": "INS-2026-000128",
+          "actionRecorded": "replaced that section with new fencing"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-27T20:21:31.894Z",
+          "title": "VENTILATION deficiency",
+          "description": "sluggish air",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790540432419_5ty7c",
+          "sourceNumber": "INS-2026-000127",
+          "actionRecorded": "replace cloth"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790539884844_00d7f_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-27T20:11:24.844Z",
+          "title": "FENCING deficiency",
+          "description": "fencing broken",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790539808845_yr3a7",
+          "sourceNumber": "INS-2026-000126",
+          "actionRecorded": "fencing replaced"
+        },
+        {
+          "id": "mgr_sirdar_obs_06_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "VENTILATION deficiency",
+          "description": "Air velocity reduced due to damaged brattice cloth near face crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Brattice screen repaired and air flow restored to statutory requirement."
+        },
+        {
+          "id": "mgr_sirdar_dp_02_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Dangerous place observed",
+          "description": "Excessive dry coal dust deposit and loose side coal spalling near old barrier.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Substantial danger fence and warning board erected; Overman notified for urgent stone dusting."
+        },
+        {
+          "id": "mgr_sirdar_dp_03_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Danger reported by another person",
+          "description": "Unusual grating noise from Level 4 conveyor belt head roller bearing.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Conveyor isolated, locked out, and bearing lubricated before restarting."
+        },
+        {
+          "id": "mgr_sirdar_gas_02_GAS",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "GAS",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Gas observation",
+          "description": "Gas percentage observed: 0.65%.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Auxiliary fan duct advanced to within 4.5m of face; gas flushed out and cleared within 15 mins."
+        },
+        {
+          "id": "mgr_sirdar_po_02_SAFETY_INFRINGEMENT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_INFRINGEMENT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Person ordered out",
+          "description": "Found beyond statutory danger fence without safety lamp check.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Sent out of district immediately; disciplinary safety report submitted to Overman."
+        },
+        {
+          "id": "mgr_sirdar_obs_02_STRATA_SUPPORT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "STRATA SUPPORT deficiency",
+          "description": "Spalling of roof coal and minor side slip detected along crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Erected 2 additional hydraulic props and timber cogs. Area secured and tested."
+        },
+        {
+          "id": "mgr_sirdar_sm_03_SAFETY_MATERIAL",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_MATERIAL",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Safety material deficiency",
+          "description": "LADDER recorded as deficient.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Withdrawn from service and replacement requisitioned from Pit Head Store."
+        },
+        {
+          "id": "mgr_sirdar_wat_01_WATER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Water seepage observation",
+          "description": "Moderate roof dripping and floor seepage observed near face.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Main drain cleared and auxiliary face pump initiated. Water level kept under 5 cm."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_6",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-23T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_6",
+          "sourceNumber": "DEMO-B-006",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_5",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-22T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_5",
+          "sourceNumber": "DEMO-B-005",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_4",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-21T17:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_4",
+          "sourceNumber": "DEMO-B-004",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_VENTILATION_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Occasional ventilation observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Single support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_WATER_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Single water observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        }
+      ],
+      "metricsSnapshot": {
+        "selectedMineCount": 3,
+        "submittedSourceRecordCount": 14,
+        "observationCount": 29,
+        "recurringCategories": [
+          {
+            "category": "FENCING",
+            "count": 4
+          },
+          {
+            "category": "VENTILATION",
+            "count": 9
+          },
+          {
+            "category": "DANGER",
+            "count": 4
+          },
+          {
+            "category": "STRATA_SUPPORT",
+            "count": 5
+          },
+          {
+            "category": "WATER",
+            "count": 4
+          }
+        ],
+        "highSeverityObservations": 11,
+        "correctiveActions": {
+          "total": 0,
+          "open": 0,
+          "overdue": 0
+        },
+        "dashboardRiskScores": [
+          {
+            "mineId": "mine_jhanjhra_01",
+            "score": 79,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_b",
+            "score": 100,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_c",
+            "score": 46,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          }
+        ]
+      },
+      "dataCoverage": {
+        "level": "HIGH",
+        "submittedRecords": 14,
+        "observations": 29,
+        "note": "Coverage is a prototype heuristic, not a statistical confidence estimate. Low coverage does not imply safety."
+      },
+      "status": "SAVED",
+      "archivedAt": null,
+      "archivedBy": null,
+      "restoredAt": null,
+      "restoredBy": null
+    },
+    {
+      "reportId": "ai_cf8311a7-cd18-482e-937a-ebac95587b0a",
+      "createdBy": "usr_manager_01",
+      "createdAt": "2026-09-29T17:24:30.576Z",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "scopeLabel": "Jhanjhra Area",
+      "mineIds": [
+        "mine_jhanjhra_01",
+        "mine_representative_b",
+        "mine_representative_c"
+      ],
+      "periodDays": 14,
+      "periodStart": "2026-09-15T17:24:19.173Z",
+      "periodEnd": "2026-09-29T17:24:19.173Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "promptVersion": "phase3c-v1",
+      "schemaVersion": "1.0",
+      "sections": {
+        "areaSummary": "Analysis for Jhanjhra Area covering 3 selected mines with 14 submitted source records and 29 observations between 2026-09-15 and 2026-09-29. Evidence indicates recurring categories across fencing, ventilation, danger, strata support, and water management, with 11 high-severity observations recorded. Advisory oversight notes that ongoing reviews should monitor ventilation performance and physical barrier maintenance as documented in the inspection records.",
+        "recurringPatterns": [
+          {
+            "title": "Fencing Deficiencies",
+            "summary": "Multiple observations noted poor or broken fencing requiring replacement across inspections.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+              "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+              "mgr_sirdar_obs_1790701049065_5wyx6_FENCING",
+              "mgr_sirdar_obs_1790539884844_00d7f_FENCING"
+            ]
+          },
+          {
+            "title": "Ventilation Observations",
+            "summary": "Repeated instances of sluggish air, reduced air velocity, and ventilation-related notes across multiple mines.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+              "mgr_sirdar_obs_06_VENTILATION",
+              "mgr_demo_mine_representative_b_VENTILATION_6",
+              "mgr_demo_mine_representative_b_VENTILATION_5",
+              "mgr_demo_mine_representative_b_VENTILATION_4"
+            ]
+          },
+          {
+            "title": "Strata Support and Roof Conditions",
+            "summary": "Observations detailing spalling of roof coal, side slip, and support requirements.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_02_STRATA_SUPPORT",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+              "mgr_demo_mine_representative_c_STRATA_SUPPORT_1"
+            ]
+          }
+        ],
+        "attentionAreas": [
+          {
+            "title": "Dangerous Conditions and Coal Dust",
+            "summary": "High-severity records noting excessive dry coal dust, loose side coal spalling, and unusual equipment noise.",
+            "evidenceIds": [
+              "mgr_sirdar_dp_02_DANGER",
+              "mgr_sirdar_dp_03_DANGER"
+            ]
+          },
+          {
+            "title": "Gas Monitoring and Safety Infringements",
+            "summary": "Specific gas observations and instances of personnel beyond statutory danger fences without safety checks.",
+            "evidenceIds": [
+              "mgr_sirdar_gas_02_GAS",
+              "mgr_sirdar_po_02_SAFETY_INFRINGEMENT"
+            ]
+          },
+          {
+            "title": "Water Seepage and Drainage",
+            "summary": "Moderate roof dripping, floor seepage, and water accumulation observations near working faces.",
+            "evidenceIds": [
+              "mgr_sirdar_wat_01_WATER",
+              "mgr_demo_mine_representative_b_WATER_2",
+              "mgr_demo_mine_representative_b_WATER_1",
+              "mgr_demo_mine_representative_c_WATER_1"
+            ]
+          }
+        ]
+      },
+      "evidenceSnapshot": [
+        {
+          "id": "mgr_sirdar_obs_1790701624723_nijp0_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T17:07:04.722Z",
+          "title": "FENCING deficiency",
+          "description": "Poor fencing",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790701576107_lv9yh",
+          "sourceNumber": "INS-2026-000130",
+          "actionRecorded": "Replaced that section"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790701350258_m7xtm_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T17:02:30.258Z",
+          "title": "FENCING deficiency",
+          "description": "Poor fencing",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790701289047_4bhiw",
+          "sourceNumber": "INS-2026-000129",
+          "actionRecorded": "Replaced that section with new fencing"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790701049065_5wyx6_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-29T16:57:29.065Z",
+          "title": "FENCING deficiency",
+          "description": "fencing is poor",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790700940809_s7az9",
+          "sourceNumber": "INS-2026-000128",
+          "actionRecorded": "replaced that section with new fencing"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-27T20:21:31.894Z",
+          "title": "VENTILATION deficiency",
+          "description": "sluggish air",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790540432419_5ty7c",
+          "sourceNumber": "INS-2026-000127",
+          "actionRecorded": "replace cloth"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790539884844_00d7f_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-27T20:11:24.844Z",
+          "title": "FENCING deficiency",
+          "description": "fencing broken",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790539808845_yr3a7",
+          "sourceNumber": "INS-2026-000126",
+          "actionRecorded": "fencing replaced"
+        },
+        {
+          "id": "mgr_sirdar_obs_06_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "VENTILATION deficiency",
+          "description": "Air velocity reduced due to damaged brattice cloth near face crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Brattice screen repaired and air flow restored to statutory requirement."
+        },
+        {
+          "id": "mgr_sirdar_dp_02_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Dangerous place observed",
+          "description": "Excessive dry coal dust deposit and loose side coal spalling near old barrier.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Substantial danger fence and warning board erected; Overman notified for urgent stone dusting."
+        },
+        {
+          "id": "mgr_sirdar_dp_03_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Danger reported by another person",
+          "description": "Unusual grating noise from Level 4 conveyor belt head roller bearing.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Conveyor isolated, locked out, and bearing lubricated before restarting."
+        },
+        {
+          "id": "mgr_sirdar_gas_02_GAS",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "GAS",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Gas observation",
+          "description": "Gas percentage observed: 0.65%.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Auxiliary fan duct advanced to within 4.5m of face; gas flushed out and cleared within 15 mins."
+        },
+        {
+          "id": "mgr_sirdar_po_02_SAFETY_INFRINGEMENT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_INFRINGEMENT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Person ordered out",
+          "description": "Found beyond statutory danger fence without safety lamp check.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Sent out of district immediately; disciplinary safety report submitted to Overman."
+        },
+        {
+          "id": "mgr_sirdar_obs_02_STRATA_SUPPORT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "STRATA SUPPORT deficiency",
+          "description": "Spalling of roof coal and minor side slip detected along crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Erected 2 additional hydraulic props and timber cogs. Area secured and tested."
+        },
+        {
+          "id": "mgr_sirdar_sm_03_SAFETY_MATERIAL",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_MATERIAL",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Safety material deficiency",
+          "description": "LADDER recorded as deficient.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Withdrawn from service and replacement requisitioned from Pit Head Store."
+        },
+        {
+          "id": "mgr_sirdar_wat_01_WATER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Water seepage observation",
+          "description": "Moderate roof dripping and floor seepage observed near face.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Main drain cleared and auxiliary face pump initiated. Water level kept under 5 cm."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_6",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-23T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_6",
+          "sourceNumber": "DEMO-B-006",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_5",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-22T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_5",
+          "sourceNumber": "DEMO-B-005",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_4",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-21T17:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_4",
+          "sourceNumber": "DEMO-B-004",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_VENTILATION_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Occasional ventilation observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Single support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_WATER_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Single water observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        }
+      ],
+      "metricsSnapshot": {
+        "selectedMineCount": 3,
+        "submittedSourceRecordCount": 14,
+        "observationCount": 29,
+        "recurringCategories": [
+          {
+            "category": "FENCING",
+            "count": 4
+          },
+          {
+            "category": "VENTILATION",
+            "count": 9
+          },
+          {
+            "category": "DANGER",
+            "count": 4
+          },
+          {
+            "category": "STRATA_SUPPORT",
+            "count": 5
+          },
+          {
+            "category": "WATER",
+            "count": 4
+          }
+        ],
+        "highSeverityObservations": 11,
+        "correctiveActions": {
+          "total": 0,
+          "open": 0,
+          "overdue": 0
+        },
+        "dashboardRiskScores": [
+          {
+            "mineId": "mine_jhanjhra_01",
+            "score": 79,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_b",
+            "score": 100,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_c",
+            "score": 46,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          }
+        ]
+      },
+      "dataCoverage": {
+        "level": "HIGH",
+        "submittedRecords": 14,
+        "observations": 29,
+        "note": "Coverage is a prototype heuristic, not a statistical confidence estimate. Low coverage does not imply safety."
+      },
+      "status": "SAVED",
+      "archivedAt": null,
+      "archivedBy": null,
+      "restoredAt": null,
+      "restoredBy": null
+    },
+    {
+      "reportId": "ai_6c6f2fa9-9cdf-4f45-9b1a-603c4dd6c865",
+      "createdBy": "usr_manager_01",
+      "createdAt": "2026-09-29T14:22:09.829Z",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "scopeLabel": "Jhanjhra Area",
+      "mineIds": [
+        "mine_jhanjhra_01",
+        "mine_representative_b",
+        "mine_representative_c"
+      ],
+      "periodDays": 30,
+      "periodStart": "2026-08-30T14:21:51.506Z",
+      "periodEnd": "2026-09-29T14:21:51.506Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "promptVersion": "phase3c-v1",
+      "schemaVersion": "1.0",
+      "sections": {
+        "areaSummary": "Analysis for Jhanjhra Area covering 3 selected mines, 11 submitted source records, and 26 observations between 2026-08-30 and 2026-09-29. Observations span categories including ventilation, danger, strata support, water seepage, safety materials, and safety infringements, with 11 high-severity instances recorded.",
+        "recurringPatterns": [
+          {
+            "title": "Ventilation Deficiencies and Air Flow Restrictions",
+            "summary": "Multiple observations regarding sluggish air, damaged brattice cloth, and reduced air velocity across inspection records.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+              "mgr_sirdar_obs_06_VENTILATION",
+              "mgr_demo_mine_representative_b_VENTILATION_6",
+              "mgr_demo_mine_representative_b_VENTILATION_5",
+              "mgr_demo_mine_representative_b_VENTILATION_4"
+            ]
+          },
+          {
+            "title": "Strata Support and Roof/Side Conditions",
+            "summary": "Recurring reports of roof coal spalling, minor side slip, and strata support observations.",
+            "evidenceIds": [
+              "mgr_sirdar_obs_02_STRATA_SUPPORT",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+              "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+              "mgr_demo_mine_representative_c_STRATA_SUPPORT_1"
+            ]
+          },
+          {
+            "title": "Water Seepage and Management",
+            "summary": "Observations detailing roof dripping, floor seepage, and water accumulation near working faces.",
+            "evidenceIds": [
+              "mgr_sirdar_wat_01_WATER",
+              "mgr_demo_mine_representative_b_WATER_2",
+              "mgr_demo_mine_representative_b_WATER_1",
+              "mgr_demo_mine_representative_c_WATER_1"
+            ]
+          },
+          {
+            "title": "Dangerous Conditions and Hazardous Observations",
+            "summary": "Reports involving dry coal dust deposits, loose side coal spalling, mechanical noise, and generalized dangerous conditions.",
+            "evidenceIds": [
+              "mgr_sirdar_dp_02_DANGER",
+              "mgr_sirdar_dp_03_DANGER",
+              "mgr_demo_mine_representative_b_DANGER_2",
+              "mgr_demo_mine_representative_b_DANGER_1"
+            ]
+          }
+        ],
+        "attentionAreas": [
+          {
+            "title": "High-Severity Danger and Gas Observations",
+            "summary": "Instances of excessive dry coal dust, loose side coal spalling, unusual conveyor roller noise, and recorded gas percentages requiring prompt mitigation.",
+            "evidenceIds": [
+              "mgr_sirdar_dp_02_DANGER",
+              "mgr_sirdar_dp_03_DANGER",
+              "mgr_sirdar_gas_02_GAS"
+            ]
+          },
+          {
+            "title": "Safety Infringements and Access Control",
+            "summary": "Recorded instance of personnel moving beyond a statutory danger fence without a safety lamp check.",
+            "evidenceIds": [
+              "mgr_sirdar_po_02_SAFETY_INFRINGEMENT"
+            ]
+          },
+          {
+            "title": "Safety Material Deficiencies",
+            "summary": "Deficiency noted regarding safety equipment such as ladders, leading to withdrawal from service.",
+            "evidenceIds": [
+              "mgr_sirdar_sm_03_SAFETY_MATERIAL"
+            ]
+          }
+        ]
+      },
+      "evidenceSnapshot": [
+        {
+          "id": "mgr_sirdar_obs_1790540491894_2bsc6_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-27T20:21:31.894Z",
+          "title": "VENTILATION deficiency",
+          "description": "sluggish air",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790540432419_5ty7c",
+          "sourceNumber": "INS-2026-000127",
+          "actionRecorded": "replace cloth"
+        },
+        {
+          "id": "mgr_sirdar_obs_1790539884844_00d7f_FENCING",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "FENCING",
+          "severity": "LOW",
+          "observedAt": "2026-09-27T20:11:24.844Z",
+          "title": "FENCING deficiency",
+          "description": "fencing broken",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_1790539808845_yr3a7",
+          "sourceNumber": "INS-2026-000126",
+          "actionRecorded": "fencing replaced"
+        },
+        {
+          "id": "mgr_sirdar_obs_06_VENTILATION",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "VENTILATION deficiency",
+          "description": "Air velocity reduced due to damaged brattice cloth near face crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Brattice screen repaired and air flow restored to statutory requirement."
+        },
+        {
+          "id": "mgr_sirdar_dp_02_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Dangerous place observed",
+          "description": "Excessive dry coal dust deposit and loose side coal spalling near old barrier.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Substantial danger fence and warning board erected; Overman notified for urgent stone dusting."
+        },
+        {
+          "id": "mgr_sirdar_dp_03_DANGER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Danger reported by another person",
+          "description": "Unusual grating noise from Level 4 conveyor belt head roller bearing.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Conveyor isolated, locked out, and bearing lubricated before restarting."
+        },
+        {
+          "id": "mgr_sirdar_gas_02_GAS",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "GAS",
+          "severity": "HIGH",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Gas observation",
+          "description": "Gas percentage observed: 0.65%.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Auxiliary fan duct advanced to within 4.5m of face; gas flushed out and cleared within 15 mins."
+        },
+        {
+          "id": "mgr_sirdar_po_02_SAFETY_INFRINGEMENT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_INFRINGEMENT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-26T21:45:00Z",
+          "title": "Person ordered out",
+          "description": "Found beyond statutory danger fence without safety lamp check.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_002",
+          "sourceNumber": "INS-2026-000102",
+          "actionRecorded": "Sent out of district immediately; disciplinary safety report submitted to Overman."
+        },
+        {
+          "id": "mgr_sirdar_obs_02_STRATA_SUPPORT",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "STRATA SUPPORT deficiency",
+          "description": "Spalling of roof coal and minor side slip detected along crosscut.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Erected 2 additional hydraulic props and timber cogs. Area secured and tested."
+        },
+        {
+          "id": "mgr_sirdar_sm_03_SAFETY_MATERIAL",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "SAFETY_MATERIAL",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Safety material deficiency",
+          "description": "LADDER recorded as deficient.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Withdrawn from service and replacement requisitioned from Pit Head Store."
+        },
+        {
+          "id": "mgr_sirdar_wat_01_WATER",
+          "mineId": "mine_jhanjhra_01",
+          "mineName": "Jhanjhra Underground Mine",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-25T15:50:00Z",
+          "title": "Water seepage observation",
+          "description": "Moderate roof dripping and floor seepage observed near face.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "insp_hist_001",
+          "sourceNumber": "INS-2026-000101",
+          "actionRecorded": "Main drain cleared and auxiliary face pump initiated. Water level kept under 5 cm."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_6",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-23T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_6",
+          "sourceNumber": "DEMO-B-006",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_5",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-22T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_5",
+          "sourceNumber": "DEMO-B-005",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_4",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-21T17:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_4",
+          "sourceNumber": "DEMO-B-004",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_3",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-20T14:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_3",
+          "sourceNumber": "DEMO-B-003",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_2",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-19T11:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_2",
+          "sourceNumber": "DEMO-B-002",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_VENTILATION_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "VENTILATION",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Repeated ventilation-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_WATER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Water seepage in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_b_DANGER_1",
+          "mineId": "mine_representative_b",
+          "mineName": "Representative Mine B",
+          "category": "DANGER",
+          "severity": "HIGH",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Danger observation",
+          "description": "Dangerous condition in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_b_1",
+          "sourceNumber": "DEMO-B-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_VENTILATION_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "VENTILATION",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Ventilation observation",
+          "description": "Occasional ventilation observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_STRATA_SUPPORT_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "STRATA_SUPPORT",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Strata/support observation",
+          "description": "Single support-related observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        },
+        {
+          "id": "mgr_demo_mine_representative_c_WATER_1",
+          "mineId": "mine_representative_c",
+          "mineName": "Representative Mine C",
+          "category": "WATER",
+          "severity": "MEDIUM",
+          "observedAt": "2026-09-18T08:00:00Z",
+          "title": "Water seepage observation",
+          "description": "Single water observation in representative demo records.",
+          "sourceType": "SIRDAR_INSPECTION",
+          "sourceId": "demo_mine_representative_c_1",
+          "sourceNumber": "DEMO-C-001",
+          "actionRecorded": "Recorded for management review."
+        }
+      ],
+      "metricsSnapshot": {
+        "selectedMineCount": 3,
+        "submittedSourceRecordCount": 11,
+        "observationCount": 26,
+        "recurringCategories": [
+          {
+            "category": "VENTILATION",
+            "count": 9
+          },
+          {
+            "category": "DANGER",
+            "count": 4
+          },
+          {
+            "category": "STRATA_SUPPORT",
+            "count": 5
+          },
+          {
+            "category": "WATER",
+            "count": 4
+          }
+        ],
+        "highSeverityObservations": 11,
+        "correctiveActions": {
+          "total": 0,
+          "open": 0,
+          "overdue": 0
+        },
+        "dashboardRiskScores": [
+          {
+            "mineId": "mine_jhanjhra_01",
+            "score": 83,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_b",
+            "score": 100,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          },
+          {
+            "mineId": "mine_representative_c",
+            "score": 46,
+            "note": "Existing dashboard score; not recalculated for this selected period."
+          }
+        ]
+      },
+      "dataCoverage": {
+        "level": "HIGH",
+        "submittedRecords": 11,
+        "observations": 26,
+        "note": "Coverage is a prototype heuristic, not a statistical confidence estimate. Low coverage does not imply safety."
+      },
+      "status": "SAVED",
+      "archivedAt": null,
+      "archivedBy": null,
+      "restoredAt": null,
+      "restoredBy": null
+    }
+  ],
+  "requests": [
+    {
+      "requestId": "gen_a8274e88-eeb1-4aa3-90f3-7499c09f9b5c",
+      "managerId": "usr_manager_01",
+      "status": "COMPLETED",
+      "stage": "COMPLETED",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "periodDays": 30,
+      "createdAt": "2026-09-29T17:30:58.818Z",
+      "updatedAt": "2026-09-29T17:31:06.533Z",
+      "reportId": "ai_0bcca7e1-fe49-4016-ae30-88f55506275e"
+    },
+    {
+      "requestId": "gen_c4b46cf3-a9cb-41b6-bac5-bafe97f72ed5",
+      "managerId": "usr_manager_01",
+      "status": "COMPLETED",
+      "stage": "COMPLETED",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "periodDays": 30,
+      "createdAt": "2026-09-29T17:26:19.466Z",
+      "updatedAt": "2026-09-29T17:26:22.781Z",
+      "reportId": "ai_4d91b6eb-442e-4ef5-afa5-5dab5809d1e3"
+    },
+    {
+      "requestId": "gen_5ce06561-20bf-4919-973e-338db0a8bfb3",
+      "managerId": "usr_manager_01",
+      "status": "COMPLETED",
+      "stage": "COMPLETED",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "periodDays": 14,
+      "createdAt": "2026-09-29T17:24:19.167Z",
+      "updatedAt": "2026-09-29T17:24:30.576Z",
+      "reportId": "ai_cf8311a7-cd18-482e-937a-ebac95587b0a"
+    },
+    {
+      "requestId": "gen_6a586b75-0a5f-4bf6-a6ac-133d75cc40cd",
+      "managerId": "usr_manager_01",
+      "status": "COMPLETED",
+      "stage": "COMPLETED",
+      "scopeType": "AREA",
+      "scopeId": "area_jhanjhra",
+      "periodDays": 30,
+      "createdAt": "2026-09-29T14:21:51.502Z",
+      "updatedAt": "2026-09-29T14:22:09.829Z",
+      "reportId": "ai_6c6f2fa9-9cdf-4f45-9b1a-603c4dd6c865"
+    }
+  ],
+  "audit": [
+    {
+      "id": "3acf5056-59f5-4152-bd84-9872868a3f29",
+      "reportId": "ai_0bcca7e1-fe49-4016-ae30-88f55506275e",
+      "actorId": "usr_manager_01",
+      "action": "GENERATED",
+      "at": "2026-09-29T17:31:06.533Z"
+    },
+    {
+      "id": "3a224f48-9f44-4fa1-9c32-2e7dc998fcd6",
+      "reportId": "ai_4d91b6eb-442e-4ef5-afa5-5dab5809d1e3",
+      "actorId": "usr_manager_01",
+      "action": "GENERATED",
+      "at": "2026-09-29T17:26:22.781Z"
+    },
+    {
+      "id": "d5883960-dea4-4ea5-9cf1-86f8050a86ab",
+      "reportId": "ai_cf8311a7-cd18-482e-937a-ebac95587b0a",
+      "actorId": "usr_manager_01",
+      "action": "GENERATED",
+      "at": "2026-09-29T17:24:30.576Z"
+    },
+    {
+      "id": "4ab0db4e-39f4-48e8-8214-7b0a5527a7a5",
+      "reportId": "ai_6c6f2fa9-9cdf-4f45-9b1a-603c4dd6c865",
+      "actorId": "usr_manager_01",
+      "action": "GENERATED",
+      "at": "2026-09-29T14:22:09.829Z"
+    }
+  ]
+}
